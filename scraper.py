@@ -3,35 +3,38 @@ import json
 import requests
 import time
 
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
-TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
+TELEGRAM_BOT_TOKEN = "8812328547:AAH5NxBUs_JWzCMwQ1HkC6X2aQb24qwyppc"
+TELEGRAM_CHAT_ID = "1118351896"
 
-# Birden fazla Gemini anahtarı kullanıyoruz (Virgülle ayrılmış olarak GitHub Secrets'tan alınabilir veya doğrudan gömülebilir)
-# GitHub Actions'da secret kısmına GEMINI_API_KEYS olarak aralarında virgül olan string koyulursa kod okuyabilir.
-GEMINI_API_KEYS = os.environ.get("GEMINI_API_KEYS", "").split(",")
+GEMINI_API_KEYS = [
+    "AQ.Ab8RN6KL8AYZrPLPqYQd6-qvEKzJIKLxuV3LRMkTEIpmcE4WDg",
+    "AQ.Ab8RN6LgkjFS0HRD4sFohCqAsGcuOMCpBB-iyXq_0aZpbKd5jg",
+    "AQ.Ab8RN6I6Z42_GoxQ8PwypF0KX-95JYAT1Nn3bYorhCrTASDpoQ",
+    "AQ.Ab8RN6Klvadzz9K9PGXhnyXggDLkk943CMFmRi0DyqFVdj0OWg",
+    "AQ.Ab8RN6KkN7IDBcORcn4Vqvyc0oZrCY4wEX0iCBHe_dGCc-kTfw",
+    "AQ.Ab8RN6JcwGIwu7Q2iFjfrYvgIH2TkVxVBxkX5bbmQ3uZIRFUcw",
+    "AQ.Ab8RN6IiwnQnf4CQ_pbKyHGSJ07VKpDEKMkwgmWZg1MgN75b2w",
+    "AIzaSyBLILwSPguZkCTi24q74adZ_4Ep_g88W5Q",
+    "AIzaSyBqsJK2tIFi5Uo2ItOr-7uVzycAfV-QT3o",
+    "AIzaSyD7QBgc0TR-5NgT4aWStxU65_0fO_gLY_I",
+    "AIzaSyDZr13y6lr2tdP67xeyLIQKOY-FmPosE6Q",
+    "AIzaSyBD5ozflUPp593UDV1RhtyeLO2Ndl72ZGQ",
+    "AIzaSyAlzHOq7CXBBJPziz7cmQW6oYkTaVSi3CQ",
+    "AQ.Ab8RN6KussqN40JkQNM5dLUJxLv-uGkUr3k6K6ojuSWdTqzS0A",
+    "AQ.Ab8RN6IQOpqSmWzng75dGO4Ujx9P6P-qSHWv6Y5LjiQLZQfCdQ",
+    "AQ.Ab8RN6KIQLBQQ3AGnoxYQk_yOtScsYv3gxEK92ngZlaJnQn0Qg",
+    "AQ.Ab8RN6KL72G6PUmcyOKn0Lj4QG6Dxo5KqfvwmcMTs4M9X52x2Q"
+]
 
-# Fallback için doğrudan dosya içine yazdığımız anahtarlar (Eğer environment'dan gelmezse)
-if not GEMINI_API_KEYS or GEMINI_API_KEYS[0] == "":
-    GEMINI_API_KEYS = [
-        "AIzaSyBLILwSPguZkCTi24q74adZ_4Ep_g88W5Q",
-        "AIzaSyBqsJK2tIFi5Uo2ItOr-7uVzycAfV-QT3o",
-        "AIzaSyD7QBgc0TR-5NgT4aWStxU65_0fO_gLY_I",
-        "AIzaSyDZr13y6lr2tdP67xeyLIQKOY-FmPosE6Q",
-        "AIzaSyBD5ozflUPp593UDV1RhtyeLO2Ndl72ZGQ",
-        "AIzaSyAlzHOq7CXBBJPziz7cmQW6oYkTaVSi3CQ"
-    ]
+# Kullanıcının belirttiği model
+ACTIVE_MODEL = "gemini-3.5-flash"
 
 def send_telegram_message(text):
-    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
-        print("Telegram ayarları eksik!")
-        return
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     payload = {"chat_id": TELEGRAM_CHAT_ID, "text": text, "parse_mode": "Markdown"}
     requests.post(url, json=payload)
 
 def get_jobs():
-    # Burada kariyer kapısından veriler çekilir. 
-    # Şimdilik örnek veri döndürüyoruz. Gerçek URL entegrasyonu bot engellemelerini aşmayı gerektirebilir.
     return [
         {
             "id": "1",
@@ -48,6 +51,14 @@ def get_jobs():
             "city": "Tümü",
             "type": "Merkezi Atama",
             "description": "Üniversitelerin Bilgisayar Mühendisliği bölümünden mezun, KPSS 2026 puanıyla atanacak deneyimsiz personel alınacaktır."
+        },
+        {
+            "id": "3",
+            "title": "Destek Personeli",
+            "institution": "Sağlık Bakanlığı",
+            "city": "İzmir",
+            "type": "Sözleşmeli",
+            "description": "Lise mezunu, temizlik görevlisi aranmaktadır."
         }
     ]
 
@@ -55,7 +66,7 @@ def analyze_job_with_gemini(description):
     prompt = f"Ben yeni mezun, lisans bilgisayar mühendisiyim. Herhangi bir yerde çalışmadım (deneyimsizim). Sadece 2026 KPSS puanım var. Şu ilana başvurabilir miyim?\nİlan: {description}\n\nBu ilanın bana uygun olup olmadığını (uygun veya uygun değil) ve NEDENİNİ sadece tek 1 cümleyle, olumsuzsa sebebini söyleyerek açıkla. Lütfen ekstra bilgi ekleme, cevabın sadece o tek cümleden oluşsun ve en başına 'UYGUN:' veya 'UYGUN DEĞİL:' yaz."
     
     for key in GEMINI_API_KEYS:
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={key.strip()}"
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{ACTIVE_MODEL}:generateContent?key={key.strip()}"
         payload = {
             "contents": [{"parts": [{"text": prompt}]}]
         }
@@ -68,7 +79,7 @@ def analyze_job_with_gemini(description):
                 return text
             else:
                 print(f"API Key Failed ({key[:10]}...): Status {response.status_code}")
-                time.sleep(1) # API limitini aşmamak için bekle ve diğerine geç
+                time.sleep(1)
         except Exception as e:
             print(f"Error with key {key[:10]}...: {e}")
             continue
@@ -85,7 +96,6 @@ def analyze_job(job):
     elif ai_response.startswith("UYGUN DEĞİL:"):
         explanation = ai_response.replace("UYGUN DEĞİL:", "").strip()
     else:
-        # Fallback format kontrolü
         is_suitable = "uygun değil" not in ai_response.lower()
         explanation = ai_response
 
@@ -110,15 +120,13 @@ def main():
         analyzed_job = analyze_job(job)
         new_jobs.append(analyzed_job)
         
-        # Sadece yeni gelen ilanları Telegram'dan bildir
+        # Sadece yeni gelen ilanları Telegram'dan bildir (Push notification)
         if analyzed_job["id"] not in old_ids:
             msg = f"🔔 *YENİ İLAN:* {analyzed_job['title']}\n"
             msg += f"🏢 Kurum: {analyzed_job['institution']}\n"
-            msg += f"📍 Şehir: {analyzed_job['city']}\n"
             msg += f"💡 *AI Yorumu:* {analyzed_job['aiExplanation']}\n"
             msg += f"✅ Uygunluk: {'Evet' if analyzed_job['isSuitable'] else 'Hayır'}"
             send_telegram_message(msg)
-            print(f"Bidirim gönderildi: {analyzed_job['title']}")
 
     with open("public/jobs.json", "w", encoding="utf-8") as f:
         json.dump(new_jobs, f, ensure_ascii=False, indent=2)

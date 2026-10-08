@@ -3,28 +3,14 @@ import requests
 import time
 import re
 
-TELEGRAM_BOT_TOKEN = "8812328547:AAH5NxBUs_JWzCMwQ1HkC6X2aQb24qwyppc"
-TELEGRAM_CHAT_ID = "1118351896"
+import os
 
-GEMINI_API_KEYS = [
-    "AQ.Ab8RN6KL8AYZrPLPqYQd6-qvEKzJIKLxuV3LRMkTEIpmcE4WDg",
-    "AQ.Ab8RN6LgkjFS0HRD4sFohCqAsGcuOMCpBB-iyXq_0aZpbKd5jg",
-    "AQ.Ab8RN6I6Z42_GoxQ8PwypF0KX-95JYAT1Nn3bYorhCrTASDpoQ",
-    "AQ.Ab8RN6Klvadzz9K9PGXhnyXggDLkk943CMFmRi0DyqFVdj0OWg",
-    "AQ.Ab8RN6KkN7IDBcORcn4Vqvyc0oZrCY4wEX0iCBHe_dGCc-kTfw",
-    "AQ.Ab8RN6JcwGIwu7Q2iFjfrYvgIH2TkVxVBxkX5bbmQ3uZIRFUcw",
-    "AQ.Ab8RN6IiwnQnf4CQ_pbKyHGSJ07VKpDEKMkwgmWZg1MgN75b2w",
-    "AIzaSyBLILwSPguZkCTi24q74adZ_4Ep_g88W5Q",
-    "AIzaSyBqsJK2tIFi5Uo2ItOr-7uVzycAfV-QT3o",
-    "AIzaSyD7QBgc0TR-5NgT4aWStxU65_0fO_gLY_I",
-    "AIzaSyDZr13y6lr2tdP67xeyLIQKOY-FmPosE6Q",
-    "AIzaSyBD5ozflUPp593UDV1RhtyeLO2Ndl72ZGQ",
-    "AIzaSyAlzHOq7CXBBJPziz7cmQW6oYkTaVSi3CQ",
-    "AQ.Ab8RN6KussqN40JkQNM5dLUJxLv-uGkUr3k6K6ojuSWdTqzS0A",
-    "AQ.Ab8RN6IQOpqSmWzng75dGO4Ujx9P6P-qSHWv6Y5LjiQLZQfCdQ",
-    "AQ.Ab8RN6KIQLBQQ3AGnoxYQk_yOtScsYv3gxEK92ngZlaJnQn0Qg",
-    "AQ.Ab8RN6KL72G6PUmcyOKn0Lj4QG6Dxo5KqfvwmcMTs4M9X52x2Q"
-]
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
+TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
+
+# Birden fazla key virgülle ayrılarak verilebilir (Örn: "KEY1,KEY2,KEY3")
+keys_env = os.environ.get("GEMINI_API_KEYS", "")
+GEMINI_API_KEYS = [k.strip() for k in keys_env.split(",")] if keys_env else []
 
 ACTIVE_MODELS = [
     "gemini-3.5-flash",
@@ -114,6 +100,9 @@ def fetch_job_details(guid):
 def call_gemini(prompt):
     global current_key_index
     n_keys = len(GEMINI_API_KEYS)
+    
+    if n_keys == 0:
+        return None
 
     for attempt in range(2):
         tried_keys = 0

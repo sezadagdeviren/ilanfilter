@@ -36,7 +36,14 @@ KARIYER_KAPISI_API = "https://api.kariyerkapisi.gov.tr/api"
 # Hata verene kadar aynı key ile devam edeceğiz
 current_key_index = 0
 
-# ─── Kariyer Kapısı API ───────────────────────────────────────────────────────
+CITIES = ["ADANA", "ADIYAMAN", "AFYONKARAHİSAR", "AĞRI", "AMASYA", "ANKARA", "ANTALYA", "ARTVİN", "AYDIN", "BALIKESİR", "BİLECİK", "BİNGÖL", "BİTLİS", "BOLU", "BURDUR", "BURSA", "ÇANAKKALE", "ÇANKIRI", "ÇORUM", "DENİZLİ", "DİYARBAKIR", "EDİRNE", "ELAZIĞ", "ERZİNCAN", "ERZURUM", "ESKİŞEHİR", "GAZİANTEP", "GİRESUN", "GÜMÜŞHANE", "HAKKARİ", "HATAY", "ISPARTA", "MERSİN", "İSTANBUL", "İZMİR", "KARS", "KASTAMONU", "KAYSERİ", "KIRKLARELİ", "KIRŞEHİR", "KOCAELİ", "KONYA", "KÜTAHYA", "MALATYA", "MANİSA", "KAHRAMANMARAŞ", "MARDİN", "MUĞLA", "MUŞ", "NEVŞEHİR", "NİĞDE", "ORDU", "RİZE", "SAKARYA", "SAMSUN", "SİİRT", "SİNOP", "SİVAS", "TEKİRDAĞ", "TOKAT", "TRABZON", "TUNCELİ", "ŞANLIURFA", "UŞAK", "VAN", "YOZGAT", "ZONGULDAK", "AKSARAY", "BAYBURT", "KARAMAN", "KIRIKKALE", "BATMAN", "ŞIRNAK", "BARTIN", "ARDAHAN", "IĞDIR", "YALOVA", "KARABÜK", "KİLİS", "OSMANİYE", "DÜZCE"]
+
+def extract_city(text):
+    text_upper = text.upper()
+    for city in CITIES:
+        if city in text_upper:
+            return city.capitalize()
+    return "Tüm Türkiye"
 
 def fetch_jobs(retries=3):
     headers = {
@@ -72,6 +79,7 @@ def fetch_jobs(retries=3):
                             f"https://kariyerkapisi.gov.tr/IlanDetay?i={ilan.get('guid','')}"
                             if is_type1 else ilan.get("basvuruLinki", "")
                         ),
+                        "city": extract_city(ilan.get("kurumAdi", "") + " " + ilan.get("ilanBaslik", "")),
                         "isSuitable": None,
                         "aiExplanation": "",
                         "aiScanned": False,
@@ -275,12 +283,14 @@ def main():
                 end_date_str = f"{parts[2]}.{parts[1]}.{parts[0]}"
                 
         uygunluk_etiketi = "✅ Uygun" if is_uygun else "❌ Uygun Değil"
+        sehir_etiketi = job.get('city', 'Tüm Türkiye')
             
         msg = (
             f"{durum_baslik}\n\n"
             f"📋 *{job['title']}*\n"
             f"🏢 {job['institution']}\n"
             f"💼 {job['type']}\n"
+            f"📍 Şehir: {sehir_etiketi}\n"
             f"📅 Son: {end_date_str}\n"
             f"🤖 AI Tarandı\n"
             f"{uygunluk_etiketi}\n\n"

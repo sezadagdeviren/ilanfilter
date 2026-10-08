@@ -7,7 +7,6 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Veriyi direkt olarak GitHub'daki güncel halinden çeker, böylece git pull yapmanıza gerek kalmaz.
     fetch(`https://raw.githubusercontent.com/sezadagdeviren/ilanfilter/main/public/jobs.json?v=${Date.now()}`)
       .then(res => res.json())
       .then(data => {

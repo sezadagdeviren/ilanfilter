@@ -247,3 +247,9 @@
     align-items: center;
   }
 }
+
+.badge-city {
+  background: #e0e7ff;
+  color: #3730a3;
+  border: 1px solid #c7d2fe;
+}

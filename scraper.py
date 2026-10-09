@@ -155,7 +155,7 @@ def call_gemini(prompt):
     n_keys = len(GEMINI_API_KEYS)
     
     if n_keys == 0:
-        return None
+        return None, None, None
 
     for attempt in range(2):
         tried_keys = 0
@@ -174,7 +174,8 @@ def call_gemini(prompt):
                     )
                     if r.status_code == 200:
                         # Başarılı! Aynı key ile devam edeceğiz
-                        return r.json()["candidates"][0]["content"]["parts"][0]["text"].strip()
+                        res_text = r.json()["candidates"][0]["content"]["parts"][0]["text"].strip()
+                        return res_text, key.strip(), model
                     else:
                         print(f"      [!] Model hatası ({model}): HTTP {r.status_code}")
                 except Exception as e:
@@ -188,7 +189,7 @@ def call_gemini(prompt):
             print("  ⏳ Tüm keyler ve modeller tükendi, 2 dakika bekleniyor...")
             time.sleep(120)
 
-    return None
+    return None, None, None
 
 # ─── AI Analiz ────────────────────────────────────────────────────────────────
 
@@ -220,7 +221,17 @@ def analyze_job(job):
         "'UYGUN DEĞİL: 3 yıl deneyim şartı arandığı için elendi.' Başka hiçbir şey yazma."
     )
 
-    result = call_gemini(prompt)
+    result, used_key, used_model = call_gemini(prompt)
+    
+    ai_log_entry = {
+        "job_id": job["id"],
+        "job_title": job["title"],
+        "source": "Kariyer Kapısı" if "kariyerkapisi" in job["detailLink"] else "Resmi Gazete",
+        "ai_key_used": used_key,
+        "ai_model_used": used_model,
+        "prompt_text": prompt,
+        "response_text": result
+    }
 
     if result is None:
         job["isSuitable"] = False
@@ -239,6 +250,8 @@ def analyze_job(job):
         job["isSuitable"] = "uygun değil" not in result.lower()
         job["aiExplanation"] = result
         job["aiScanned"] = True
+        
+    return ai_log_entry
 
     # Limit yememek için bekle (1 key ile devam ettiğimiz için 15 RPM = 4sn)
     time.sleep(4)
@@ -275,8 +288,23 @@ def main():
     print("🚀 Resmi Gazete ilanları çekiliyor...")
     jobs_resmi_gazete = fetch_resmi_gazete_jobs()
     
-    # İki platformdan gelen ilanları birleştir
-    jobs = jobs_kariyer + jobs_resmi_gazete
+    # İki platformdan gelen ilanları birleştir ve Mükerrerleri Temizle (Deduplication)
+    # Kariyer Kapısı öncelikli olacak (daha detaylı bilgi var)
+    kariyer_titles = [j["institution"].lower().strip() for j in jobs_kariyer]
+    unique_resmi_gazete = []
+    
+    for r_job in jobs_resmi_gazete:
+        r_inst = r_job["institution"].lower().strip()
+        # Eğer resmi gazete kurum ismi kariyer kapısındaki isimlerin içinde varsa (veya tersi) ekleme
+        is_duplicate = False
+        for k_inst in kariyer_titles:
+            if r_inst in k_inst or k_inst in r_inst:
+                is_duplicate = True
+                break
+        if not is_duplicate:
+            unique_resmi_gazete.append(r_job)
+            
+    jobs = jobs_kariyer + unique_resmi_gazete
     
     if not jobs:
         print("❌ İlanlar alınamadı, çıkılıyor.")
@@ -289,6 +317,12 @@ def main():
             job["isSuitable"] = existing[job_id]["isSuitable"]
             job["aiExplanation"] = existing[job_id]["aiExplanation"]
             job["aiScanned"] = True
+
+    try:
+        with open("public/ai_logs.json", "r", encoding="utf-8") as f:
+            ai_logs_data = json.load(f)
+    except FileNotFoundError:
+        ai_logs_data = []
 
     new_scanned = []
 
@@ -305,12 +339,18 @@ def main():
         print(f"[{i+1}/{len(jobs)}] 🔍 AI tarıyor: {job['title'][:65]}...")
         
         # Analyze'den dönen objeyi referans olarak atamaya gerek yok, çünkü aynı objeyi update ediyor
-        analyze_job(job)
+        ai_log_entry = analyze_job(job)
+        if ai_log_entry:
+            ai_logs_data.append(ai_log_entry)
+            
         status_tag = "🤖 AI taradı"
 
         # HER İLAN BİTTİĞİNDE KAYDET (Incremental save)
         with open("public/jobs.json", "w", encoding="utf-8") as f:
             json.dump(jobs, f, ensure_ascii=False, indent=2)
+            
+        with open("public/ai_logs.json", "w", encoding="utf-8") as f:
+            json.dump(ai_logs_data, f, ensure_ascii=False, indent=2)
 
         emoji = "✅" if job["isSuitable"] else "❌"
         scanned_tag = "✓" if job["aiScanned"] else "⚠"
@@ -355,6 +395,11 @@ def main():
     scanned  = sum(1 for j in jobs if j["aiScanned"])
     print(f"\n📊 Toplam: {len(jobs)} | 🤖 AI tarandı: {scanned} | ✅ Uygun: {suitable} | ❌ Uygun Değil: {len(jobs)-suitable}")
     print("✅ public/jobs.json başarıyla güncellendi.")
+
+    # AI Loglarını public/ai_logs.json dosyasına yazalım
+    with open("public/ai_logs.json", "w", encoding="utf-8") as f:
+        json.dump(ai_logs_data, f, ensure_ascii=False, indent=2)
+    print("✅ public/ai_logs.json başarıyla güncellendi.")
 
 if __name__ == "__main__":
     main()

@@ -7,7 +7,13 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`https://raw.githubusercontent.com/sezadagdeviren/ilanfilter/main/public/jobs.json?v=${Date.now()}`)
+    // Yerelde (npm run dev) çalışırken bilgisayardaki dosyayı, 
+    // canlıda (GitHub Pages vb.) çalışırken GitHub sunucusundaki dosyayı çeker.
+    const url = import.meta.env.DEV 
+      ? `/jobs.json?v=${Date.now()}`
+      : `https://raw.githubusercontent.com/sezadagdeviren/ilanfilter/main/public/jobs.json?v=${Date.now()}`;
+      
+    fetch(url)
       .then(res => res.json())
       .then(data => {
         setJobs(data);
@@ -79,6 +85,7 @@ function App() {
               </div>
 
               <div className="job-badges">
+                {job.city && <span className="badge badge-city">📍 {job.city}</span>}
                 <span className="badge badge-type">💼 {job.type}</span>
                 {job.endDate && (
                   <span className="badge badge-date">📅 Son: {formatDate(job.endDate)}</span>

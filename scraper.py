@@ -2,6 +2,10 @@ import json
 import requests
 import time
 import re
+import urllib.request
+from bs4 import BeautifulSoup
+import datetime
+import hashlib
 
 import os
 
@@ -75,6 +79,50 @@ def fetch_jobs(retries=3):
             print(f"  Bağlantı hatası (deneme {attempt+1}/{retries}): {e}")
             time.sleep(5)
     return []
+
+# ─── Resmi Gazete Modülü ─────────────────────────────────────────────────────
+
+def fetch_resmi_gazete_jobs():
+    jobs = []
+    try:
+        today = datetime.datetime.now()
+        url = f'https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/{today.year}/{today.month:02d}/{today.year}{today.month:02d}{today.day:02d}-4.htm'
+        
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req, timeout=10) as response:
+            html = response.read().decode('windows-1254', errors='replace')
+            
+        soup = BeautifulSoup(html, 'html.parser')
+        
+        # Basit HTML parse işlemi: Koyu yazılmış kurum isimlerini başlık kabul ediyoruz.
+        for b in soup.find_all('b'):
+            text = b.text.strip().replace('\n', ' ')
+            if len(text) > 15 and ('ÜNİVERSİTE' in text.upper() or 'BAŞKANLI' in text.upper() or 'REKTÖR' in text.upper() or 'BAKANLI' in text.upper() or 'MÜDÜRLÜ' in text.upper()):
+                
+                # Benzersiz bir ID üret (Link + Kurum adı)
+                unique_str = f"{url}_{text}"
+                job_id = hashlib.md5(unique_str.encode()).hexdigest()
+                
+                jobs.append({
+                    "id": job_id,
+                    "title": text,
+                    "institution": text.replace("Rektörlüğünden:", "").replace("Başkanlığından:", "").strip(),
+                    "department": "Resmi Gazete İlanı",
+                    "type": "Kamu Personeli Alımı",
+                    "status": "Aktif",
+                    "startDate": today.strftime("%Y-%m-%dT00:00:00"),
+                    "endDate": (today + datetime.timedelta(days=15)).strftime("%Y-%m-%dT23:59:00"),
+                    "detailLink": url,
+                    "city": extract_city(text),
+                    "isSuitable": None,
+                    "aiExplanation": "",
+                    "aiScanned": False,
+                })
+        print(f"✅ Resmi Gazete'den {len(jobs)} ilan başarıyla çekildi.")
+    except Exception as e:
+        print(f"⚠️ Resmi Gazete çekilirken hata oluştu: {e}")
+    
+    return jobs
 
 def fetch_job_details(guid):
     """İlanın detay metnini API'den çeker."""
@@ -216,7 +264,15 @@ def main():
     except FileNotFoundError:
         existing = {}
 
-    jobs = fetch_jobs()
+    print("🚀 Kariyer Kapısı ilanları çekiliyor...")
+    jobs_kariyer = fetch_jobs()
+    
+    print("🚀 Resmi Gazete ilanları çekiliyor...")
+    jobs_resmi_gazete = fetch_resmi_gazete_jobs()
+    
+    # İki platformdan gelen ilanları birleştir
+    jobs = jobs_kariyer + jobs_resmi_gazete
+    
     if not jobs:
         print("❌ İlanlar alınamadı, çıkılıyor.")
         return

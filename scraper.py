@@ -220,8 +220,8 @@ def call_gemini(prompt):
             tried_keys += 1
 
         if attempt == 0:
-            print("  ⏳ Tüm keyler ve modeller tükendi, 2 dakika bekleniyor...")
-            time.sleep(120)
+            print("  ⏳ Tüm keyler ve modeller tükendi, 30 saniye bekleniyor...")
+            time.sleep(30)
 
     return None, None, None
 
@@ -285,11 +285,9 @@ def analyze_job(job):
         job["aiExplanation"] = result
         job["aiScanned"] = True
         
+    # Limit yememek için bekle
+    time.sleep(2)
     return ai_log_entry
-
-    # Limit yememek için bekle (1 key ile devam ettiğimiz için 15 RPM = 4sn)
-    time.sleep(4)
-    return job
 
 # ─── Telegram ─────────────────────────────────────────────────────────────────
 

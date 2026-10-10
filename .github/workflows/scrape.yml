@@ -11,6 +11,7 @@ permissions:
 jobs:
   scrape-and-notify:
     runs-on: ubuntu-latest
+    timeout-minutes: 45  # Maksimum 45 dakika, sonra zorla durdur
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4

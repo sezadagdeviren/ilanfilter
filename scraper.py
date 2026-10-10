@@ -2,6 +2,7 @@ import json
 import requests
 import time
 import re
+import io
 import urllib.request
 from bs4 import BeautifulSoup
 import datetime
@@ -13,6 +14,11 @@ try:
     load_dotenv()
 except ImportError:
     pass
+
+try:
+    import PyPDF2
+except ImportError:
+    PyPDF2 = None
 
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
@@ -92,6 +98,7 @@ def fetch_resmi_gazete_jobs():
     try:
         today = datetime.datetime.now()
         url = f'https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/{today.year}/{today.month:02d}/{today.year}{today.month:02d}{today.day:02d}-4.htm'
+        base_url = f'https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/{today.year}/{today.month:02d}/'
         
         req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
         with urllib.request.urlopen(req, timeout=10) as response:
@@ -99,12 +106,23 @@ def fetch_resmi_gazete_jobs():
             
         soup = BeautifulSoup(html, 'html.parser')
         
-        # Basit HTML parse işlemi: Koyu yazılmış kurum isimlerini başlık kabul ediyoruz.
+        # <b> etiketleri ile PDF linklerini eşleştirerek kurumları çıkar
         for b in soup.find_all('b'):
-            text = b.text.strip().replace('\n', ' ')
-            if len(text) > 15 and ('ÜNİVERSİTE' in text.upper() or 'BAŞKANLI' in text.upper() or 'REKTÖR' in text.upper() or 'BAKANLI' in text.upper() or 'MÜDÜRLÜ' in text.upper()):
+            text = b.text.strip().replace('\n', ' ').replace('\r', ' ')
+            text = ' '.join(text.split())  # Çoklu boşlukları temizle
+            if len(text) > 10 and any(kw in text.upper() for kw in ['ÜNİVERSİTE', 'BAŞKANLI', 'REKTÖR', 'BAKANLI', 'MÜDÜRLÜ', 'KURUM']):
                 
-                # Benzersiz bir ID üret (Link + Kurum adı)
+                # En yakın PDF linkini bul
+                a_tag = b.find_next('a')
+                pdf_url = ""
+                if a_tag and a_tag.get('href') and '.pdf' in a_tag.get('href', '').lower():
+                    href = a_tag.get('href')
+                    if href.startswith('http'):
+                        pdf_url = href
+                    else:
+                        pdf_url = base_url + href
+                
+                # Benzersiz bir ID üret
                 unique_str = f"{url}_{text}"
                 job_id = hashlib.md5(unique_str.encode()).hexdigest()
                 
@@ -118,6 +136,7 @@ def fetch_resmi_gazete_jobs():
                     "startDate": today.strftime("%Y-%m-%dT00:00:00"),
                     "endDate": (today + datetime.timedelta(days=15)).strftime("%Y-%m-%dT23:59:00"),
                     "detailLink": url,
+                    "pdf_link": pdf_url,
                     "city": extract_city(text),
                     "isSuitable": None,
                     "aiExplanation": "",
@@ -129,15 +148,30 @@ def fetch_resmi_gazete_jobs():
     
     return jobs
 
-def fetch_job_details(guid):
-    """İlanın detay metnini API'den çeker."""
+def fetch_job_details(job):
+    """İlanın detay metnini API'den veya Resmi Gazete PDF'sinden çeker."""
+    if job.get("pdf_link"):
+        try:
+            import urllib.request
+            req = urllib.request.Request(job["pdf_link"], headers={'User-Agent': 'Mozilla/5.0'})
+            with urllib.request.urlopen(req, timeout=15) as response:
+                pdf_bytes = response.read()
+            reader = PyPDF2.PdfReader(io.BytesIO(pdf_bytes))
+            text = ""
+            for page in reader.pages:
+                text += page.extract_text() + "\n"
+            return text
+        except Exception as e:
+            print(f"      [!] PDF okuma hatası ({job['pdf_link']}): {e}")
+            return ""
+
     url = f"{KARIYER_KAPISI_API}/ilan/GetIlanPreviewPublic"
-    payload = {"ilanGuid": guid}
+    payload = {"ilanGuid": job["id"]}
     headers = {
         "User-Agent": "Mozilla/5.0",
         "Content-Type": "application/json",
         "Origin": "https://kariyerkapisi.gov.tr",
-        "Referer": f"https://kariyerkapisi.gov.tr/IlanDetay?i={guid}"
+        "Referer": f"https://kariyerkapisi.gov.tr/IlanDetay?i={job['id']}"
     }
     try:
         r = requests.post(url, json=payload, headers=headers, timeout=10)
@@ -195,7 +229,7 @@ def call_gemini(prompt):
 
 def analyze_job(job):
     # 1. Önce ilanın detay metnini çekelim
-    ilan_metni = fetch_job_details(job["id"])
+    ilan_metni = fetch_job_details(job)
     
     # 2. İlan detay metni çok uzunsa prompt limitlerine takılmamak için kırpalım
     if len(ilan_metni) > 6000:
@@ -343,7 +377,7 @@ def main():
         if ai_log_entry:
             ai_logs_data.append(ai_log_entry)
             
-        status_tag = "🤖 AI taradı"
+        status_tag = "🤖 AI taradı" if job["aiScanned"] else "❌ AI Hata"
 
         # HER İLAN BİTTİĞİNDE KAYDET (Incremental save)
         with open("public/jobs.json", "w", encoding="utf-8") as f:

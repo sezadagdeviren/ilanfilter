@@ -26,6 +26,25 @@ jobs:
       - name: Install Dependencies
         run: pip install requests beautifulsoup4 PyPDF2
 
+      - name: Debug API Key Format
+        env:
+          GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
+        run: |
+          python3 -c "
+          import os, requests
+          keys_env = os.environ.get('GEMINI_API_KEYS', '')
+          keys = [k.strip() for k in keys_env.split(',')]
+          print(f'Key sayisi: {len(keys)}')
+          key = keys[0] if keys else ''
+          print(f'Key uzunlugu: {len(key)}')
+          print(f'Key baslangic: {repr(key[:6])}')
+          url = f'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={key}'
+          r = requests.post(url, json={'contents': [{'parts': [{'text': 'test'}]}]}, timeout=10)
+          print(f'API Test: HTTP {r.status_code}')
+          if r.status_code != 200:
+              print(r.text[:300])
+          "
+
       - name: Run Scraper
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}

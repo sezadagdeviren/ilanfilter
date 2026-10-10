@@ -28,9 +28,8 @@ keys_env = os.environ.get("GEMINI_API_KEYS", "")
 GEMINI_API_KEYS = [k.strip() for k in keys_env.split(",")] if keys_env else []
 
 ACTIVE_MODELS = [
-    "gemini-3.5-flash",
-    "gemini-3.6-flash",
-    "gemini-3.5-flash-lite"
+    "gemini-2.5-flash",         # ✅ Çalışıyor - birincil model
+    "gemini-2.5-flash-lite",    # ✅ Daha hafif, yedek
 ]
 KARIYER_KAPISI_API = "https://api.kariyerkapisi.gov.tr/api"
 

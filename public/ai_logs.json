@@ -1,1 +1,137 @@
-[]
+[
+  {
+    "job_id": "b160ef4d3988a356900f5fe6cbdbd6ee",
+    "job_title": "İçişleri Bakanlığı Emniyet Genel Müdürlüğünden:",
+    "source": "Resmi Gazete",
+    "ai_key_used": "AQ.Ab8RN6KJimap8tuRAQLtII6BZoCv5meoa_3dk4YfbDnQQ8A59Q",
+    "ai_model_used": "gemini-2.5-flash",
+    "prompt_text": "Sen bir İK uzmanısın. Kullanıcı profili şudur:\n- Yeni mezun lisans bilgisayar mühendisi\n- Deneyimsiz (hiçbir yerde çalışmamış)\n- 2026 KPSS puanı var (2024 KPSS puanı YOK)\n- Ekstra sertifikası yok\n\nİlan Başlığı: İçişleri Bakanlığı Emniyet Genel Müdürlüğünden:\nİlan Türü: Kamu Personeli Alımı\nKurum: İçişleri Bakanlığı Emniyet Genel Müdürlüğünden:\n\nİLAN DETAY METNİ:\n İçişleri Bakanlığı Emniyet Genel Müdürlüğünden: \nİHALELERE KATILMAKT AN YASAKLAMA KARARI \n \n 10559/1-1 \n  \n\n İçişleri Bakanlığı Emniyet Genel Müdürlüğünden: \nİHALELERE KATILMAKT AN YASAKLAMA KARARI \n \n 10560/1-1 \n  \n\n İçişleri Bakanlığı Emniyet Genel Müdürlüğünden: \nİHALELERE KATILMAKT AN YASAKLAMA KARARI \n \n 10561/1-1 \n\n\n\nLütfen bu ilanı incele. Özellikle şunlara dikkat et:\n1. 2024 KPSS puanı mı istiyor yoksa 2026 KPSS puanı mı? (Kullanıcıda sadece 2026 var, 2024 isteniyorsa direkt elenir)\n2. Deneyim/tecrübe istiyor mu? (Kullanıcı yeni mezun ve deneyimsiz, tecrübe isteniyorsa elenir)\n3. Belirli sertifikalar/belgeler istiyor mu?\n4. Mezuniyet şartı bilgisayar mühendisliğine uygun mu?\n\nCevabının EN BAŞINA sadece 'UYGUN:' veya 'UYGUN DEĞİL:' yaz ve ardından nedenini tek 1 cümle ile net olarak belirt. Örnek: 'UYGUN DEĞİL: 2024 KPSS puanı istendiği için elendi.' veya 'UYGUN DEĞİL: 3 yıl deneyim şartı arandığı için elendi.' Başka hiçbir şey yazma.",
+    "response_text": "UYGUN DEĞİL: Sağlanan ilan detay metni bir personel alımı ilanı değil, ihalelere katılma yasağı kararıdır."
+  },
+  {
+    "job_id": "077dcb127a69535e35de13ad4ff5fd5b",
+    "job_title": "İçişleri Bakanlığı İller İdaresi Genel Müdürlüğünden:",
+    "source": "Resmi Gazete",
+    "ai_key_used": "AQ.Ab8RN6KJimap8tuRAQLtII6BZoCv5meoa_3dk4YfbDnQQ8A59Q",
+    "ai_model_used": "gemini-2.5-flash",
+    "prompt_text": "Sen bir İK uzmanısın. Kullanıcı profili şudur:\n- Yeni mezun lisans bilgisayar mühendisi\n- Deneyimsiz (hiçbir yerde çalışmamış)\n- 2026 KPSS puanı var (2024 KPSS puanı YOK)\n- Ekstra sertifikası yok\n\nİlan Başlığı: İçişleri Bakanlığı İller İdaresi Genel Müdürlüğünden:\nİlan Türü: Kamu Personeli Alımı\nKurum: İçişleri Bakanlığı İller İdaresi Genel Müdürlüğünden:\n\nİLAN DETAY METNİ:\n\n\nLütfen bu ilanı incele. Özellikle şunlara dikkat et:\n1. 2024 KPSS puanı mı istiyor yoksa 2026 KPSS puanı mı? (Kullanıcıda sadece 2026 var, 2024 isteniyorsa direkt elenir)\n2. Deneyim/tecrübe istiyor mu? (Kullanıcı yeni mezun ve deneyimsiz, tecrübe isteniyorsa elenir)\n3. Belirli sertifikalar/belgeler istiyor mu?\n4. Mezuniyet şartı bilgisayar mühendisliğine uygun mu?\n\nCevabının EN BAŞINA sadece 'UYGUN:' veya 'UYGUN DEĞİL:' yaz ve ardından nedenini tek 1 cümle ile net olarak belirt. Örnek: 'UYGUN DEĞİL: 2024 KPSS puanı istendiği için elendi.' veya 'UYGUN DEĞİL: 3 yıl deneyim şartı arandığı için elendi.' Başka hiçbir şey yazma.",
+    "response_text": "UYGUN DEĞİL: İlan detay metni boş olduğu için uygunluk değerlendirilememektedir."
+  },
+  {
+    "job_id": "05545e422dbe248a26eb01381b3f9234",
+    "job_title": "Milli Eğitim Bakanlığı Destek Hizmetleri Genel Müdürlüğünden:",
+    "source": "Resmi Gazete",
+    "ai_key_used": "AQ.Ab8RN6KJimap8tuRAQLtII6BZoCv5meoa_3dk4YfbDnQQ8A59Q",
+    "ai_model_used": "gemini-2.5-flash",
+    "prompt_text": "Sen bir İK uzmanısın. Kullanıcı profili şudur:\n- Yeni mezun lisans bilgisayar mühendisi\n- Deneyimsiz (hiçbir yerde çalışmamış)\n- 2026 KPSS puanı var (2024 KPSS puanı YOK)\n- Ekstra sertifikası yok\n\nİlan Başlığı: Milli Eğitim Bakanlığı Destek Hizmetleri Genel Müdürlüğünden:\nİlan Türü: Kamu Personeli Alımı\nKurum: Milli Eğitim Bakanlığı Destek Hizmetleri Genel Müdürlüğünden:\n\nİLAN DETAY METNİ:\n Milli Eğitim Bakanlığı Destek Hizmetleri Genel Müdürlüğünden: \nİHALELERE KATILMAKT AN YASAKLAMA KARARI \n \n 10511/1-1 \n\n\n\nLütfen bu ilanı incele. Özellikle şunlara dikkat et:\n1. 2024 KPSS puanı mı istiyor yoksa 2026 KPSS puanı mı? (Kullanıcıda sadece 2026 var, 2024 isteniyorsa direkt elenir)\n2. Deneyim/tecrübe istiyor mu? (Kullanıcı yeni mezun ve deneyimsiz, tecrübe isteniyorsa elenir)\n3. Belirli sertifikalar/belgeler istiyor mu?\n4. Mezuniyet şartı bilgisayar mühendisliğine uygun mu?\n\nCevabının EN BAŞINA sadece 'UYGUN:' veya 'UYGUN DEĞİL:' yaz ve ardından nedenini tek 1 cümle ile net olarak belirt. Örnek: 'UYGUN DEĞİL: 2024 KPSS puanı istendiği için elendi.' veya 'UYGUN DEĞİL: 3 yıl deneyim şartı arandığı için elendi.' Başka hiçbir şey yazma.",
+    "response_text": "UYGUN DEĞİL: İlan metni bir personel alımı ilanı değil, ihalelere katılmaktan yasaklama kararı olduğu için belirtilen kriterlere göre değerlendirilemez ve başvuru yapılamaz."
+  },
+  {
+    "job_id": "6865bc55cf063554d2cc46fde4afd409",
+    "job_title": "Milli Eğitim Bakanlığı Mesleki ve Teknik Eğitim Genel Müdürlüğünden:",
+    "source": "Resmi Gazete",
+    "ai_key_used": "AQ.Ab8RN6KJimap8tuRAQLtII6BZoCv5meoa_3dk4YfbDnQQ8A59Q",
+    "ai_model_used": "gemini-2.5-flash",
+    "prompt_text": "Sen bir İK uzmanısın. Kullanıcı profili şudur:\n- Yeni mezun lisans bilgisayar mühendisi\n- Deneyimsiz (hiçbir yerde çalışmamış)\n- 2026 KPSS puanı var (2024 KPSS puanı YOK)\n- Ekstra sertifikası yok\n\nİlan Başlığı: Milli Eğitim Bakanlığı Mesleki ve Teknik Eğitim Genel Müdürlüğünden:\nİlan Türü: Kamu Personeli Alımı\nKurum: Milli Eğitim Bakanlığı Mesleki ve Teknik Eğitim Genel Müdürlüğünden:\n\nİLAN DETAY METNİ:\n Milli Eğitim Bakanlığı Mesleki ve  Teknik Eğitim Genel Müdürlüğü nden: \nİHALELERE KATILMAKT AN YASAKLAMA KARARI \n \n 10510/1-1 \n\n\n\nLütfen bu ilanı incele. Özellikle şunlara dikkat et:\n1. 2024 KPSS puanı mı istiyor yoksa 2026 KPSS puanı mı? (Kullanıcıda sadece 2026 var, 2024 isteniyorsa direkt elenir)\n2. Deneyim/tecrübe istiyor mu? (Kullanıcı yeni mezun ve deneyimsiz, tecrübe isteniyorsa elenir)\n3. Belirli sertifikalar/belgeler istiyor mu?\n4. Mezuniyet şartı bilgisayar mühendisliğine uygun mu?\n\nCevabının EN BAŞINA sadece 'UYGUN:' veya 'UYGUN DEĞİL:' yaz ve ardından nedenini tek 1 cümle ile net olarak belirt. Örnek: 'UYGUN DEĞİL: 2024 KPSS puanı istendiği için elendi.' veya 'UYGUN DEĞİL: 3 yıl deneyim şartı arandığı için elendi.' Başka hiçbir şey yazma.",
+    "response_text": "UYGUN DEĞİL: İlan detay metni kamu personeli alımı ilanı olmayıp, ihalelere katılmaktan yasaklama kararı olduğu için başvuruya uygun değildir."
+  },
+  {
+    "job_id": "1f7e7332505c41b708d4920ff97f0af0",
+    "job_title": "Gençlik ve Spor Bakanlığı Strateji Geliştirme Başkanlığından:",
+    "source": "Resmi Gazete",
+    "ai_key_used": "AQ.Ab8RN6KJimap8tuRAQLtII6BZoCv5meoa_3dk4YfbDnQQ8A59Q",
+    "ai_model_used": "gemini-2.5-flash",
+    "prompt_text": "Sen bir İK uzmanısın. Kullanıcı profili şudur:\n- Yeni mezun lisans bilgisayar mühendisi\n- Deneyimsiz (hiçbir yerde çalışmamış)\n- 2026 KPSS puanı var (2024 KPSS puanı YOK)\n- Ekstra sertifikası yok\n\nİlan Başlığı: Gençlik ve Spor Bakanlığı Strateji Geliştirme Başkanlığından:\nİlan Türü: Kamu Personeli Alımı\nKurum: Gençlik ve Spor Bakanlığı Strateji Geliştirme\n\nİLAN DETAY METNİ:\n\n\nLütfen bu ilanı incele. Özellikle şunlara dikkat et:\n1. 2024 KPSS puanı mı istiyor yoksa 2026 KPSS puanı mı? (Kullanıcıda sadece 2026 var, 2024 isteniyorsa direkt elenir)\n2. Deneyim/tecrübe istiyor mu? (Kullanıcı yeni mezun ve deneyimsiz, tecrübe isteniyorsa elenir)\n3. Belirli sertifikalar/belgeler istiyor mu?\n4. Mezuniyet şartı bilgisayar mühendisliğine uygun mu?\n\nCevabının EN BAŞINA sadece 'UYGUN:' veya 'UYGUN DEĞİL:' yaz ve ardından nedenini tek 1 cümle ile net olarak belirt. Örnek: 'UYGUN DEĞİL: 2024 KPSS puanı istendiği için elendi.' veya 'UYGUN DEĞİL: 3 yıl deneyim şartı arandığı için elendi.' Başka hiçbir şey yazma.",
+    "response_text": "UYGUN DEĞİL: İlan detay metni eksik olduğu için adayın uygunluğu net olarak değerlendirilememektedir."
+  },
+  {
+    "job_id": "e441ad0401fed96d9987c857a24df262",
+    "job_title": "Tarım ve Orman Bakanlığı Bitkisel Üretim Genel Müdürlüğünden:",
+    "source": "Resmi Gazete",
+    "ai_key_used": "AQ.Ab8RN6KJimap8tuRAQLtII6BZoCv5meoa_3dk4YfbDnQQ8A59Q",
+    "ai_model_used": "gemini-2.5-flash",
+    "prompt_text": "Sen bir İK uzmanısın. Kullanıcı profili şudur:\n- Yeni mezun lisans bilgisayar mühendisi\n- Deneyimsiz (hiçbir yerde çalışmamış)\n- 2026 KPSS puanı var (2024 KPSS puanı YOK)\n- Ekstra sertifikası yok\n\nİlan Başlığı: Tarım ve Orman Bakanlığı Bitkisel Üretim Genel Müdürlüğünden:\nİlan Türü: Kamu Personeli Alımı\nKurum: Tarım ve Orman Bakanlığı Bitkisel Üretim Genel Müdürlüğünden:\n\nİLAN DETAY METNİ:\n\n\nLütfen bu ilanı incele. Özellikle şunlara dikkat et:\n1. 2024 KPSS puanı mı istiyor yoksa 2026 KPSS puanı mı? (Kullanıcıda sadece 2026 var, 2024 isteniyorsa direkt elenir)\n2. Deneyim/tecrübe istiyor mu? (Kullanıcı yeni mezun ve deneyimsiz, tecrübe isteniyorsa elenir)\n3. Belirli sertifikalar/belgeler istiyor mu?\n4. Mezuniyet şartı bilgisayar mühendisliğine uygun mu?\n\nCevabının EN BAŞINA sadece 'UYGUN:' veya 'UYGUN DEĞİL:' yaz ve ardından nedenini tek 1 cümle ile net olarak belirt. Örnek: 'UYGUN DEĞİL: 2024 KPSS puanı istendiği için elendi.' veya 'UYGUN DEĞİL: 3 yıl deneyim şartı arandığı için elendi.' Başka hiçbir şey yazma.",
+    "response_text": "UYGUN DEĞİL: İlan detay metni eksik olduğu için başvuru şartları değerlendirilememektedir."
+  },
+  {
+    "job_id": "4c004f551b09d9bf977cd7d07fc6dea0",
+    "job_title": "Tarım ve Orman Bakanlığı Orman Genel Müdürlüğünden:",
+    "source": "Resmi Gazete",
+    "ai_key_used": "AQ.Ab8RN6KJimap8tuRAQLtII6BZoCv5meoa_3dk4YfbDnQQ8A59Q",
+    "ai_model_used": "gemini-2.5-flash",
+    "prompt_text": "Sen bir İK uzmanısın. Kullanıcı profili şudur:\n- Yeni mezun lisans bilgisayar mühendisi\n- Deneyimsiz (hiçbir yerde çalışmamış)\n- 2026 KPSS puanı var (2024 KPSS puanı YOK)\n- Ekstra sertifikası yok\n\nİlan Başlığı: Tarım ve Orman Bakanlığı Orman Genel Müdürlüğünden:\nİlan Türü: Kamu Personeli Alımı\nKurum: Tarım ve Orman Bakanlığı Orman Genel Müdürlüğünden:\n\nİLAN DETAY METNİ:\n Tarım ve Orman Bakanlığı Or man Genel Müdürlüğünden: \nİHALELERE KATILMAKT AN YASAKLAMA KARARI \n \n 10508/1/1-1 \n  \n\n Tarım ve Orman Bakanlığı Or man Genel Müdürlüğünden: \nİHALELERE KATILMAKT AN YASAKLAMA KARARI \n \n 10508/2/1-1 \n  \n\n Tarım ve Orman Bakanlığı Or man Genel Müdürlüğünden: \nİHALELERE KATILMAKT AN YASAKLAMA KARARI \n \n 10508/3/1-1 \n  \n\n Tarım ve Orman Bakanlığı Or man Genel Müdürlüğünden: \nİHALELERE KATILMAKT AN YASAKLAMA KARARI \n \n 10508/4/1-1 \n  \n\n Tarım ve Orman Bakanlığı Or man Genel Müdürlüğünden: \nİHALELERE KATILMAKT AN YASAKLAMA KARARI \n \n 10508/5/1-1 \n  \n\n Tarım ve Orman Bakanlığı Or man Genel Müdürlüğünden: \nİHALELERE KATILMAKT AN YASAKLAMA KARARI \n \n 10508/6/1-1 \n\n\n\nLütfen bu ilanı incele. Özellikle şunlara dikkat et:\n1. 2024 KPSS puanı mı istiyor yoksa 2026 KPSS puanı mı? (Kullanıcıda sadece 2026 var, 2024 isteniyorsa direkt elenir)\n2. Deneyim/tecrübe istiyor mu? (Kullanıcı yeni mezun ve deneyimsiz, tecrübe isteniyorsa elenir)\n3. Belirli sertifikalar/belgeler istiyor mu?\n4. Mezuniyet şartı bilgisayar mühendisliğine uygun mu?\n\nCevabının EN BAŞINA sadece 'UYGUN:' veya 'UYGUN DEĞİL:' yaz ve ardından nedenini tek 1 cümle ile net olarak belirt. Örnek: 'UYGUN DEĞİL: 2024 KPSS puanı istendiği için elendi.' veya 'UYGUN DEĞİL: 3 yıl deneyim şartı arandığı için elendi.' Başka hiçbir şey yazma.",
+    "response_text": "UYGUN DEĞİL: İlan metni, personel alımı ilanı olmayıp, ihalelere katılmaktan yasaklama kararı olduğu için başvuruya uygun değildir."
+  },
+  {
+    "job_id": "c22748c39e7fb0f16b173b70448e28d6",
+    "job_title": "Ankara Üniversitesi Rektörlüğünden:",
+    "source": "Resmi Gazete",
+    "ai_key_used": "AQ.Ab8RN6KJimap8tuRAQLtII6BZoCv5meoa_3dk4YfbDnQQ8A59Q",
+    "ai_model_used": "gemini-2.5-flash",
+    "prompt_text": "Sen bir İK uzmanısın. Kullanıcı profili şudur:\n- Yeni mezun lisans bilgisayar mühendisi\n- Deneyimsiz (hiçbir yerde çalışmamış)\n- 2026 KPSS puanı var (2024 KPSS puanı YOK)\n- Ekstra sertifikası yok\n\nİlan Başlığı: Ankara Üniversitesi Rektörlüğünden:\nİlan Türü: Kamu Personeli Alımı\nKurum: Ankara Üniversitesi\n\nİLAN DETAY METNİ:\n Ankara Üniversitesi Rektörlüğünden: \nİHALELERE KATILMAKT AN YASAKLAMA KARARI \n \n 10539/1-1 \n\n\n\nLütfen bu ilanı incele. Özellikle şunlara dikkat et:\n1. 2024 KPSS puanı mı istiyor yoksa 2026 KPSS puanı mı? (Kullanıcıda sadece 2026 var, 2024 isteniyorsa direkt elenir)\n2. Deneyim/tecrübe istiyor mu? (Kullanıcı yeni mezun ve deneyimsiz, tecrübe isteniyorsa elenir)\n3. Belirli sertifikalar/belgeler istiyor mu?\n4. Mezuniyet şartı bilgisayar mühendisliğine uygun mu?\n\nCevabının EN BAŞINA sadece 'UYGUN:' veya 'UYGUN DEĞİL:' yaz ve ardından nedenini tek 1 cümle ile net olarak belirt. Örnek: 'UYGUN DEĞİL: 2024 KPSS puanı istendiği için elendi.' veya 'UYGUN DEĞİL: 3 yıl deneyim şartı arandığı için elendi.' Başka hiçbir şey yazma.",
+    "response_text": "UYGUN DEĞİL: İlan detay metni, personel alımı ilanı değil, ihalelere katılmaktan yasaklama kararı olduğu için başvuru yapılamaz."
+  },
+  {
+    "job_id": "8e2f1b08bfcac4e7ae617e02e6cb6b95",
+    "job_title": "Hitit Üniversitesi Rektörlüğünden:",
+    "source": "Resmi Gazete",
+    "ai_key_used": "AQ.Ab8RN6KJimap8tuRAQLtII6BZoCv5meoa_3dk4YfbDnQQ8A59Q",
+    "ai_model_used": "gemini-2.5-flash",
+    "prompt_text": "Sen bir İK uzmanısın. Kullanıcı profili şudur:\n- Yeni mezun lisans bilgisayar mühendisi\n- Deneyimsiz (hiçbir yerde çalışmamış)\n- 2026 KPSS puanı var (2024 KPSS puanı YOK)\n- Ekstra sertifikası yok\n\nİlan Başlığı: Hitit Üniversitesi Rektörlüğünden:\nİlan Türü: Kamu Personeli Alımı\nKurum: Hitit Üniversitesi\n\nİLAN DETAY METNİ:\n\n\nLütfen bu ilanı incele. Özellikle şunlara dikkat et:\n1. 2024 KPSS puanı mı istiyor yoksa 2026 KPSS puanı mı? (Kullanıcıda sadece 2026 var, 2024 isteniyorsa direkt elenir)\n2. Deneyim/tecrübe istiyor mu? (Kullanıcı yeni mezun ve deneyimsiz, tecrübe isteniyorsa elenir)\n3. Belirli sertifikalar/belgeler istiyor mu?\n4. Mezuniyet şartı bilgisayar mühendisliğine uygun mu?\n\nCevabının EN BAŞINA sadece 'UYGUN:' veya 'UYGUN DEĞİL:' yaz ve ardından nedenini tek 1 cümle ile net olarak belirt. Örnek: 'UYGUN DEĞİL: 2024 KPSS puanı istendiği için elendi.' veya 'UYGUN DEĞİL: 3 yıl deneyim şartı arandığı için elendi.' Başka hiçbir şey yazma.",
+    "response_text": "UYGUN DEĞİL: 2024 KPSS puanı istendiği için elendi."
+  },
+  {
+    "job_id": "f66d39e84ca828c123bb458b4671bdde",
+    "job_title": "Trakya Üniversitesi Rektörlüğünden:",
+    "source": "Resmi Gazete",
+    "ai_key_used": "AQ.Ab8RN6KJimap8tuRAQLtII6BZoCv5meoa_3dk4YfbDnQQ8A59Q",
+    "ai_model_used": "gemini-2.5-flash",
+    "prompt_text": "Sen bir İK uzmanısın. Kullanıcı profili şudur:\n- Yeni mezun lisans bilgisayar mühendisi\n- Deneyimsiz (hiçbir yerde çalışmamış)\n- 2026 KPSS puanı var (2024 KPSS puanı YOK)\n- Ekstra sertifikası yok\n\nİlan Başlığı: Trakya Üniversitesi Rektörlüğünden:\nİlan Türü: Kamu Personeli Alımı\nKurum: Trakya Üniversitesi\n\nİLAN DETAY METNİ:\n Trakya Üniversitesi Rektörlüğünden: \nİHALELERE KATILMAKT AN YASAKLAMA KARARI \n \n    10509/1-1 \n\n\n\nLütfen bu ilanı incele. Özellikle şunlara dikkat et:\n1. 2024 KPSS puanı mı istiyor yoksa 2026 KPSS puanı mı? (Kullanıcıda sadece 2026 var, 2024 isteniyorsa direkt elenir)\n2. Deneyim/tecrübe istiyor mu? (Kullanıcı yeni mezun ve deneyimsiz, tecrübe isteniyorsa elenir)\n3. Belirli sertifikalar/belgeler istiyor mu?\n4. Mezuniyet şartı bilgisayar mühendisliğine uygun mu?\n\nCevabının EN BAŞINA sadece 'UYGUN:' veya 'UYGUN DEĞİL:' yaz ve ardından nedenini tek 1 cümle ile net olarak belirt. Örnek: 'UYGUN DEĞİL: 2024 KPSS puanı istendiği için elendi.' veya 'UYGUN DEĞİL: 3 yıl deneyim şartı arandığı için elendi.' Başka hiçbir şey yazma.",
+    "response_text": "UYGUN DEĞİL: Sağlanan ilan detay metni bir personel alım ilanı olmayıp, ihalelere katılmaktan yasaklama kararı hakkındadır."
+  },
+  {
+    "job_id": "b21a2715d8da81db1844891859aaf5aa",
+    "job_title": "Enerji ve Tabii Kaynaklar Bakanlığı Maden ve Petrol İşleri Genel Müdürlüğünden:",
+    "source": "Resmi Gazete",
+    "ai_key_used": "AQ.Ab8RN6KJimap8tuRAQLtII6BZoCv5meoa_3dk4YfbDnQQ8A59Q",
+    "ai_model_used": "gemini-2.5-flash",
+    "prompt_text": "Sen bir İK uzmanısın. Kullanıcı profili şudur:\n- Yeni mezun lisans bilgisayar mühendisi\n- Deneyimsiz (hiçbir yerde çalışmamış)\n- 2026 KPSS puanı var (2024 KPSS puanı YOK)\n- Ekstra sertifikası yok\n\nİlan Başlığı: Enerji ve Tabii Kaynaklar Bakanlığı Maden ve Petrol İşleri Genel Müdürlüğünden:\nİlan Türü: Kamu Personeli Alımı\nKurum: Enerji ve Tabii Kaynaklar Bakanlığı Maden ve Petrol İşleri Genel Müdürlüğünden:\n\nİLAN DETAY METNİ:\n\n\nLütfen bu ilanı incele. Özellikle şunlara dikkat et:\n1. 2024 KPSS puanı mı istiyor yoksa 2026 KPSS puanı mı? (Kullanıcıda sadece 2026 var, 2024 isteniyorsa direkt elenir)\n2. Deneyim/tecrübe istiyor mu? (Kullanıcı yeni mezun ve deneyimsiz, tecrübe isteniyorsa elenir)\n3. Belirli sertifikalar/belgeler istiyor mu?\n4. Mezuniyet şartı bilgisayar mühendisliğine uygun mu?\n\nCevabının EN BAŞINA sadece 'UYGUN:' veya 'UYGUN DEĞİL:' yaz ve ardından nedenini tek 1 cümle ile net olarak belirt. Örnek: 'UYGUN DEĞİL: 2024 KPSS puanı istendiği için elendi.' veya 'UYGUN DEĞİL: 3 yıl deneyim şartı arandığı için elendi.' Başka hiçbir şey yazma.",
+    "response_text": "UYGUN DEĞİL: İlan detay metni sağlanmadığı için değerlendirme yapılamamıştır."
+  },
+  {
+    "job_id": "24ed39a81903fa862ffea42b0b1960a4",
+    "job_title": "Nevşehir İli Ortahisar Belediye Başkanlığından:",
+    "source": "Resmi Gazete",
+    "ai_key_used": "AQ.Ab8RN6KJimap8tuRAQLtII6BZoCv5meoa_3dk4YfbDnQQ8A59Q",
+    "ai_model_used": "gemini-2.5-flash",
+    "prompt_text": "Sen bir İK uzmanısın. Kullanıcı profili şudur:\n- Yeni mezun lisans bilgisayar mühendisi\n- Deneyimsiz (hiçbir yerde çalışmamış)\n- 2026 KPSS puanı var (2024 KPSS puanı YOK)\n- Ekstra sertifikası yok\n\nİlan Başlığı: Nevşehir İli Ortahisar Belediye Başkanlığından:\nİlan Türü: Kamu Personeli Alımı\nKurum: Nevşehir İli Ortahisar Belediye\n\nİLAN DETAY METNİ:\n Nevşehir İli Ortahisar Belediye Başkanlığından: \nDÜZELTME İLANI \n25/08/2026 tarihli ve 33351 sayılı Resmî Gazete’de aslına uygun  olarak yayımlanan İlk \nDefa Atanmak Üzere Memur Alım İlanında yer alan; \nBAŞVURULARIN DEĞERLENDİRİLMESİ - BAŞVURUSU KABUL EDİLENLERİN \nİLANI: başlıklı 5 inci maddesinin, \nc)  fıkrası “Sınava girmeye hak kazanan adaylar KPSS puanları i le sınav yeri ve zamanı \nbaşvuruların değerlendirilmesin i müteakip 18/11/2026 tarihinde Belediyemizin web sayfası \nhttps://www.ortahisar.bel.tr adr esinde ilan edile cektir.” şekli nde düzeltilmiştir. \nSINAVIN YERİ, ZAMANI VE KONULARI: başlıklı 6 ncı maddesinin, “Memur alımı için, 25/11/2026 tari hinde saat: 10.00’da başlamak  üzere Ortahisar \nBelediyesi Eski Mahalle, Hüseyin  Galip Efendi Caddesi No: 1 506 50 Ortahisar Kasabası \nÜrgüp/Nevşehir adresinde sözlü s ınav yapılacaktır.” şeklinde dü zeltilmiştir. \nİlan olunur.     10558/1-1 \n\n\nLütfen bu ilanı incele. Özellikle şunlara dikkat et:\n1. 2024 KPSS puanı mı istiyor yoksa 2026 KPSS puanı mı? (Kullanıcıda sadece 2026 var, 2024 isteniyorsa direkt elenir)\n2. Deneyim/tecrübe istiyor mu? (Kullanıcı yeni mezun ve deneyimsiz, tecrübe isteniyorsa elenir)\n3. Belirli sertifikalar/belgeler istiyor mu?\n4. Mezuniyet şartı bilgisayar mühendisliğine uygun mu?\n\nCevabının EN BAŞINA sadece 'UYGUN:' veya 'UYGUN DEĞİL:' yaz ve ardından nedenini tek 1 cümle ile net olarak belirt. Örnek: 'UYGUN DEĞİL: 2024 KPSS puanı istendiği için elendi.' veya 'UYGUN DEĞİL: 3 yıl deneyim şartı arandığı için elendi.' Başka hiçbir şey yazma.",
+    "response_text": "UYGUN DEĞİL: İlan metni, bilgisayar mühendisliği mezuniyetine uygun bir kadro veya genel mezuniyet şartlarını içermediği için uygunluk teyit edilememektedir."
+  },
+  {
+    "job_id": "dd577b5b8a530ea16cb3ef29596d6992",
+    "job_title": "Ufuk Üniversitesi Rektörlüğünden:",
+    "source": "Resmi Gazete",
+    "ai_key_used": "AQ.Ab8RN6KJimap8tuRAQLtII6BZoCv5meoa_3dk4YfbDnQQ8A59Q",
+    "ai_model_used": "gemini-2.5-flash-lite",
+    "prompt_text": "Sen bir İK uzmanısın. Kullanıcı profili şudur:\n- Yeni mezun lisans bilgisayar mühendisi\n- Deneyimsiz (hiçbir yerde çalışmamış)\n- 2026 KPSS puanı var (2024 KPSS puanı YOK)\n- Ekstra sertifikası yok\n\nİlan Başlığı: Ufuk Üniversitesi Rektörlüğünden:\nİlan Türü: Kamu Personeli Alımı\nKurum: Ufuk Üniversitesi\n\nİLAN DETAY METNİ:\n Ufuk Üniversitesi Rektörlüğünden: \nDÜZELTME İLANI \n08.10.2026 tarih ve 33394 sayılı Re smi Gazete’de aslına uygun o larak yayımlanan \nöğretim üyesi alım ilanımızda Hemşirelik Yüksekokulu, Hemşireli k Bölümü kadrosu ile ilgili ilan \nmetni aşağıdaki şekilde düzeltilmiştir.  \nFAKÜLTE BÖLÜM/ \nANABİLİM \nDALI/BİLİM DALI KADRO \nÜNVANI ADEDİ AÇIKLAMA \nHEMŞİRELİK \nYÜKSEKOKULU Hemşirelik Bölümü Doç.Dr. 1 Hemşirelik alan ında lisans, yüksek lisans, doktora,  \ndoçentlik belgesine sahip olmak. Yüksekö ğretim  \nkurumlar ında en az 5 y ıl çal ışmış olmak. \nİlan olunur. \n    10507/1-1 \n\n\nLütfen bu ilanı incele. Özellikle şunlara dikkat et:\n1. 2024 KPSS puanı mı istiyor yoksa 2026 KPSS puanı mı? (Kullanıcıda sadece 2026 var, 2024 isteniyorsa direkt elenir)\n2. Deneyim/tecrübe istiyor mu? (Kullanıcı yeni mezun ve deneyimsiz, tecrübe isteniyorsa elenir)\n3. Belirli sertifikalar/belgeler istiyor mu?\n4. Mezuniyet şartı bilgisayar mühendisliğine uygun mu?\n\nCevabının EN BAŞINA sadece 'UYGUN:' veya 'UYGUN DEĞİL:' yaz ve ardından nedenini tek 1 cümle ile net olarak belirt. Örnek: 'UYGUN DEĞİL: 2024 KPSS puanı istendiği için elendi.' veya 'UYGUN DEĞİL: 3 yıl deneyim şartı arandığı için elendi.' Başka hiçbir şey yazma.",
+    "response_text": "UYGUN DEĞİL: İlan hemşirelik alanında doçentlik, lisans, yüksek lisans, doktora belgesi ve en az 5 yıl yükseköğretim kurumlarında çalışma şartı aramaktadır."
+  },
+  {
+    "job_id": "905222e7dab2cde27f76b5db0ca14fb1",
+    "job_title": "Necmettin Erbakan Üniversitesi Rektörlüğünden:",
+    "source": "Resmi Gazete",
+    "ai_key_used": "AQ.Ab8RN6KJimap8tuRAQLtII6BZoCv5meoa_3dk4YfbDnQQ8A59Q",
+    "ai_model_used": "gemini-2.5-flash-lite",
+    "prompt_text": "Sen bir İK uzmanısın. Kullanıcı profili şudur:\n- Yeni mezun lisans bilgisayar mühendisi\n- Deneyimsiz (hiçbir yerde çalışmamış)\n- 2026 KPSS puanı var (2024 KPSS puanı YOK)\n- Ekstra sertifikası yok\n\nİlan Başlığı: Necmettin Erbakan Üniversitesi Rektörlüğünden:\nİlan Türü: Kamu Personeli Alımı\nKurum: Necmettin Erbakan Üniversitesi\n\nİLAN DETAY METNİ:\n\n\nLütfen bu ilanı incele. Özellikle şunlara dikkat et:\n1. 2024 KPSS puanı mı istiyor yoksa 2026 KPSS puanı mı? (Kullanıcıda sadece 2026 var, 2024 isteniyorsa direkt elenir)\n2. Deneyim/tecrübe istiyor mu? (Kullanıcı yeni mezun ve deneyimsiz, tecrübe isteniyorsa elenir)\n3. Belirli sertifikalar/belgeler istiyor mu?\n4. Mezuniyet şartı bilgisayar mühendisliğine uygun mu?\n\nCevabının EN BAŞINA sadece 'UYGUN:' veya 'UYGUN DEĞİL:' yaz ve ardından nedenini tek 1 cümle ile net olarak belirt. Örnek: 'UYGUN DEĞİL: 2024 KPSS puanı istendiği için elendi.' veya 'UYGUN DEĞİL: 3 yıl deneyim şartı arandığı için elendi.' Başka hiçbir şey yazma.",
+    "response_text": "UYGUN DEĞİL: İlanda 2024 KPSS puanı istendiği için ve kullanıcının sadece 2026 KPSS puanı olduğu için uygun değildir."
+  },
+  {
+    "job_id": "18b1d071e7dfcea1ea6b150c17a0c812",
+    "job_title": "Kültür ve Turizm Bakanlığından:",
+    "source": "Resmi Gazete",
+    "ai_key_used": "AQ.Ab8RN6KJimap8tuRAQLtII6BZoCv5meoa_3dk4YfbDnQQ8A59Q",
+    "ai_model_used": "gemini-2.5-flash-lite",
+    "prompt_text": "Sen bir İK uzmanısın. Kullanıcı profili şudur:\n- Yeni mezun lisans bilgisayar mühendisi\n- Deneyimsiz (hiçbir yerde çalışmamış)\n- 2026 KPSS puanı var (2024 KPSS puanı YOK)\n- Ekstra sertifikası yok\n\nİlan Başlığı: Kültür ve Turizm Bakanlığından:\nİlan Türü: Kamu Personeli Alımı\nKurum: Kültür ve Turizm Bakanlığından:\n\nİLAN DETAY METNİ:\n Kültür ve Turizm Bakanlığından: \n \n\n  \n 10455/1-1 \n  \n\n Kültür ve Turizm Bakanlığından: \n \n\n  \n 10441/1-1 \n  \n\n Kültür ve Turizm Bakanlığından: \n \n\n  \n 10445/1-1 \n  \n\n Kültür ve Turizm Bakanlığından: \nİSTANBUL 6 NUMARALI KÜLTÜR VARL IKLARINI KORUMA BÖLGE KURULU \nKARAR \n \n 10451/1-1 \n  \n\n Kültür ve Turizm Bakanlığından: \n \n 10428/1-1 \n  \n\n Kültür ve Turizm Bakanlığından: \n \n\n  \n 10431/1-1 \n  \n\n Kültür ve Turizm Bakanlığından: \n \n\n  \n 10432/1-1 \n  \n\n Kültür ve Turizm Bakanlığından: \n \n 10457/1-1 \n  \n\n Kültür ve Turizm Bakanlığından: \n \n 10458/1-1 \n  \n\n Kültür ve Turizm Bakanlığından: \n \n 10459/1-1 \n  \n\n Kültür ve Turizm Bakanlığından: \n \n 10460/1-1 \n\n\n\nLütfen bu ilanı incele. Özellikle şunlara dikkat et:\n1. 2024 KPSS puanı mı istiyor yoksa 2026 KPSS puanı mı? (Kullanıcıda sadece 2026 var, 2024 isteniyorsa direkt elenir)\n2. Deneyim/tecrübe istiyor mu? (Kullanıcı yeni mezun ve deneyimsiz, tecrübe isteniyorsa elenir)\n3. Belirli sertifikalar/belgeler istiyor mu?\n4. Mezuniyet şartı bilgisayar mühendisliğine uygun mu?\n\nCevabının EN BAŞINA sadece 'UYGUN:' veya 'UYGUN DEĞİL:' yaz ve ardından nedenini tek 1 cümle ile net olarak belirt. Örnek: 'UYGUN DEĞİL: 2024 KPSS puanı istendiği için elendi.' veya 'UYGUN DEĞİL: 3 yıl deneyim şartı arandığı için elendi.' Başka hiçbir şey yazma.",
+    "response_text": "UYGUN DEĞİL: İlan metninde KPSS puanı, deneyim veya sertifika gibi başvuru koşulları hakkında yeterli bilgi bulunmadığı için kullanıcı profilinin bu ilana uygun olup olmadığı belirlenememektedir."
+  }
+]

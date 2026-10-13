@@ -260,6 +260,8 @@ def analyze_job(job):
         "job_id": job["id"],
         "job_title": job["title"],
         "source": "Kariyer Kapısı" if "kariyerkapisi" in job["detailLink"] else "Resmi Gazete",
+        "pdf_link": job.get("pdf_link", ""),
+        "extracted_text": ilan_metni,
         "ai_key_used": used_key,
         "ai_model_used": used_model,
         "prompt_text": prompt,

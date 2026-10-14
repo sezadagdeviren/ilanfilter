@@ -8,6 +8,8 @@ from bs4 import BeautifulSoup
 import datetime
 import hashlib
 import base64
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 import os
 try:
@@ -29,10 +31,13 @@ keys_env = os.environ.get("GEMINI_API_KEYS", "")
 GEMINI_API_KEYS = [k.strip() for k in keys_env.split(",")] if keys_env else []
 
 ACTIVE_MODELS = [
-    "gemini-2.5-flash",         # ✅ Çalışıyor - birincil model
-    "gemini-2.5-flash-lite",    # ✅ Daha hafif, yedek
+    "gemini-3.5-flash-lite",    # ✅ 500 RPD / 15 RPM - En yüksek kotalı ve hızlı
+    "gemini-3.1-flash-lite",    # ✅ 500 RPD / 15 RPM - Yedek yüksek kotalı
+    "gemini-2.5-flash",         # ✅ 20 RPD / 5 RPM - Sağlam birincil
+    "gemini-2.5-flash-lite",    # ✅ 20 RPD / 10 RPM - Yedek
 ]
 KARIYER_KAPISI_API = "https://api.kariyerkapisi.gov.tr/api"
+ILAN_GOV_TR_API = "https://www.ilan.gov.tr/api/api/services/app"
 
 # Hata verene kadar aynı key ile devam edeceğiz
 current_key_index = 0
@@ -148,6 +153,75 @@ def fetch_resmi_gazete_jobs():
     
     return jobs
 
+# ─── ilan.gov.tr Modülü (Kamu Personel Alım ve Sınavları) ────────────────────
+
+def fetch_ilan_gov_tr_jobs():
+    """ilan.gov.tr Kamu Personel Alım ve Sınavları (Kategori: 44) ilanlarını çeker."""
+    jobs = []
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)",
+        "Content-Type": "application/json-patch+json",
+        "Accept": "text/plain",
+        "x-request-origin": "IGT-UI",
+        "x-requested-with": "XMLHttpRequest",
+        "Origin": "https://www.ilan.gov.tr",
+        "Referer": "https://www.ilan.gov.tr/ilan/kategori/44/kamu-personel-alim-ve-sinavlari?currentPage=0"
+    }
+
+    try:
+        skip = 0
+        while True:
+            payload = {
+                "keys": {"txv": [44]},
+                "skipCount": skip,
+                "maxResultCount": 20
+            }
+            r = requests.post(
+                f"{ILAN_GOV_TR_API}/Ad/AdsByFilter",
+                json=payload, headers=headers, verify=False, timeout=15
+            )
+            if r.status_code != 200:
+                break
+
+            ads = r.json().get("result", {}).get("ads", [])
+            if not ads:
+                break
+
+            for a in ads:
+                ad_id = str(a.get("id", ""))
+                title = a.get("title", "").strip()
+                institution = a.get("advertiserName", "").strip() or title
+                url_str = a.get("urlStr", "")
+                detail_link = f"https://www.ilan.gov.tr{url_str}" if url_str else f"https://www.ilan.gov.tr/ilan/{ad_id}"
+                city = a.get("addressCityName") or extract_city(institution + " " + title)
+
+                jobs.append({
+                    "id": f"igt_{ad_id}",
+                    "igt_id": ad_id,
+                    "title": title,
+                    "institution": institution,
+                    "department": "Kamu Personel Alımı",
+                    "type": "Kamu Personel Alımı",
+                    "status": "Aktif",
+                    "startDate": a.get("publishStartDate", ""),
+                    "endDate": "",
+                    "detailLink": detail_link,
+                    "city": city.capitalize() if city else "Tüm Türkiye",
+                    "isSuitable": None,
+                    "aiExplanation": "",
+                    "aiScanned": False,
+                })
+
+            skip += len(ads)
+            if len(ads) < 20:
+                break
+
+        print(f"✅ ilan.gov.tr'den {len(jobs)} ilan başarıyla çekildi.")
+    except Exception as e:
+        print(f"⚠️ ilan.gov.tr çekilirken hata oluştu: {e}")
+
+    return jobs
+
 def fetch_job_details(job):
     """İlanın detay metnini API'den veya Resmi Gazete PDF'sinden çeker.
     Eğer PDF taranmış resimse (metin çıkmıyorsa) veya metin varsa ikisini de döndürebilir:
@@ -181,6 +255,26 @@ def fetch_job_details(job):
         except Exception as e:
             print(f"      [!] PDF indirme/okuma hatası ({job['pdf_link']}): {e}")
             return "", None
+
+    if job.get("igt_id"):
+        url = f"{ILAN_GOV_TR_API}/AdDetail/GetAdDetail"
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)",
+            "x-request-origin": "IGT-UI",
+            "x-requested-with": "XMLHttpRequest",
+            "Referer": "https://www.ilan.gov.tr/"
+        }
+        try:
+            r = requests.get(url, params={"id": job["igt_id"]}, headers=headers, verify=False, timeout=10)
+            if r.status_code == 200:
+                content_html = r.json().get("result", {}).get("content", "")
+                if content_html:
+                    soup = BeautifulSoup(content_html, "html.parser")
+                    clean_text = soup.get_text(separator=" ", strip=True)
+                    return clean_text, None
+        except Exception as e:
+            print(f"      [!] ilan.gov.tr detay çekme hatası: {e}")
+        return "", None
 
     url = f"{KARIYER_KAPISI_API}/ilan/GetIlanPreviewPublic"
     payload = {"ilanGuid": job["id"]}
@@ -289,10 +383,16 @@ def analyze_job(job):
 
     result, used_key, used_model = call_gemini(prompt, pdf_base64=pdf_b64)
     
+    source_name = "Kariyer Kapısı"
+    if "ilan.gov.tr" in job.get("detailLink", ""):
+        source_name = "ilan.gov.tr"
+    elif "resmigazete" in job.get("detailLink", ""):
+        source_name = "Resmi Gazete"
+
     ai_log_entry = {
         "job_id": job["id"],
         "job_title": job["title"],
-        "source": "Kariyer Kapısı" if "kariyerkapisi" in job["detailLink"] else "Resmi Gazete",
+        "source": source_name,
         "pdf_link": job.get("pdf_link", ""),
         "extracted_text": ilan_metni if ilan_metni else ("[Taranmış Görsel PDF Gönderildi]" if pdf_b64 else ""),
         "ai_key_used": used_key,
@@ -353,24 +453,46 @@ def main():
     
     print("🚀 Resmi Gazete ilanları çekiliyor...")
     jobs_resmi_gazete = fetch_resmi_gazete_jobs()
-    
-    # İki platformdan gelen ilanları birleştir ve Mükerrerleri Temizle (Deduplication)
-    # Kariyer Kapısı öncelikli olacak (daha detaylı bilgi var)
-    kariyer_titles = [j["institution"].lower().strip() for j in jobs_kariyer]
-    unique_resmi_gazete = []
-    
-    for r_job in jobs_resmi_gazete:
-        r_inst = r_job["institution"].lower().strip()
-        # Eğer resmi gazete kurum ismi kariyer kapısındaki isimlerin içinde varsa (veya tersi) ekleme
-        is_duplicate = False
-        for k_inst in kariyer_titles:
-            if r_inst in k_inst or k_inst in r_inst:
-                is_duplicate = True
-                break
-        if not is_duplicate:
-            unique_resmi_gazete.append(r_job)
-            
-    jobs = jobs_kariyer + unique_resmi_gazete
+
+    print("🚀 ilan.gov.tr ilanları çekiliyor...")
+    jobs_ilan_gov_tr = fetch_ilan_gov_tr_jobs()
+
+    def normalize_for_dedup(text):
+        if not text:
+            return ""
+        t = text.lower()
+        replacements = {'ı': 'i', 'ğ': 'g', 'ü': 'u', 'ş': 's', 'ö': 'o', 'ç': 'c'}
+        for k, v in replacements.items():
+            t = t.replace(k, v)
+        # Rektörlük, başkanlık, müdürlük gibi ekleri atalım
+        for suffix in ['rektorlugunden', 'rektorlugu', 'baskanligindan', 'baskanligi', 'genel mudurlugu', 'mudurlugu', 'bakanligi']:
+            t = t.replace(suffix, '')
+        return re.sub(r'[^a-z0-9]', '', t)
+
+    # 3 Platformdan gelen ilanları birleştir ve Mükerrerleri Temizle (Deduplication)
+    # Öncelik sırası: Kariyer Kapısı > ilan.gov.tr > Resmi Gazete
+    merged_jobs = []
+    seen_institutions = []
+
+    for job_group in [jobs_kariyer, jobs_ilan_gov_tr, jobs_resmi_gazete]:
+        for job in job_group:
+            norm_inst = normalize_for_dedup(job.get("institution", ""))
+            norm_title = normalize_for_dedup(job.get("title", ""))
+
+            # Eğer çok kısa bir kurum ismi değilse kontrol et
+            is_dup = False
+            if len(norm_inst) >= 6:
+                for existing_norm in seen_institutions:
+                    if len(existing_norm) >= 6 and (norm_inst in existing_norm or existing_norm in norm_inst):
+                        is_dup = True
+                        break
+
+            if not is_dup:
+                merged_jobs.append(job)
+                if len(norm_inst) >= 6:
+                    seen_institutions.append(norm_inst)
+
+    jobs = merged_jobs
     
     if not jobs:
         print("❌ İlanlar alınamadı, çıkılıyor.")

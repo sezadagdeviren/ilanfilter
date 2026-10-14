@@ -7,6 +7,7 @@ import urllib.request
 from bs4 import BeautifulSoup
 import datetime
 import hashlib
+import base64
 
 import os
 try:
@@ -148,21 +149,38 @@ def fetch_resmi_gazete_jobs():
     return jobs
 
 def fetch_job_details(job):
-    """İlanın detay metnini API'den veya Resmi Gazete PDF'sinden çeker."""
+    """İlanın detay metnini API'den veya Resmi Gazete PDF'sinden çeker.
+    Eğer PDF taranmış resimse (metin çıkmıyorsa) veya metin varsa ikisini de döndürebilir:
+    Dönüş: (metin, pdf_base64)
+    """
     if job.get("pdf_link"):
         try:
             import urllib.request
             req = urllib.request.Request(job["pdf_link"], headers={'User-Agent': 'Mozilla/5.0'})
-            with urllib.request.urlopen(req, timeout=15) as response:
+            with urllib.request.urlopen(req, timeout=20) as response:
                 pdf_bytes = response.read()
-            reader = PyPDF2.PdfReader(io.BytesIO(pdf_bytes))
+
             text = ""
-            for page in reader.pages:
-                text += page.extract_text() + "\n"
-            return text
+            if PyPDF2:
+                try:
+                    reader = PyPDF2.PdfReader(io.BytesIO(pdf_bytes))
+                    for page in reader.pages:
+                        page_t = page.extract_text()
+                        if page_t:
+                            text += page_t + "\n"
+                except Exception as pe:
+                    print(f"      [!] PyPDF2 metin çıkarma hatası: {pe}")
+
+            # Eğer çıkarılan metin 150 karakterden azsa (taranmış görsel PDF ise)
+            # PDF'i doğrudan Gemini'ye görsel olarak göndermek için base64'e çevirelim
+            pdf_b64 = None
+            if len(text.strip()) < 150 and len(pdf_bytes) < 15 * 1024 * 1024:
+                pdf_b64 = base64.b64encode(pdf_bytes).decode('utf-8')
+
+            return text.strip(), pdf_b64
         except Exception as e:
-            print(f"      [!] PDF okuma hatası ({job['pdf_link']}): {e}")
-            return ""
+            print(f"      [!] PDF indirme/okuma hatası ({job['pdf_link']}): {e}")
+            return "", None
 
     url = f"{KARIYER_KAPISI_API}/ilan/GetIlanPreviewPublic"
     payload = {"ilanGuid": job["id"]}
@@ -176,19 +194,25 @@ def fetch_job_details(job):
         r = requests.post(url, json=payload, headers=headers, timeout=10)
         if r.status_code == 200:
             data = r.json()
-            return data.get("ilanMetni", "")
+            return data.get("ilanMetni", ""), None
     except:
         pass
-    return ""
+    return "", None
 
 # ─── Gemini AI ────────────────────────────────────────────────────────────────
 
-def call_gemini(prompt):
+def call_gemini(prompt, pdf_base64=None):
     global current_key_index
     n_keys = len(GEMINI_API_KEYS)
     
     if n_keys == 0:
         return None, None, None
+
+    # İçerik parçalarını hazırla
+    parts = []
+    if pdf_base64:
+        parts.append({"inlineData": {"mimeType": "application/pdf", "data": pdf_base64}})
+    parts.append({"text": prompt})
 
     for attempt in range(2):
         tried_keys = 0
@@ -201,9 +225,9 @@ def call_gemini(prompt):
                 try:
                     r = requests.post(
                         url,
-                        json={"contents": [{"parts": [{"text": prompt}]}]},
+                        json={"contents": [{"parts": parts}]},
                         headers={"Content-Type": "application/json"},
-                        timeout=20
+                        timeout=50
                     )
                     if r.status_code == 200:
                         # Başarılı! Aynı key ile devam edeceğiz
@@ -227,41 +251,50 @@ def call_gemini(prompt):
 # ─── AI Analiz ────────────────────────────────────────────────────────────────
 
 def analyze_job(job):
-    # 1. Önce ilanın detay metnini çekelim
-    ilan_metni = fetch_job_details(job)
+    # 1. Önce ilanın detay metnini ve varsa taranmış PDF base64 verisini çekelim
+    ilan_metni, pdf_b64 = fetch_job_details(job)
     
     # 2. İlan detay metni çok uzunsa prompt limitlerine takılmamak için kırpalım
-    if len(ilan_metni) > 6000:
-        ilan_metni = ilan_metni[:6000] + "..."
-        
+    if ilan_metni and len(ilan_metni) > 6000:
+        ilan_metni_kirpilmis = ilan_metni[:6000] + "..."
+    else:
+        ilan_metni_kirpilmis = ilan_metni
+
+    if pdf_b64:
+        metin_tanim = "Ekli taranmış PDF belgesindeki ilan tablosunu ve başvuru şartlarını incele."
+    else:
+        metin_tanim = f"İLAN DETAY METNİ:\n{ilan_metni_kirpilmis}"
+
     prompt = (
-        "Sen bir İK uzmanısın. Kullanıcı profili şudur:\n"
-        "- Yeni mezun lisans bilgisayar mühendisi\n"
-        "- Deneyimsiz (hiçbir yerde çalışmamış)\n"
+        "Sen bir İK ve Kariyer uzmanısın. Kullanıcı profili şudur:\n"
+        "- Yeni mezun lisans Bilgisayar Mühendisliği mezunu\n"
+        "- Deneyimsiz (hiçbir yerde çalışmamış, tecrübesi 0)\n"
         "- 2026 KPSS puanı var (2024 KPSS puanı YOK)\n"
-        "- Ekstra sertifikası yok\n\n"
+        "- Ekstra sertifikası veya tecrübe belgesi yok\n\n"
         f"İlan Başlığı: {job['title']}\n"
         f"İlan Türü: {job['type']}\n"
         f"Kurum: {job['institution']}\n\n"
-        f"İLAN DETAY METNİ:\n{ilan_metni}\n\n"
-        "Lütfen bu ilanı incele. Özellikle şunlara dikkat et:\n"
-        "1. 2024 KPSS puanı mı istiyor yoksa 2026 KPSS puanı mı? (Kullanıcıda sadece 2026 var, 2024 isteniyorsa direkt elenir)\n"
-        "2. Deneyim/tecrübe istiyor mu? (Kullanıcı yeni mezun ve deneyimsiz, tecrübe isteniyorsa elenir)\n"
-        "3. Belirli sertifikalar/belgeler istiyor mu?\n"
-        "4. Mezuniyet şartı bilgisayar mühendisliğine uygun mu?\n\n"
-        "Cevabının EN BAŞINA sadece 'UYGUN:' veya 'UYGUN DEĞİL:' yaz ve ardından nedenini tek 1 cümle ile net olarak belirt. "
-        "Örnek: 'UYGUN DEĞİL: 2024 KPSS puanı istendiği için elendi.' veya "
-        "'UYGUN DEĞİL: 3 yıl deneyim şartı arandığı için elendi.' Başka hiçbir şey yazma."
+        f"{metin_tanim}\n\n"
+        "KURALLAR:\n"
+        "1. Cevabının EN BAŞINA sadece 'UYGUN:' veya 'UYGUN DEĞİL:' yaz.\n"
+        "2. ASLA 'kullanıcı şartları sağlamamaktadır', 'pozisyonlara uygun değildir', 'eğitim düzeyi uymamaktadır' gibi genel/yuvarlak/ezbere cümleler kurma!\n"
+        "3. İlanda hangi unvan/kadroların açıldığını incele ve elenme nedenini SOMUT OLARAK açıkla.\n"
+        "Örnek doğru açıklamalar:\n"
+        "- 'UYGUN DEĞİL: İlanda Mühendis kadrosu açılmış ancak Bilgisayar değil Çevre ve Harita Mühendisliği mezuniyeti istenmektedir.'\n"
+        "- 'UYGUN DEĞİL: İlandaki Bilgisayar Mühendisi kadrosu için en az 3 yıl mesleki tecrübe şartı aranmaktadır.'\n"
+        "- 'UYGUN DEĞİL: Kadrolar yalnızca Hemşire, Röntgen Teknisyeni ve Destek Personelinden oluşmaktadır; mühendislik alımı yoktur.'\n"
+        "- 'UYGUN DEĞİL: İlandaki lisans kadroları için 2024 KPSS P3 puanı zorunlu tutulmuştur.'\n\n"
+        "Şimdi ilanı incele ve tek 1 net cümleyle sonucu yaz."
     )
 
-    result, used_key, used_model = call_gemini(prompt)
+    result, used_key, used_model = call_gemini(prompt, pdf_base64=pdf_b64)
     
     ai_log_entry = {
         "job_id": job["id"],
         "job_title": job["title"],
         "source": "Kariyer Kapısı" if "kariyerkapisi" in job["detailLink"] else "Resmi Gazete",
         "pdf_link": job.get("pdf_link", ""),
-        "extracted_text": ilan_metni,
+        "extracted_text": ilan_metni if ilan_metni else ("[Taranmış Görsel PDF Gönderildi]" if pdf_b64 else ""),
         "ai_key_used": used_key,
         "ai_model_used": used_model,
         "prompt_text": prompt,

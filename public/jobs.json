@@ -1,5 +1,21 @@
 [
   {
+    "id": "igt_2256657",
+    "igt_id": "2256657",
+    "title": "Personel Alımı Duyurusu",
+    "institution": "HİZMET İHRACATÇILARI BİRLİĞİ",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-10-15T21:00:00Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2256657/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-personel-alimi-duyurusu",
+    "city": "İstanbul",
+    "isSuitable": false,
+    "aiExplanation": "İlanda Uzman Yardımcısı ve İdari Personel kadroları açılmış olup Bilgisayar Mühendisliği mezuniyetine yönelik spesifik bir kadro bulunmamaktadır; ayrıca 2026 KPSS puanına sahip olmanıza rağmen ilanın başvuru şartları ve detaylı bilgileri yalnızca kurumun web sitesinde yayımlandığından ve genel/idari kadrolar için aranan özel şartları (KPSS puan türü, tecrübe vb.) resmi metinde belirtilmediğinden başvuru yapamazsınız.",
+    "aiScanned": true
+  },
+  {
     "id": "igt_2257554",
     "igt_id": "2257554",
     "title": "Ankara Büyükşehir Belediye Başkanlığı Müfettiş Yardımcısı Alım İlanı",

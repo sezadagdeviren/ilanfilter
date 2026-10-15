@@ -1,5 +1,21 @@
 [
   {
+    "id": "igt_2257554",
+    "igt_id": "2257554",
+    "title": "Ankara Büyükşehir Belediye Başkanlığı Müfettiş Yardımcısı Alım İlanı",
+    "institution": "ANKARA BÜYÜKŞEHİR BELEDİYE BAŞKANLIĞI",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-10-14T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2257554/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-ankara-buyuksehir-belediye-baskanligi-mufettis-yardimcisi-alim-ilani",
+    "city": "Ankara",
+    "isSuitable": false,
+    "aiExplanation": "İlanda Müfettiş Yardımcılığı kadrosu açılmış olup, başvuru için en az dört yıllık hukuk, siyasal bilgiler, iktisat, işletme veya iktisadî ve idarî bilimler fakültelerinden mezuniyet şartı aranmaktadır.",
+    "aiScanned": true
+  },
+  {
     "id": "igt_2256225",
     "igt_id": "2256225",
     "title": "Keşan Belediye Başkanlığı Memur Alım İlanı",
@@ -909,22 +925,6 @@
     "city": "Tüm Türkiye",
     "isSuitable": false,
     "aiExplanation": "İlanda herhangi bir personel alımı veya kadro ihdası bulunmamakta; metin tamamen Türkiye Petrolleri A.O. ve Transatlantic Petroleum'a ait petrol işletme/arama ruhsat sahalarıyla ilgili kamulaştırma ve ilan kararlarını içermektedir.",
-    "aiScanned": true
-  },
-  {
-    "id": "d06a19c293ca38b69b458e28f50473a9",
-    "title": "Ankara Büyükşehir Belediye Başkanlığından:",
-    "institution": "Ankara Büyükşehir Belediye",
-    "department": "Resmi Gazete İlanı",
-    "type": "Kamu Personeli Alımı",
-    "status": "Aktif",
-    "startDate": "2026-10-15T00:00:00",
-    "endDate": "2026-10-30T23:59:00",
-    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261015-4.htm",
-    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261015-4-8.pdf",
-    "city": "Ankara",
-    "isSuitable": false,
-    "aiExplanation": "İlanda Müfettiş Yardımcılığı kadrosu açılmış olup, sadece hukuk, siyasal bilgiler, iktisat, işletme, iktisadî ve idarî bilimler fakültelerinden mezun olanların başvurabileceği belirtilmiştir; Bilgisayar Mühendisliği mezuniyeti bu kapsamda yer almamaktadır.",
     "aiScanned": true
   },
   {

@@ -1,5 +1,37 @@
 [
   {
+    "id": "igt_2264013",
+    "igt_id": "2264013",
+    "title": "İptal İlanı (İzmir Kalkınma Ajansı)",
+    "institution": "İZMİR KALKINMA AJANSI GENEL SEKRETERLİĞİ",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-10-20T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2264013/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-iptal-ilani-izmir-kalkinma-ajansi-",
+    "city": "İzmi̇r",
+    "isSuitable": false,
+    "aiExplanation": "İzmir Kalkınma Ajansı tarafından 7 Nisan 2026 tarihinde Resmî Gazete'de yayımlanan personel alım ilanı tamamen iptal edilmiştir.",
+    "aiScanned": true
+  },
+  {
+    "id": "igt_2261868",
+    "igt_id": "2261868",
+    "title": "Tercüman listesi başvuruları hakkında duyuru",
+    "institution": "YALOVA CUMHURİYET BAŞSAVCILIĞI",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-10-20T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2261868/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-tercuman-listesi-basvurulari-hakkinda-duyuru",
+    "city": "Yalova",
+    "isSuitable": false,
+    "aiExplanation": "İlanda bilgisayar mühendisliği kadrosu açılmamış olup, Yalova Adliyesi bünyesinde mahkemelerde ve Cumhuriyet Başsavcılığında görev yapacak bilirkişi/tercüman listesi oluşturulması amacıyla tercüman alımı ilanı yayımlanmıştır.",
+    "aiScanned": true
+  },
+  {
     "id": "igt_2263556",
     "igt_id": "2263556",
     "title": "Doğanyol Belediye Başkanlığı Sözleşmeli Personel Alım İlanı",
@@ -12,8 +44,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2263556/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-doganyol-belediye-baskanligi-sozlesmeli-personel-alim-ilani",
     "city": "Malatya",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda Çözümleyici kadrosu açılmış ancak Bilgisayar Mühendisliği değil; kamu yönetimi, halkla ilişkiler ve tanıtım ve yerel yönetimler bölümlerinin birinden mezun olma şartı aranmaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2263496",
@@ -28,8 +60,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2263496/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-tcdd-tasimacilik-as-genel-mudurlugunden-166-surekli-isci-alim-ilani",
     "city": "Ankara",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda açılan tüm kadrolar ortaöğretim (lise ve dengi) mezunu alt öğrenim düzeyini kapsamakta olup, Bilgisayar Mühendisliği gibi lisans mezuniyetine yönelik herhangi bir kadro bulunmamaktadır; ayrıca ilan metninde \"Üst öğrenimden mezun adayların başvuruları kabul edilmeyecektir\" şartı yer almaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2262386",
@@ -44,8 +76,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2262386/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-yurtdisi-turkler-ve-akraba-topluluklar-baskanligi-uzman-yardimcisi-alim-ilani",
     "city": "Ankara",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda Bilgisayar Mühendisliği mezuniyetine yer verilmemiş olup, mezun olunması gereken fakülte ve bölümler arasında Bilgisayar Mühendisliği bulunmamaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2261370",
@@ -60,8 +92,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2261370/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-turkiye-is-kurumu-genel-mudurlugunden-sozlesmeli-bilisim-personeli-alim-ilani",
     "city": "Ankara",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlandaki tüm pozisyonlar için en az 3 ile 7 yıl arasında değişen mesleki tecrübe şartı aranmaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2261344",
@@ -76,8 +108,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2261344/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-kiyi emniyeti genel mudurlugunden-daimi-isci-alim-ilani",
     "city": "İstanbul",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlandaki kadrolar yalnızca Ön Lisans (Büro Personeli - Eski Hükümlü/Engelli) ve Denizcilik alanı lisans mezunlarına (Deniz Trafik Operatörü) yönelik olup, Bilgisayar Mühendisliği mezuniyeti istenen herhangi bir pozisyon bulunmamaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2261343",
@@ -92,8 +124,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2261343/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-orta-anadolu-kalkinma-ajansindan-personel-alim-ilani",
     "city": "Kayseri̇",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda Bilgisayar Mühendisliği mezunları için başvuru hakkı tanıyan Uzman Personel - 2 kadrosunda (Uzman Personel - 1 için tanımlanmış mühendislik bölümleri hariç denilerek Bilgisayar Mühendisliği kapsam dışı bırakılmıştır) veya diğer pozisyonlarda bilgisayar mühendisliği yer almamaktadır; ayrıca kullanıcının 2026 KPSS puanı bulunmasına rağmen ilanda son başvuru tarihi itibarıyla geçerli olan puanlar arasında sadece 2025 ve 2026 yılında yapılan KPSS şartı aranmaktadır (ancak asıl elenme sebebi ilgili mühendislik branşının tabloda yer almamasıdır).",
+    "aiScanned": true
   },
   {
     "id": "igt_2261004",
@@ -108,8 +140,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2261004/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-kamu-gozetimi-muhasebe-ve-denetim-standartlari-kurumu-uzman-yardimciligi-giris-sinav-ilani",
     "city": "Ankara",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda uzman yardımcılığı kadroları için yalnızca hukuk, siyasal bilgiler, iktisat, işletme, iktisadi ve idari bilimler ile ticari bilimler fakültelerinden mezuniyet şartı aranmaktadır; Bilgisayar Mühendisliği mezuniyeti kabul edilmemektedir.",
+    "aiScanned": true
   },
   {
     "id": "igt_2259136",
@@ -124,8 +156,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2259136/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-sondor-belgesi-sinav-ilani",
     "city": "Ankara",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda mühendislik kadrosu açılmamış olup, yeraltısuyu sondaj kuyularında çalışacak kişiler için Sondör ve Galeri-Tünelci/Kuyucu yeterlik belgesi sınavları düzenlenmektedir.",
+    "aiScanned": true
   },
   {
     "id": "igt_2260916",
@@ -140,8 +172,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2260916/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-izmir-ili-karabaglar-belediye-baskanligi-sozlesmeli-personel-alim-ilani",
     "city": "İzmi̇r",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda Mühendis kadrosu açılmış ancak Bilgisayar değil Çevre Mühendisliği mezuniyeti istenmektedir.",
+    "aiScanned": true
   },
   {
     "id": "igt_2259248",
@@ -156,8 +188,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2259248/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-turk-akreditasyon-kurumu-sozlesmeli-bilisim-personeli-sinav-ilani",
     "city": "Ankara",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlandaki Siber Güvenlik Uzmanı pozisyonu için yazılım ve siber güvenlik alanında en az 5 (beş) yıl mesleki tecrübe şartı aranmaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2258113",
@@ -172,8 +204,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2258113/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-tercuman-bilirkisi-listesinin-duzenlenmesine-iliskin-ilan",
     "city": "Tokat",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlan bir kamu personeli alımı olmayıp, mahkemeler için Ceza Muhakemesi Kanunu'na göre \"Tercüman Bilirkişi\" listesinin düzenlenmesine ilişkindir ve bu kapsamda mühendislik kadrosu açılmamıştır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2253698",
@@ -188,8 +220,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2253698/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-proje teknik-elemani-alim-ilani",
     "city": "Mersi̇n",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda açılan pozisyonlar yalnızca veteriner hekim, ziraat mühendisi (zooteknist) veya veteriner sağlık/ziraat teknisyeni (Hayvan Sağlığı Alanı) kadrolarından oluşmaktadır; Bilgisayar Mühendisliği mezuniyeti kabul edilmemektedir.",
+    "aiScanned": true
   },
   {
     "id": "igt_2259085",
@@ -204,8 +236,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2259085/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-iskenderun teknik universitesi rektorlugunden-ic-denetci-alim-ilani",
     "city": "Hatay",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda açılan İç Denetçi kadrosu için halen bir kamu kurumunda görev yapıyor olmak ve Kamu İç Denetçi Sertifikasına sahip olmak şartı aranmaktadır, ayrıca naklen atama yapılacaktır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2259083",
@@ -220,8 +252,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2259083/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-sayistay baskanligindan-sozlesmeli-bilisim-personeli-alim-ilani",
     "city": "Ankara",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlandaki pozisyonlar için en az 3 ila 10 yıl arası mesleki tecrübe şartı aranmaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2256657",
@@ -236,8 +268,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2256657/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-personel-alimi-duyurusu",
     "city": "İstanbul",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda Uzman Yardımcısı ve İdari Personel kadroları açılmış olup, başvuru için gerekli KPSS puan türü ve yılı (veya özel şartlar) kılavuzda belirtilmemiştir ancak Bilgisayar Mühendisliği unvanına yönelik mühendis alımı bulunmamaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2257554",
@@ -252,8 +284,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2257554/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-ankara-buyuksehir-belediye-baskanligi-mufettis-yardimcisi-alim-ilani",
     "city": "Ankara",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda Müfettiş Yardımcısı kadrosu açılmış ancak Bilgisayar Mühendisliği yerine hukuk, siyasal bilgiler, iktisat, işletme veya iktisadî ve idarî bilimler fakültelerinden mezuniyet şartı aranmaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2256225",
@@ -268,8 +300,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2256225/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-kesan-belediye-baskanligi-memur-alim-ilani",
     "city": "Edi̇rne",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda İnşaat Mühendisliği ve Elektrik-Elektronik Mühendisliği kadroları açılmış olup, Bilgisayar Mühendisliği mezuniyeti istenmemektedir.",
+    "aiScanned": true
   },
   {
     "id": "igt_2255032",
@@ -284,8 +316,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2255032/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-2027-yili-istanbul-ili-tercuman-listesine-basvuru-ilani",
     "city": "İstanbul",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda bilgisayar mühendisliği kadrosu veya memur alımı değil, mahkemeler için Adalet Komisyonunca düzenlenecek olan \"Tercüman Listesine\" başvuru ilanı açılmıştır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2254190",
@@ -300,8 +332,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2254190/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-tercuman-listesi-basvurulari-hakkinda-duyuru",
     "city": "Karaman",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda Bilgisayar Mühendisliği kadrosu veya memur alımı açılmamış, adliyeler için yabancı dil ve işaret dili bilen tercüman alımı yapılmaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2255997",
@@ -316,8 +348,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2255997/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-duzce-universitesi-rektorlugunden-sozlesmeli-personel-alim-ilani",
     "city": "Düzce",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "Kadrolar yalnızca farklı unvanlardan oluşmaktadır; metnin paylaşılan kısmında Bilgisayar Mühendisliği kadrosuna dair herhangi bir alım yer almamaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2255992",
@@ -332,8 +364,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2255992/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-turk-standartlari-enstitusu-sozlesmeli-bilisim-personeli-alim-ilani",
     "city": "Ankara",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlandaki tüm pozisyonlar için en az 2 ila 8 yıl arasında değişen mesleki tecrübe şartı aranmakta olup, hiçbir tecrübesi bulunmayan yeni mezunlar bu ilana başvuramamaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2254634",
@@ -348,8 +380,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2254634/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-orta-karadeniz-kalkinma-ajansi-personel-alim-ilani",
     "city": "Samsun",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlandaki Bilgisayar Mühendisliği uzman kadrosuna başvurabilmek için son başvuru tarihi itibarıyla ÖSYM'den en az 80 KPSS puanı ve İngilizce dilinden (C) düzeyinde yabancı dil belgesi (YÖD-DİL hariç) şartı aranmaktadır, ancak kullanıcının bu belgelere dair bir bilgisi veya tecrübesi bulunmamaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2254593",
@@ -364,8 +396,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2254593/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-mevlana-kalkinma-ajansi-personel-alim-ilani",
     "city": "Konya",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda Bilgisayar Mühendisliği kadrosu açılmamış, sadece İnşaat Mühendisliği mezuniyeti istenmektedir.",
+    "aiScanned": true
   },
   {
     "id": "igt_2254568",
@@ -380,8 +412,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2254568/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-sariidris-belediye-baskanligi-zabita-memuru-alim-ilani",
     "city": "Isparta",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda Zabıta Memuru kadrosu açılmış ancak Bilgisayar Mühendisliği yerine bankacılık ve finans, finans matematiği, finansal ekonometri programlarından mezun olma şartı aranmaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2254540",
@@ -396,8 +428,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2254540/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-istanbul-teknik-universitesi-rektorlugu-personel-alim-ilani",
     "city": "İstanbul",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlan; Destek Personeli ve Koruma ve Güvenlik Görevlisi kadrolarından oluşmakta olup, Bilgisayar Mühendisliği mezunları için herhangi bir mühendislik kadrosu açılmamıştır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2252997",
@@ -412,8 +444,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2252997/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-nevsehir-ili-ortahisar-belediye-baskanligi-duzeltme-ilani-",
     "city": "Nevşehi̇r",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda yer alan düzeltme metni yalnızca başvuru değerlendirme ve sınav tarihleri ile ilgili olup, yeni bir kadro veya mühendislik alımı açılmamıştır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2252995",
@@ -428,8 +460,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2252995/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-kultur-ve-turizm-bakanligi-vakiflar-genel-mudurlugu-vakif-uzman-yardimciligi-sinav-ilani",
     "city": "Ankara",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda Bilgisayar Mühendisliği kadrosu açılmamış olup, sadece Arap Dili ve Edebiyatı ile İlahiyat fakültesi mezunu adaylar için alım yapılmaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2252978",
@@ -444,8 +476,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2252978/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-icisleri-bakanligi-jandarma-ve-sahil-guvenlik-akademisi-baskanligi-muvazzaf-subay-temin-ilani",
     "city": "Ankara",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda Muhabere, İkmal ve Bakım gibi çeşitli mühendislik/lisans kontenjanları açılmıştır ancak Bilgisayar Mühendisliği mezuniyetine yönelik herhangi bir kadro yer almamaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2252977",
@@ -460,8 +492,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2252977/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-tasarruf mevduati sigorta fonu baskanligindan-fon-denetci-yardimcisi-fon-uzman-yardimcisi-ve-fon-avukati-alim-ilani",
     "city": "İstanbul",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlandaki Fon Denetçi Yardımcısı ve Fon Uzman Yardımcısı kadroları için 2025 veya 2026 yılı KPSS (A grubu) ve en az 50 YDS/e-YDS puanı şartı aranırken, kullanıcının 2026 KPSS puanı olmasına rağmen yabancı dil (YDS/e-YDS) puanı bulunmamaktadır; Fon Avukatlığı kadrosu ise yalnızca hukuk fakültesi mezunlarına yöneliktir.",
+    "aiScanned": true
   },
   {
     "id": "igt_2252974",
@@ -476,8 +508,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2252974/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-istanbul-kalkinma-ajansi-personel-alim-ilani",
     "city": "İstanbul",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlandaki Bilgisayar Mühendisliği kadrolarına başvurabilmek için son başvuru tarihi itibarıyla 5 yıl içinde alınmış geçerli YDS/e-YDS'den (C) düzeyinde puan ve KPSSP1, KPSSP2 veya KPSSP3 puan türünden en az 80 puan alma şartı bulunmaktadır; ancak kullanıcının YDS belgesi ve 2026 KPSS puanı bulunmamaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2249813",
@@ -492,8 +524,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2249813/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-bireysel-danismanlik-hizmeti-duyurusu",
     "city": "Ankara",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda Bilgisayar Mühendisliği kadrosu açılmamış, yalnızca \"Kısa Süreli Hukuk Danışmanı\" pozisyonu için alım yapılmaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2250868",
@@ -508,8 +540,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2250868/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-cumhurbaskanligi-savunma-sanayii-baskanligi-22-uzman-yardimcisi-alacak",
     "city": "Ankara",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda Bilgisayar Mühendisliği kadrosu açılmış ve 2026 KPSS puanı kabul edilmekle birlikte, kullanıcının başvuru için zorunlu olan İngilizce alanında en az 75 YDS puanı bulunmamaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2249323",
@@ -524,8 +556,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2249323/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-bankacilik-duzenleme-ve-denetleme-kurumu-sozlesmeli-bilisim-personeli-alim-ilani",
     "city": "İstanbul",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlandaki tüm pozisyonlar için en az 3 ile 5 yıl arasında mesleki tecrübe şartı aranmaktadır, ancak kullanıcının hiçbir tecrübesi bulunmamaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2247946",
@@ -540,8 +572,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2247946/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-turk-patent-ve-marka-kurumu-sozlesmeli-bilisim-personeli-alim-ilani",
     "city": "Ankara",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlandaki Kıdemli Yazılım Mimarı pozisyonu için en az 5 yıllık mesleki tecrübe şartı aranmaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2246674",
@@ -556,8 +588,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2246674/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-tercumanlik-yapacaklarin-listesi-ile-ilgili-duyuru",
     "city": "Antalya",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda bilgisayar mühendisliği veya herhangi bir kadro alımı yapılmamakta; yalnızca Antalya Adliyesi yargı çevresinde görev yapacak tercüman listesi için başvuru alınmaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2246165",
@@ -572,8 +604,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2246165/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-duzeltme-ilani-malazgirt-belediye-baskanligi-",
     "city": "Muş",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlan bir düzeltme metni olup, metinde hangi unvan ve kadroların alım yapılacağına dair detaylar yer almadığı ve ana ilanın şartlarına erişilemediği için kullanıcının mezuniyetine ve KPSS puanına uygunluğu doğrulanamamaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2244741",
@@ -588,8 +620,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2244741/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-kultur-ve-turizm-bakanligi-turkiye-turizm-tanitim-ve-gelistirme-ajansi-personel-alim-ilani",
     "city": "Ankara",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda Bilgisayar Mühendisliği kadrosu açılmamıştır ve TGA Personel Alımı Kadroları ve Adaylarda Aranan Nitelikler Tablosunda (Ek-1) bu bölüme yer verilmemiştir.",
+    "aiScanned": true
   },
   {
     "id": "igt_2243231",
@@ -604,8 +636,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2243231/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-tercumanlik-bilirkisi-listelerine-basvuru-duyurusu",
     "city": "Teki̇rdağ",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda bilgisayar mühendisliği kadrosu açılmamış olup, sadece çeşitli dillerde ve işaret dilinde tercüman bilirkişi alımı yapılmaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2237196",
@@ -620,8 +652,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2237196/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-2027-yili-tercuman-bilirkisi-ilani",
     "city": "Osmani̇ye",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda Bilgisayar Mühendisliği kadrosu açılmamış olup, mahkemelerde soruşturma veya kovuşturma evresinde Türkçe bilmeyen veya engelli kişilerin beyanlarını çevirmek üzere tercüman bilirkişi alımı yapılmaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2243042",
@@ -636,8 +668,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2243042/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-posof-belediye-baskanligi-sozlesmeli-personel-alim-ilani",
     "city": "Ardahan",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda lisans mezunu Bilgisayar Mühendisliği kadrosu açılmamış, yalnızca ortaöğretim (lise/dengi) mezunları için Teknisyen kadrosu ve 2024 KPSS P94 puanı istenmiştir.",
+    "aiScanned": true
   },
   {
     "id": "igt_2240651",
@@ -652,8 +684,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2240651/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-2027-yili-tercuman-bilirkisi-ilani",
     "city": "Eski̇şehi̇r",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda Bilgisayar Mühendisliği kadrosu açılmamış olup, mahkemeler için yabancı dil veya işaret dili bilen tercüman alımı yapılmaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2242996",
@@ -668,8 +700,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2242996/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-sile-belediye-baskanligi-memur-alim-ilani",
     "city": "İstanbul",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda lisans mezunları için yalnızca herhangi bir lisans mezuniyet şartı aranan Zabıta Memuru kadrosu açılmış olup, Bilgisayar Mühendisliği unvanına ait özel bir kadro bulunmamaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2240448",
@@ -684,8 +716,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2240448/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-bartin-cumhuriyet-bassavciligi-2027-yili-tercuman-bilirkisi-basvuru-duyurusu",
     "city": "Bartin",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda bilgisayar mühendisliği kadrosu açılmamış olup, Bartın Adliyesi yargı çevresinde görev yapmak üzere tercüman bilirkişi listesi oluşturulacağı duyurulmuştur.",
+    "aiScanned": true
   },
   {
     "id": "igt_2240064",
@@ -700,8 +732,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2240064/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-turkiye-bilimsel-ve-teknolojik-arastirma-kurumu-baskanligi-kismi-sureli-proje-personeli-alimi",
     "city": "Ankara",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlandaki \"Kısmi Süreli Proje Personeli (Aday Araştırmacı)\" pozisyonları için 2026-2027 eğitim-öğretim yılında 3. veya 4. sınıfta öğrenci olmak şartı aranmaktadır; ancak kullanıcı mezun durumundadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2240011",
@@ -716,8 +748,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2240011/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-iptal-ilani-cukurkuyu-belediye-baskanligi-",
     "city": "Ni̇ğde",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlan tamamen iptal edildiği için herhangi bir kadroya başvuru yapmak mümkün değildir.",
+    "aiScanned": true
   },
   {
     "id": "igt_2238204",
@@ -732,8 +764,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2238204/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-rehber-ogretmen-alimi-yapilacaktir",
     "city": "Gazi̇antep",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda aranan unvan Rehber Öğretmen olup, kullanıcının mezun olduğu Bilgisayar Mühendisliği bölümü bu pozisyon için gerekli şartları sağlamamaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2236980",
@@ -748,8 +780,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2236980/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-rehber-ogretmen-alinacaktir",
     "city": "Ardahan",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda Bilgisayar Mühendisliği kadrosu açılmamış, MEB kurumlarında çalışma şartlarını taşıyan \"Rehber Öğretmen\" aranmaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2232010",
@@ -764,8 +796,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2232010/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-agri ili eleskirt belediye baskanligindan-memur-alim-ilani",
     "city": "Ağri",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda Çözümleyici kadrosu açılmış ancak Bilgisayar Mühendisliği değil İşletme, Siyaset Bilimi ve yerel yönetimler bölümlerinin birinden mezuniyet şartı aranmaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2230483",
@@ -780,8 +812,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2230483/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-duzeltme-ilani-bati-akdeniz-kalkinma-ajansi-",
     "city": "Isparta",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlan metninde kadro unvanları ve nitelikleri belirtilmemiş olup sadece başvuru tarihlerinin değiştirildiğine dair düzeltme yayımlanmıştır; bu nedenle başvuru yapabileceğiniz net bir Bilgisayar Mühendisliği kadrosu bulunmamaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2229085",
@@ -795,9 +827,9 @@
     "endDate": "",
     "detailLink": "https://www.ilan.gov.tr/ilan/2229085/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-istanbul-buyuksehir-belediye-baskanligi-iett-isletmeleri-genel-mudurlugu-memur-alim-ilani",
     "city": "İstanbul",
-    "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "isSuitable": true,
+    "aiExplanation": "İlanda Bilgisayar Mühendisliği mezunları için P3 puan türünden en az 70 taban puanla Mühendis kadrosu açılmıştır ve kullanıcı 2026 KPSS puanına sahiptir.",
+    "aiScanned": true
   },
   {
     "id": "igt_2228917",
@@ -812,8 +844,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2228917/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-dogu-marmara-kalkinma-ajansi-personel-alim-ilani",
     "city": "Kocaeli̇",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "Uzman Personel (Bilgisayar Mühendisliği) kadrosuna başvurabilmek için ilan tarihleri itibarıyla son 5 yıl içerisinde alınmış en az 70 puanlık YDS/e-YDS İngilizce belgesi zorunludur ve kullanıcı bu şartı sağlamamaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2227126",
@@ -828,8 +860,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2227126/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-sermaye-piyasasi-kurulu-personel-alim-ilani",
     "city": "Ankara",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda her ne kadar Mühendislik fakültesi mezuniyeti kabul edilse de, başvuru için 2025 veya 2026 yıllarında yapılan KPSS'den ilgili puan türlerinden en yüksek puanlı 800 kişi arasında yer alma ve tecrübesiz/sertifikasız profilin bu sıralamaya girip giremeyeceği belirsizliğinden ziyade, ilandaki genel şartları sağlasanız dahi ilanda belirtilen KPSSP1, KPSSP2, KPSSP3, KPSSP25, KPSSP26, KPSSP27, KPSSP28 ve KPSSP45 puan türlerinden 75 ve üzerinde puana sahip olup olmadığınız profilde belirtilmediği ve kontenjana (ilk 800 kişi) girme garantisi bulunmadığı için doğrudan uygunluk onaylanamamaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2223911",
@@ -844,8 +876,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2223911/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-personel-alimi-duyurusu",
     "city": "Kirşehi̇r",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda sadece istatistik, ilköğretim matematik öğretmenliği ve işletme programları mezunları için Memur kadrosu açılmıştır, Bilgisayar Mühendisliği mezuniyeti istenmemektedir.",
+    "aiScanned": true
   },
   {
     "id": "igt_2226099",
@@ -860,8 +892,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2226099/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-gerede-belediye-baskanligi-personel-alim-ilani",
     "city": "Bolu",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda Mühendis kadrosu açılmış ancak Bilgisayar değil İnşaat Mühendisliği bölümünden mezun olmak şartı aranmaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2226098",
@@ -876,8 +908,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2226098/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-elmakaya-belediye-baskanligi-memur-alim-ilani",
     "city": "Muş",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda Mühendis kadrosu açılmış ancak Bilgisayar değil jeodezi ve fotogrametri, jeodezi ve haritacılık, harita veya geomatik mühendisliği mezuniyeti istenmektedir.",
+    "aiScanned": true
   },
   {
     "id": "igt_2226095",
@@ -892,8 +924,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2226095/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-didim-belediye-baskanligi-zabita-memuru-alim-ilani",
     "city": "Aydin",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda herhangi bir lisans programından mezun olunması şartıyla Zabıta Memuru kadrosu açılmış ve 2026 KPSS P3 puanı kabul edilmekte olmasına rağmen, başvuru için en az (B) sınıfı sürücü belgesi şartı aranmakta olup kullanıcının sürücü belgesi bulunmamaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2220817",
@@ -908,8 +940,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2220817/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-uzman-yardimciligi-giris-sinavi-duyurusu",
     "city": "Ankara",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda Bilgisayar Mühendisliği mezuniyetine yönelik herhangi bir kadro açılmamış olup, sadece Hukuk, Muhasebe ve Finans Yönetimi, Maliye, İşletme, İktisat ile Çalışma Ekonomisi ve Endüstri İlişkileri lisans programı mezunları kabul edilmektedir.",
+    "aiScanned": true
   },
   {
     "id": "igt_2188158",
@@ -924,8 +956,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2188158/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-gelir-idaresi-baskanligindan-860-gelir-uzman-yardimcisi-alim-ilani",
     "city": "Ankara",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda Gelir Uzman Yardımcısı kadroları açılmış olup, Bilgisayar Mühendisliği mezuniyetine yönelik herhangi bir kadro yer almamaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_2176787",
@@ -940,8 +972,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2176787/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-turmobdan-serbest-muhasebeci-mali-musavirlik-sinav-duyurusu",
     "city": "Ankara",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda bilgisayar mühendisliği kadrosu açılmamış olup, duyurusu yapılan sınav stajını tamamlamış Serbest Muhasebeci Mali Müşavir adaylarına yöneliktir ve 0 tecrübeli yeni mezun bilgisayar mühendisi bu şartları sağlamamaktadır.",
+    "aiScanned": true
   },
   {
     "id": "igt_1973572",
@@ -956,8 +988,8 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/1973572/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-2026-yili-aktuerlik-sinavlari-ilani",
     "city": "İstanbul",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "Bu ilan bir kamu personeli veya kadro alım ilanı olmayıp, SEGEM tarafından düzenlenen **Aktüerlik Sınavları** duyurusudur; dolayısıyla başvuru yapılabilecek bir kadro veya istihdam pozisyonu bulunmamaktadır.",
+    "aiScanned": true
   },
   {
     "id": "041d7e354f9e71802bec0c57d9e9d361",
@@ -972,8 +1004,8 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4-2.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda herhangi bir kamu personeli veya bilgisayar mühendisi alımı yapılmamış olup, metin tamamen ihalelere katılmaktan yasaklama kararlarını içermektedir.",
+    "aiScanned": true
   },
   {
     "id": "0f816f187df21cf9555388e4f934ef63",
@@ -988,8 +1020,8 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4-3.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "Bu belge bir kamu personeli alım ilanı olmayıp, 4734 sayılı Kamu İhale Kanunu uyarınca verilen \"İhalelere Katılmaktan Yasaklama Kararı\"na aittir.",
+    "aiScanned": true
   },
   {
     "id": "abc79081fd103c1436127805edf39f6b",
@@ -1004,8 +1036,8 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4-4.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlan metni ve detayları paylaşılmadığı için kadro şartları incelenememiştir.",
+    "aiScanned": true
   },
   {
     "id": "98ad4733d2edd755a323631d39e21b41",
@@ -1020,8 +1052,8 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4-5.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda herhangi bir personel alımı veya kadro açılışı bulunmamakta, yalnızca ihale katılımlarından yasaklama kararları yayımlanmaktadır.",
+    "aiScanned": true
   },
   {
     "id": "ee14d333928eeba07fdb31be6faf418a",
@@ -1036,8 +1068,8 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4-6.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlan metni ve detayları paylaşılmadığı için kadro şartları ve nitelikleri incelenememektedir.",
+    "aiScanned": true
   },
   {
     "id": "06d77204663e04cb1a5fec6689afd69c",
@@ -1052,8 +1084,8 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4-7.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda Adalet Bakanlığı Hukuk İşleri Genel Müdürlüğü tarafından sadece hukuk alanında personel alımı yapılacağı belirtilmiş olup, Bilgisayar Mühendisliği kadrosuna yer verilmemiştir.",
+    "aiScanned": true
   },
   {
     "id": "5508c868aa7c69f0f1f95e58b7425c01",
@@ -1068,8 +1100,8 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4-8.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "Fatih Sultan Mehmet Vakıf Üniversitesi Rektörlüğü ilan metni (detay metni) sağlanmadığı için, ilan içerisindeki kadrolar ve özel şartlar (tecrübe, KPSS yılı vb.) doğrulanamamaktadır.",
+    "aiScanned": true
   },
   {
     "id": "3174bbaeed7b8968bd08c7434b437efc",
@@ -1084,8 +1116,8 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4-9.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda Bilgisayar Mühendisliği kadrosu açılmamış olup, sadece İktisadi ve İdari Bilimler Fakültesine yönelik Araştırma Görevlisi alımları yer almaktadır.",
+    "aiScanned": true
   },
   {
     "id": "612eb0c6966d2600c0d0635972ecf2df",
@@ -1100,8 +1132,8 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4-10.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlanda yalnızca Öğretim Üyesi alımı (Profesör, Doçent, Doktor Öğretim Üyesi) duyurulmuş olup, Bilgisayar Mühendisliği mezunları veya kamu personeli/memur alımına yönelik herhangi bir kadro yer almamaktadır.",
+    "aiScanned": true
   },
   {
     "id": "485b3cfbe796d80141bb6781ae5360e9",
@@ -1116,8 +1148,8 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4-12.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlan metninde herhangi bir kadro, unvan veya şart bilgisi yer almamakta; metin sadece tarih ve kategori bilgilerinden ibarettir.",
+    "aiScanned": true
   },
   {
     "id": "31d37b30acaf1ab96d6fd34d726ceaa6",
@@ -1132,7 +1164,7 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4-13.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": false,
-    "aiExplanation": "API'ye ulaşılamadı, analiz yapılamadı.",
-    "aiScanned": false
+    "aiExplanation": "İlan detay metni (İçeriği) verilmediği için kadro ve şartlar incelenememiştir.",
+    "aiScanned": true
   }
 ]

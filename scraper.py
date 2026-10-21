@@ -402,8 +402,8 @@ def analyze_job(job):
     }
 
     if result is None:
-        job["isSuitable"] = False
-        job["aiExplanation"] = "API'ye ulaşılamadı, analiz yapılamadı."
+        job["isSuitable"] = None
+        job["aiExplanation"] = "API hatası: Keyler geçersiz veya kota dolu, analiz yapılamadı (Tekrar denenecek)."
         job["aiScanned"] = False
     elif result.startswith("UYGUN DEĞİL:"):
         job["isSuitable"] = False
@@ -420,7 +420,7 @@ def analyze_job(job):
         job["aiScanned"] = True
         
     # Limit yememek için bekle
-    time.sleep(2)
+    time.sleep(1)
     return ai_log_entry
 
 # ─── Telegram ─────────────────────────────────────────────────────────────────
@@ -499,12 +499,17 @@ def main():
         return
 
     # Mevcut verileri yeni çekilen listeyle eşleştir
+    # DİKKAT: Sadece başarıyla taranmış (aiScanned=True ve isSuitable is not None) ve hata içermeyen ilanları önbellekten al
     for job in jobs:
         job_id = job["id"]
-        if job_id in existing and existing[job_id].get("aiScanned"):
-            job["isSuitable"] = existing[job_id]["isSuitable"]
-            job["aiExplanation"] = existing[job_id]["aiExplanation"]
-            job["aiScanned"] = True
+        if job_id in existing:
+            prev = existing[job_id]
+            prev_exp = prev.get("aiExplanation", "")
+            # Eğer önceden taranmış ve API hatası almamışsa önbellekten al
+            if prev.get("aiScanned") and prev.get("isSuitable") is not None and "hata" not in prev_exp.lower() and "ulaşılamadı" not in prev_exp.lower():
+                job["isSuitable"] = prev["isSuitable"]
+                job["aiExplanation"] = prev["aiExplanation"]
+                job["aiScanned"] = True
 
     try:
         with open("public/ai_logs.json", "r", encoding="utf-8") as f:
@@ -513,6 +518,7 @@ def main():
         ai_logs_data = []
 
     new_scanned = []
+    consecutive_api_errors = 0
 
     for i, job in enumerate(jobs):
         job_id = job["id"]
@@ -526,12 +532,17 @@ def main():
             
         print(f"[{i+1}/{len(jobs)}] 🔍 AI tarıyor: {job['title'][:65]}...")
         
-        # Analyze'den dönen objeyi referans olarak atamaya gerek yok, çünkü aynı objeyi update ediyor
+        # Analyze'den dönen objeyi kaydet
         ai_log_entry = analyze_job(job)
         if ai_log_entry:
             ai_logs_data.append(ai_log_entry)
             
-        status_tag = "🤖 AI taradı" if job["aiScanned"] else "❌ AI Hata"
+        if not job["aiScanned"]:
+            consecutive_api_errors += 1
+            status_tag = "⚠️ API Hatası (Tekrar denenecek)"
+        else:
+            consecutive_api_errors = 0
+            status_tag = "🤖 AI taradı"
 
         # HER İLAN BİTTİĞİNDE KAYDET (Incremental save)
         with open("public/jobs.json", "w", encoding="utf-8") as f:
@@ -540,12 +551,20 @@ def main():
         with open("public/ai_logs.json", "w", encoding="utf-8") as f:
             json.dump(ai_logs_data, f, ensure_ascii=False, indent=2)
 
-        emoji = "✅" if job["isSuitable"] else "❌"
+        emoji = "✅" if job.get("isSuitable") is True else ("❌" if job.get("isSuitable") is False else "⏳")
         scanned_tag = "✓" if job["aiScanned"] else "⚠"
         print(f"        {emoji} {scanned_tag} {status_tag} → {job['aiExplanation'][:70]}")
 
-        if job_id not in existing:
+        # Başarıyla taranmışsa Telegram listesine ekle
+        if job["aiScanned"] and job_id not in existing:
             new_scanned.append(job)
+
+        # Eğer üst üste 3 ilanda API hatası alınırsa (tüm keyler tükenmiş/kota dolmuşsa)
+        if consecutive_api_errors >= 3:
+            err_alert = "⚠️ *DİKKAT:* Gemini API anahtarları tükendi veya kota aşıldı! Kalan ilanlar bir sonraki çalıştırmada tekrar taranacak."
+            print(f"\n🚨 {err_alert}\n")
+            send_telegram(err_alert)
+            break
 
     # İşlem tamamlandıktan sonra fazladan kaydetmeye gerek yok, son state zaten kaydedildi
     for job in new_scanned:

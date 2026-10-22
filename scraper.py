@@ -425,15 +425,109 @@ def analyze_job(job):
 
 # ─── Telegram ─────────────────────────────────────────────────────────────────
 
+def format_job_message(job):
+    """İlan için standart Telegram mesajı üretir."""
+    is_uygun = job.get('isSuitable')
+    if is_uygun is True:
+        durum_baslik = "✅ *UYGUN İLAN BULUNDU*"
+        uygunluk_etiketi = "✅ Uygun"
+    elif is_uygun is False:
+        durum_baslik = "❌ *UYGUN DEĞİL*"
+        uygunluk_etiketi = "❌ Uygun Değil"
+    else:
+        durum_baslik = "⏳ *AI İNCELEMESİ BEKLİYOR*"
+        uygunluk_etiketi = "⏳ Henüz Taranmadı"
+        
+    end_date_str = job.get('endDate', '')
+    if 'T' in end_date_str:
+        date_part = end_date_str.split('T')[0]
+        parts = date_part.split('-')
+        if len(parts) == 3:
+            end_date_str = f"{parts[2]}.{parts[1]}.{parts[0]}"
+            
+    sehir_etiketi = job.get('city', 'Tüm Türkiye')
+    aciklama = job.get('aiExplanation', 'Detay analizi bekleniyor...')
+        
+    msg = (
+        f"{durum_baslik}\n\n"
+        f"📋 *{job['title']}*\n"
+        f"🏢 {job['institution']}\n"
+        f"💼 {job['type']}\n"
+        f"📍 Şehir: {sehir_etiketi}\n"
+    )
+    if end_date_str:
+        msg += f"📅 Son: {end_date_str}\n"
+        
+    msg += (
+        f"🤖 AI Tarandı: {uygunluk_etiketi}\n\n"
+        f"💡 *AI Yorumu:*\n_{aciklama}_\n"
+    )
+    if job.get("detailLink"):
+        msg += f"\n🔗 [İlana Git]({job['detailLink']})"
+    return msg
+
 def send_telegram(text):
+    """Genel duyuru ve sistem uyarıları için standart mesaj atar."""
     try:
-        requests.post(
+        r = requests.post(
             f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage",
             json={"chat_id": TELEGRAM_CHAT_ID, "text": text, "parse_mode": "Markdown"},
             timeout=10
         )
+        if r.status_code == 200:
+            return r.json().get("result", {}).get("message_id")
     except Exception as e:
         print(f"  Telegram hata: {e}")
+    return None
+
+def send_or_edit_telegram_job(job):
+    """
+    İlanı Telegram'a gönderir veya mevcut mesajı günceller (editMessageText).
+    Başarılı olursa job['telegram_message_id'] değerini günceller.
+    """
+    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
+        return
+
+    text = format_job_message(job)
+    msg_id = job.get("telegram_message_id")
+
+    # Eğer daha önce Telegram'a gönderilmişse -> DÜZENLE (editMessageText)
+    if msg_id:
+        try:
+            r = requests.post(
+                f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/editMessageText",
+                json={
+                    "chat_id": TELEGRAM_CHAT_ID,
+                    "message_id": msg_id,
+                    "text": text,
+                    "parse_mode": "Markdown"
+                },
+                timeout=10
+            )
+            # Eğer mesaj içeriği aynıysa Telegram HTTP 400 döner (message is not modified) - bu normaldir
+            if r.status_code == 200:
+                print(f"  ✏️ Telegram mesajı güncellendi (ID: {msg_id}) -> {job['title'][:40]}...")
+                return
+            elif "message is not modified" in r.text:
+                return
+            else:
+                print(f"  [!] Telegram düzenleme hatası, yeni mesaj denenecek: {r.text[:80]}")
+        except Exception as e:
+            print(f"  [!] Telegram edit hata: {e}")
+
+    # Mesaj ID yoksa veya düzenleme yapılamadıysa -> YENİ GÖNDER (sendMessage)
+    try:
+        r = requests.post(
+            f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage",
+            json={"chat_id": TELEGRAM_CHAT_ID, "text": text, "parse_mode": "Markdown"},
+            timeout=10
+        )
+        if r.status_code == 200:
+            new_id = r.json().get("result", {}).get("message_id")
+            job["telegram_message_id"] = new_id
+            print(f"  📱 Telegram yeni bildirimi gönderildi (ID: {new_id}) -> {job['title'][:40]}...")
+    except Exception as e:
+        print(f"  [!] Telegram gönderme hata: {e}")
 
 # ─── Ana Akış ─────────────────────────────────────────────────────────────────
 
@@ -504,6 +598,10 @@ def main():
         job_id = job["id"]
         if job_id in existing:
             prev = existing[job_id]
+            # Telegram mesaj ID'sini kesinlikle koru (böylece mesaj tekrar atılmayacak, gereğinde düzenlenecek)
+            if prev.get("telegram_message_id"):
+                job["telegram_message_id"] = prev["telegram_message_id"]
+                
             prev_exp = prev.get("aiExplanation", "")
             # Eğer önceden taranmış ve API hatası almamışsa önbellekten al
             if prev.get("aiScanned") and prev.get("isSuitable") is not None and "hata" not in prev_exp.lower() and "ulaşılamadı" not in prev_exp.lower():
@@ -517,7 +615,6 @@ def main():
     except FileNotFoundError:
         ai_logs_data = []
 
-    new_scanned = []
     consecutive_api_errors = 0
 
     for i, job in enumerate(jobs):
@@ -528,6 +625,12 @@ def main():
             emoji = "✅" if job["isSuitable"] else "❌"
             scanned_tag = "✓"
             print(f"[{i+1}/{len(jobs)}] {emoji} {scanned_tag} {status_tag} → {job['title'][:50]}...")
+            
+            # Eğer ilan taranmış ama henüz Telegram'a gitmemişse Telegram'a ilet
+            if not job.get("telegram_message_id"):
+                send_or_edit_telegram_job(job)
+                with open("public/jobs.json", "w", encoding="utf-8") as f:
+                    json.dump(jobs, f, ensure_ascii=False, indent=2)
             continue
             
         print(f"[{i+1}/{len(jobs)}] 🔍 AI tarıyor: {job['title'][:65]}...")
@@ -543,6 +646,8 @@ def main():
         else:
             consecutive_api_errors = 0
             status_tag = "🤖 AI taradı"
+            # Tarama tamamlandı: Telegram'a gönder veya mevcut mesajı YERİNDE DÜZENLE (editMessageText)
+            send_or_edit_telegram_job(job)
 
         # HER İLAN BİTTİĞİNDE KAYDET (Incremental save)
         with open("public/jobs.json", "w", encoding="utf-8") as f:
@@ -555,48 +660,12 @@ def main():
         scanned_tag = "✓" if job["aiScanned"] else "⚠"
         print(f"        {emoji} {scanned_tag} {status_tag} → {job['aiExplanation'][:70]}")
 
-        # Başarıyla taranmışsa Telegram listesine ekle
-        if job["aiScanned"] and job_id not in existing:
-            new_scanned.append(job)
-
         # Eğer üst üste 3 ilanda API hatası alınırsa (tüm keyler tükenmiş/kota dolmuşsa)
         if consecutive_api_errors >= 3:
             err_alert = "⚠️ *DİKKAT:* Gemini API anahtarları tükendi veya kota aşıldı! Kalan ilanlar bir sonraki çalıştırmada tekrar taranacak."
             print(f"\n🚨 {err_alert}\n")
             send_telegram(err_alert)
             break
-
-    # İşlem tamamlandıktan sonra fazladan kaydetmeye gerek yok, son state zaten kaydedildi
-    for job in new_scanned:
-        is_uygun = job.get('isSuitable', False)
-        durum_baslik = "✅ *UYGUN İLAN*" if is_uygun else "❌ *UYGUN DEĞİL*"
-        
-        # Tarihi formatla (2026-10-19T23:59:00 -> 19.10.2026)
-        end_date_str = job.get('endDate', '')
-        if 'T' in end_date_str:
-            date_part = end_date_str.split('T')[0]
-            parts = date_part.split('-')
-            if len(parts) == 3:
-                end_date_str = f"{parts[2]}.{parts[1]}.{parts[0]}"
-                
-        uygunluk_etiketi = "✅ Uygun" if is_uygun else "❌ Uygun Değil"
-        sehir_etiketi = job.get('city', 'Tüm Türkiye')
-            
-        msg = (
-            f"{durum_baslik}\n\n"
-            f"📋 *{job['title']}*\n"
-            f"🏢 {job['institution']}\n"
-            f"💼 {job['type']}\n"
-            f"📍 Şehir: {sehir_etiketi}\n"
-            f"📅 Son: {end_date_str}\n"
-            f"🤖 AI Tarandı\n"
-            f"{uygunluk_etiketi}\n\n"
-            f"💡 *AI Yorumu:*\n_{job['aiExplanation']}_\n"
-        )
-        if job.get("detailLink"):
-            msg += f"\n🔗 [İlana Git]({job['detailLink']})"
-        send_telegram(msg)
-        print(f"  📱 Telegram bildirimi gönderildi: {job['title'][:50]}")
 
     suitable = sum(1 for j in jobs if j["isSuitable"])
     scanned  = sum(1 for j in jobs if j["aiScanned"])

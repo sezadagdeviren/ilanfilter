@@ -1,5 +1,22 @@
 [
   {
+    "id": "igt_2265614",
+    "igt_id": "2265614",
+    "title": "Tarım ve Orman Bakanlığından Sözleşmeli Bilişim Personeli Alım İlanı",
+    "institution": "TARIM VE ORMAN BAKANLIĞI",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-10-21T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2265614/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-tarim-ve-orman-bakanligindan-sozlesmeli-bilisim-personeli-alim-ilani",
+    "city": "Ankara",
+    "isSuitable": false,
+    "aiExplanation": "İlanda başvuru şartı olarak en düşük ücretli pozisyonlar için dahi en az 3 yıl mesleki tecrübe zorunlu tutulmuştur; hiç iş tecrübesi olmayan bir aday bu şartı sağlayamaz.",
+    "aiScanned": true,
+    "telegram_message_id": 489
+  },
+  {
     "id": "igt_2265112",
     "igt_id": "2265112",
     "title": "Düzeltme İlanı (Sarıidris Belediye Başkanlığı)",
@@ -92,7 +109,7 @@
     "department": "Kamu Personel Alımı",
     "type": "Kamu Personel Alımı",
     "status": "Aktif",
-    "startDate": "2026-10-20T21:00:01Z",
+    "startDate": "2026-10-20T21:00:00Z",
     "endDate": "",
     "detailLink": "https://www.ilan.gov.tr/ilan/2261868/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-tercuman-listesi-basvurulari-hakkinda-duyuru",
     "city": "Yalova",
@@ -1120,23 +1137,6 @@
     "aiExplanation": "Belgede bir personel alım ilanı yer almamakta olup, doğrudan 'REMKA TIBBİ CİHAZLAR MAKİNA NAKLİYAT SANAYİ VE TİCARET LİMİTED ŞİRKETİ' hakkında verilmiş bir ihalelere katılmaktan yasaklama kararı bulunmaktadır.",
     "aiScanned": true,
     "telegram_message_id": 472
-  },
-  {
-    "id": "9fa8ee716d148194775a78eda65d53dc",
-    "title": "Tarım ve Orman Bakanlığı Orman Genel Müdürlüğünden:",
-    "institution": "Tarım ve Orman Bakanlığı Orman Genel Müdürlüğünden:",
-    "department": "Resmi Gazete İlanı",
-    "type": "Kamu Personeli Alımı",
-    "status": "Aktif",
-    "startDate": "2026-10-22T00:00:00",
-    "endDate": "2026-11-06T23:59:00",
-    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4.htm",
-    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4-5.pdf",
-    "city": "Tüm Türkiye",
-    "isSuitable": false,
-    "aiExplanation": "İlan metninin tamamı \"İhalelere Katılmaktan Yasaklama Kararları\" ile ilgili duyurulardan ibarettir; herhangi bir kamu personeli veya bilgisayar mühendisi alım kadrosu yer almamaktadır.",
-    "aiScanned": true,
-    "telegram_message_id": 473
   },
   {
     "id": "45c06d56fb7d3cd17fc3a472c0e6b4d8",

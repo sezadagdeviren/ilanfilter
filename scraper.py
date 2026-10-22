@@ -228,33 +228,44 @@ def fetch_job_details(job):
     Dönüş: (metin, pdf_base64)
     """
     if job.get("pdf_link"):
-        try:
-            import urllib.request
-            req = urllib.request.Request(job["pdf_link"], headers={'User-Agent': 'Mozilla/5.0'})
-            with urllib.request.urlopen(req, timeout=20) as response:
-                pdf_bytes = response.read()
+        pdf_bytes = None
+        for attempt in range(2):
+            try:
+                r_pdf = requests.get(
+                    job["pdf_link"],
+                    headers={'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)'},
+                    timeout=25
+                )
+                if r_pdf.status_code == 200:
+                    pdf_bytes = r_pdf.content
+                    break
+            except Exception as e:
+                if attempt == 1:
+                    print(f"      [!] PDF indirme hatası ({job['pdf_link']}): {e}")
+                time.sleep(2)
 
-            text = ""
-            if PyPDF2:
-                try:
-                    reader = PyPDF2.PdfReader(io.BytesIO(pdf_bytes))
-                    for page in reader.pages:
-                        page_t = page.extract_text()
-                        if page_t:
-                            text += page_t + "\n"
-                except Exception as pe:
-                    print(f"      [!] PyPDF2 metin çıkarma hatası: {pe}")
-
-            # Eğer çıkarılan metin 150 karakterden azsa (taranmış görsel PDF ise)
-            # PDF'i doğrudan Gemini'ye görsel olarak göndermek için base64'e çevirelim
-            pdf_b64 = None
-            if len(text.strip()) < 150 and len(pdf_bytes) < 15 * 1024 * 1024:
-                pdf_b64 = base64.b64encode(pdf_bytes).decode('utf-8')
-
-            return text.strip(), pdf_b64
-        except Exception as e:
-            print(f"      [!] PDF indirme/okuma hatası ({job['pdf_link']}): {e}")
+        if not pdf_bytes:
+            # PDF indirilemediyse hata verip boş dön
             return "", None
+
+        text = ""
+        if PyPDF2:
+            try:
+                reader = PyPDF2.PdfReader(io.BytesIO(pdf_bytes))
+                for page in reader.pages:
+                    page_t = page.extract_text()
+                    if page_t:
+                        text += page_t + "\n"
+            except Exception as pe:
+                print(f"      [!] PyPDF2 metin çıkarma hatası: {pe}")
+
+        # Eğer çıkarılan metin 150 karakterden azsa (taranmış görsel PDF ise)
+        # PDF'i doğrudan Gemini'ye görsel olarak göndermek için base64'e çevirelim
+        pdf_b64 = None
+        if len(text.strip()) < 150 and len(pdf_bytes) < 15 * 1024 * 1024:
+            pdf_b64 = base64.b64encode(pdf_bytes).decode('utf-8')
+
+        return text.strip(), pdf_b64
 
     if job.get("igt_id"):
         url = f"{ILAN_GOV_TR_API}/AdDetail/GetAdDetail"
@@ -353,6 +364,13 @@ def analyze_job(job):
         ilan_metni_kirpilmis = ilan_metni[:6000] + "..."
     else:
         ilan_metni_kirpilmis = ilan_metni
+
+    # Eğer hem detay metni hem de PDF çekilemediyse (bağlantı/timeout hatası)
+    if not ilan_metni and not pdf_b64:
+        job["isSuitable"] = None
+        job["aiExplanation"] = "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek)."
+        job["aiScanned"] = False
+        return None
 
     if pdf_b64:
         metin_tanim = "Ekli taranmış PDF belgesindeki ilan tablosunu ve başvuru şartlarını incele."

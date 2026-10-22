@@ -13,7 +13,8 @@
     "city": "İzmi̇r",
     "isSuitable": false,
     "aiExplanation": "İzmir Kalkınma Ajansı tarafından 7 Nisan 2026 tarihinde yayımlanan ilgili personel alım ilanı tamamen iptal edilmiştir.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 409
   },
   {
     "id": "igt_2261868",
@@ -29,7 +30,8 @@
     "city": "Yalova",
     "isSuitable": false,
     "aiExplanation": "İlanda bilgisayar mühendisliği kadrosu açılmamış olup, mahkemeler için 2027 yılı resmi bilirkişi tercüman listesi oluşturulması amacıyla tercümanlık başvuruları duyurulmuştur.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 410
   },
   {
     "id": "igt_2263556",
@@ -45,7 +47,8 @@
     "city": "Malatya",
     "isSuitable": false,
     "aiExplanation": "İlanda Çözümleyici kadrosu açılmış ancak Bilgisayar Mühendisliği değil; kamu yönetimi, halkla ilişkiler ve tanıtım ve yerel yönetimler bölümlerinin birinden mezuniyet şartı aranmaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 411
   },
   {
     "id": "igt_2263496",
@@ -61,7 +64,8 @@
     "city": "Ankara",
     "isSuitable": false,
     "aiExplanation": "İlanda sadece ortaöğretim (lise ve dengi) mezunu işçi alımı yapılacağı belirtilmiş olup, lisans mezunu Bilgisayar Mühendisliği için herhangi bir kadro açılmamıştır ve üst öğrenimden mezunların başvuruları kabul edilmemektedir.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 412
   },
   {
     "id": "igt_2262386",
@@ -77,7 +81,8 @@
     "city": "Ankara",
     "isSuitable": false,
     "aiExplanation": "İlanda Bilgisayar Mühendisliği mezuniyetine yer verilmemiş ve adayda aranan Tablo-2'deki geçerli yabancı dil belgesi bulunmamaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 413
   },
   {
     "id": "igt_2261370",
@@ -93,7 +98,8 @@
     "city": "Ankara",
     "isSuitable": false,
     "aiExplanation": "İlanda belirtilen tüm sözleşmeli bilişim personeli pozisyonları için (A, B ve C grupları dahil) 375 sayılı KHK kapsamında en az 3 yıl mesleki tecrübe şartı aranmaktadır ve hiçbir deneyiminiz bulunmamaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 414
   },
   {
     "id": "igt_2261344",
@@ -109,7 +115,8 @@
     "city": "İstanbul",
     "isSuitable": false,
     "aiExplanation": "İlanda Büro Personeli (Ön Lisans), Büro Personeli (Ön Lisans - Engelli/Eski Hükümlü) ve Deniz Trafik Operatörü (Lisans - Denizcilik alanından mezuniyet ve Uzakyol Birinci Zabit yeterliliği) kadroları açılmış olup, Bilgisayar Mühendisliği mezunlarına yönelik herhangi bir kadro bulunmamaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 415
   },
   {
     "id": "igt_2261343",
@@ -125,7 +132,8 @@
     "city": "Kayseri̇",
     "isSuitable": false,
     "aiExplanation": "İlanda Bilgisayar Mühendisliği mezunları için başvuru hakkı tanıyan \"Uzman Personel - 2\" kadrosunda; Şehir ve Bölge Planlama, Mimarlık, Endüstriyel Tasarım Mühendisliği ve Çevre Mühendisliği HARİCİNDEKİ mühendislikler istendiği belirtilmiş ve bu pozisyon için 2026 KPSS puanı ile birlikte ÖSYM tarafından kabul edilen yabancı dil (YDS/e-YDS vb.) C düzeyi şartı aranmaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 416
   },
   {
     "id": "igt_2261004",
@@ -141,7 +149,8 @@
     "city": "Ankara",
     "isSuitable": false,
     "aiExplanation": "İlanda uzman yardımcılığı kadrosu için hukuk, siyasal bilgiler, iktisat, işletme, iktisadi ve idari bilimler ile ticari bilimler fakültelerinden mezuniyet şartı aranmakta olup, bilgisayar mühendisliği mezuniyeti kabul edilmemektedir.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 417
   },
   {
     "id": "igt_2259136",
@@ -157,7 +166,8 @@
     "city": "Ankara",
     "isSuitable": false,
     "aiExplanation": "İlanda mühendislik kadrosu açılmamış olup, yeraltı suları kuyularında çalışacak Sondör, Tünelci ve Kuyucu yeterlik belgeleri için sınav duyurusu yapılmıştır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 418
   },
   {
     "id": "igt_2260916",
@@ -173,7 +183,8 @@
     "city": "İzmi̇r",
     "isSuitable": false,
     "aiExplanation": "İlanda Mühendis kadrosu açılmış ancak Bilgisayar değil Çevre Mühendisliği mezuniyeti istenmektedir.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 419
   },
   {
     "id": "igt_2259248",
@@ -189,7 +200,8 @@
     "city": "Ankara",
     "isSuitable": false,
     "aiExplanation": "İlandaki Bilişim Personeli pozisyonları için en az 5 yıl mesleki tecrübe şartı aranmaktadır ve adayın hiçbir iş tecrübesi bulunmamaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 420
   },
   {
     "id": "igt_2258113",
@@ -205,7 +217,8 @@
     "city": "Tokat",
     "isSuitable": false,
     "aiExplanation": "İlan bir kamu personeli alımı olmayıp, mahkemeler için Ceza Muhakemesi Kanunu'na göre \"Tercüman Bilirkişi\" listesinin düzenlenmesine ilişkindir ve bu kapsamda mühendislik kadrosu açılmamıştır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 421
   },
   {
     "id": "igt_2253698",
@@ -221,7 +234,8 @@
     "city": "Mersi̇n",
     "isSuitable": false,
     "aiExplanation": "İlanda açılan pozisyonlar yalnızca veteriner hekim, ziraat mühendisi (zooteknist) veya veteriner sağlık/ziraat teknisyeni (Hayvan Sağlığı Alanı) kadrolarından oluşmaktadır; Bilgisayar Mühendisliği mezuniyeti kabul edilmemektedir.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 422
   },
   {
     "id": "igt_2259085",
@@ -237,7 +251,8 @@
     "city": "Hatay",
     "isSuitable": false,
     "aiExplanation": "İlanda açılan İç Denetçi kadrosu için halen bir kamu kurumunda görev yapıyor olmak ve Kamu İç Denetçi Sertifikasına sahip olmak şartı aranmaktadır, ayrıca naklen atama yapılacaktır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 423
   },
   {
     "id": "igt_2259083",
@@ -253,7 +268,8 @@
     "city": "Ankara",
     "isSuitable": false,
     "aiExplanation": "İlandaki pozisyonlar için en az 3 ila 10 yıl arası mesleki tecrübe şartı aranmaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 424
   },
   {
     "id": "igt_2256657",
@@ -269,7 +285,8 @@
     "city": "İstanbul",
     "isSuitable": false,
     "aiExplanation": "İlanda Uzman Yardımcısı ve İdari Personel kadroları açılmış olup, başvuru için gerekli KPSS puan türü ve yılı (veya özel şartlar) kılavuzda belirtilmemiştir ancak Bilgisayar Mühendisliği unvanına yönelik mühendis alımı bulunmamaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 425
   },
   {
     "id": "igt_2257554",
@@ -285,7 +302,8 @@
     "city": "Ankara",
     "isSuitable": false,
     "aiExplanation": "İlanda Müfettiş Yardımcısı kadrosu açılmış ancak Bilgisayar Mühendisliği yerine hukuk, siyasal bilgiler, iktisat, işletme veya iktisadî ve idarî bilimler fakültelerinden mezuniyet şartı aranmaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 426
   },
   {
     "id": "igt_2256225",
@@ -301,7 +319,8 @@
     "city": "Edi̇rne",
     "isSuitable": false,
     "aiExplanation": "İlanda İnşaat Mühendisliği ve Elektrik-Elektronik Mühendisliği kadroları açılmış olup, Bilgisayar Mühendisliği mezuniyeti istenmemektedir.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 427
   },
   {
     "id": "igt_2255032",
@@ -317,7 +336,8 @@
     "city": "İstanbul",
     "isSuitable": false,
     "aiExplanation": "İlanda bilgisayar mühendisliği kadrosu veya memur alımı değil, mahkemeler için Adalet Komisyonunca düzenlenecek olan \"Tercüman Listesine\" başvuru ilanı açılmıştır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 428
   },
   {
     "id": "igt_2254190",
@@ -333,7 +353,8 @@
     "city": "Karaman",
     "isSuitable": false,
     "aiExplanation": "İlanda Bilgisayar Mühendisliği kadrosu veya memur alımı açılmamış, adliyeler için yabancı dil ve işaret dili bilen tercüman alımı yapılmaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 429
   },
   {
     "id": "igt_2255997",
@@ -349,7 +370,8 @@
     "city": "Düzce",
     "isSuitable": false,
     "aiExplanation": "Kadrolar yalnızca farklı unvanlardan oluşmaktadır; metnin paylaşılan kısmında Bilgisayar Mühendisliği kadrosuna dair herhangi bir alım yer almamaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 430
   },
   {
     "id": "igt_2255992",
@@ -365,7 +387,8 @@
     "city": "Ankara",
     "isSuitable": false,
     "aiExplanation": "İlandaki tüm pozisyonlar için en az 2 ila 8 yıl arasında değişen mesleki tecrübe şartı aranmakta olup, hiçbir tecrübesi bulunmayan yeni mezunlar bu ilana başvuramamaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 431
   },
   {
     "id": "igt_2254634",
@@ -381,7 +404,8 @@
     "city": "Samsun",
     "isSuitable": false,
     "aiExplanation": "İlandaki Bilgisayar Mühendisliği uzman kadrosuna başvurabilmek için son başvuru tarihi itibarıyla ÖSYM'den en az 80 KPSS puanı ve İngilizce dilinden (C) düzeyinde yabancı dil belgesi (YÖD-DİL hariç) şartı aranmaktadır, ancak kullanıcının bu belgelere dair bir bilgisi veya tecrübesi bulunmamaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 432
   },
   {
     "id": "igt_2254593",
@@ -397,7 +421,8 @@
     "city": "Konya",
     "isSuitable": false,
     "aiExplanation": "İlanda Bilgisayar Mühendisliği kadrosu açılmamış, sadece İnşaat Mühendisliği mezuniyeti istenmektedir.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 433
   },
   {
     "id": "igt_2254568",
@@ -413,7 +438,8 @@
     "city": "Isparta",
     "isSuitable": false,
     "aiExplanation": "İlanda Zabıta Memuru kadrosu açılmış ancak Bilgisayar Mühendisliği yerine bankacılık ve finans, finans matematiği, finansal ekonometri programlarından mezun olma şartı aranmaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 434
   },
   {
     "id": "igt_2254540",
@@ -429,7 +455,8 @@
     "city": "İstanbul",
     "isSuitable": false,
     "aiExplanation": "İlan; Destek Personeli ve Koruma ve Güvenlik Görevlisi kadrolarından oluşmakta olup, Bilgisayar Mühendisliği mezunları için herhangi bir mühendislik kadrosu açılmamıştır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 435
   },
   {
     "id": "igt_2252997",
@@ -445,7 +472,8 @@
     "city": "Nevşehi̇r",
     "isSuitable": false,
     "aiExplanation": "İlanda yer alan düzeltme metni yalnızca başvuru değerlendirme ve sınav tarihleri ile ilgili olup, yeni bir kadro veya mühendislik alımı açılmamıştır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 436
   },
   {
     "id": "igt_2252995",
@@ -461,7 +489,8 @@
     "city": "Ankara",
     "isSuitable": false,
     "aiExplanation": "İlanda Bilgisayar Mühendisliği kadrosu açılmamış olup, sadece Arap Dili ve Edebiyatı ile İlahiyat fakültesi mezunu adaylar için alım yapılmaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 437
   },
   {
     "id": "igt_2252978",
@@ -477,7 +506,8 @@
     "city": "Ankara",
     "isSuitable": false,
     "aiExplanation": "İlanda Muhabere, İkmal ve Bakım gibi çeşitli mühendislik/lisans kontenjanları açılmıştır ancak Bilgisayar Mühendisliği mezuniyetine yönelik herhangi bir kadro yer almamaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 438
   },
   {
     "id": "igt_2252977",
@@ -493,7 +523,8 @@
     "city": "İstanbul",
     "isSuitable": false,
     "aiExplanation": "İlandaki Fon Denetçi Yardımcısı ve Fon Uzman Yardımcısı kadroları için 2025 veya 2026 yılı KPSS (A grubu) ve en az 50 YDS/e-YDS puanı şartı aranırken, kullanıcının 2026 KPSS puanı olmasına rağmen yabancı dil (YDS/e-YDS) puanı bulunmamaktadır; Fon Avukatlığı kadrosu ise yalnızca hukuk fakültesi mezunlarına yöneliktir.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 439
   },
   {
     "id": "igt_2252974",
@@ -509,7 +540,8 @@
     "city": "İstanbul",
     "isSuitable": false,
     "aiExplanation": "İlandaki Bilgisayar Mühendisliği kadrolarına başvurabilmek için son başvuru tarihi itibarıyla 5 yıl içinde alınmış geçerli YDS/e-YDS'den (C) düzeyinde puan ve KPSSP1, KPSSP2 veya KPSSP3 puan türünden en az 80 puan alma şartı bulunmaktadır; ancak kullanıcının YDS belgesi ve 2026 KPSS puanı bulunmamaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 440
   },
   {
     "id": "igt_2249813",
@@ -525,7 +557,8 @@
     "city": "Ankara",
     "isSuitable": false,
     "aiExplanation": "İlanda Bilgisayar Mühendisliği kadrosu açılmamış, yalnızca \"Kısa Süreli Hukuk Danışmanı\" pozisyonu için alım yapılmaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 441
   },
   {
     "id": "igt_2250868",
@@ -541,7 +574,8 @@
     "city": "Ankara",
     "isSuitable": false,
     "aiExplanation": "İlanda Bilgisayar Mühendisliği kadrosu açılmış ve 2026 KPSS puanı kabul edilmekle birlikte, kullanıcının başvuru için zorunlu olan İngilizce alanında en az 75 YDS puanı bulunmamaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 442
   },
   {
     "id": "igt_2249323",
@@ -557,23 +591,8 @@
     "city": "İstanbul",
     "isSuitable": false,
     "aiExplanation": "İlandaki tüm pozisyonlar için en az 3 ile 5 yıl arasında mesleki tecrübe şartı aranmaktadır, ancak kullanıcının hiçbir tecrübesi bulunmamaktadır.",
-    "aiScanned": true
-  },
-  {
-    "id": "igt_2247946",
-    "igt_id": "2247946",
-    "title": "Türk Patent ve Marka Kurumu Sözleşmeli Bilişim Personeli Alım İlanı",
-    "institution": "TÜRK PATENT VE MARKA KURUMU",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-10-06T21:00:01Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2247946/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-turk-patent-ve-marka-kurumu-sozlesmeli-bilisim-personeli-alim-ilani",
-    "city": "Ankara",
-    "isSuitable": false,
-    "aiExplanation": "İlandaki Kıdemli Yazılım Mimarı pozisyonu için en az 5 yıllık mesleki tecrübe şartı aranmaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 443
   },
   {
     "id": "igt_2246674",
@@ -589,7 +608,8 @@
     "city": "Antalya",
     "isSuitable": false,
     "aiExplanation": "İlanda bilgisayar mühendisliği veya herhangi bir kadro alımı yapılmamakta; yalnızca Antalya Adliyesi yargı çevresinde görev yapacak tercüman listesi için başvuru alınmaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 444
   },
   {
     "id": "igt_2246165",
@@ -605,7 +625,8 @@
     "city": "Muş",
     "isSuitable": false,
     "aiExplanation": "İlan bir düzeltme metni olup, metinde hangi unvan ve kadroların alım yapılacağına dair detaylar yer almadığı ve ana ilanın şartlarına erişilemediği için kullanıcının mezuniyetine ve KPSS puanına uygunluğu doğrulanamamaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 445
   },
   {
     "id": "igt_2244741",
@@ -621,7 +642,8 @@
     "city": "Ankara",
     "isSuitable": false,
     "aiExplanation": "İlanda Bilgisayar Mühendisliği kadrosu açılmamıştır ve TGA Personel Alımı Kadroları ve Adaylarda Aranan Nitelikler Tablosunda (Ek-1) bu bölüme yer verilmemiştir.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 446
   },
   {
     "id": "igt_2243231",
@@ -637,7 +659,8 @@
     "city": "Teki̇rdağ",
     "isSuitable": false,
     "aiExplanation": "İlanda bilgisayar mühendisliği kadrosu açılmamış olup, sadece çeşitli dillerde ve işaret dilinde tercüman bilirkişi alımı yapılmaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 447
   },
   {
     "id": "igt_2237196",
@@ -653,7 +676,8 @@
     "city": "Osmani̇ye",
     "isSuitable": false,
     "aiExplanation": "İlanda Bilgisayar Mühendisliği kadrosu açılmamış olup, mahkemelerde soruşturma veya kovuşturma evresinde Türkçe bilmeyen veya engelli kişilerin beyanlarını çevirmek üzere tercüman bilirkişi alımı yapılmaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 448
   },
   {
     "id": "igt_2243042",
@@ -669,7 +693,8 @@
     "city": "Ardahan",
     "isSuitable": false,
     "aiExplanation": "İlanda lisans mezunu Bilgisayar Mühendisliği kadrosu açılmamış, yalnızca ortaöğretim (lise/dengi) mezunları için Teknisyen kadrosu ve 2024 KPSS P94 puanı istenmiştir.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 449
   },
   {
     "id": "igt_2240651",
@@ -685,7 +710,8 @@
     "city": "Eski̇şehi̇r",
     "isSuitable": false,
     "aiExplanation": "İlanda Bilgisayar Mühendisliği kadrosu açılmamış olup, mahkemeler için yabancı dil veya işaret dili bilen tercüman alımı yapılmaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 450
   },
   {
     "id": "igt_2242996",
@@ -701,7 +727,8 @@
     "city": "İstanbul",
     "isSuitable": false,
     "aiExplanation": "İlanda lisans mezunları için yalnızca herhangi bir lisans mezuniyet şartı aranan Zabıta Memuru kadrosu açılmış olup, Bilgisayar Mühendisliği unvanına ait özel bir kadro bulunmamaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 451
   },
   {
     "id": "igt_2240448",
@@ -717,7 +744,8 @@
     "city": "Bartin",
     "isSuitable": false,
     "aiExplanation": "İlanda bilgisayar mühendisliği kadrosu açılmamış olup, Bartın Adliyesi yargı çevresinde görev yapmak üzere tercüman bilirkişi listesi oluşturulacağı duyurulmuştur.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 452
   },
   {
     "id": "igt_2240064",
@@ -733,7 +761,8 @@
     "city": "Ankara",
     "isSuitable": false,
     "aiExplanation": "İlandaki \"Kısmi Süreli Proje Personeli (Aday Araştırmacı)\" pozisyonları için 2026-2027 eğitim-öğretim yılında 3. veya 4. sınıfta öğrenci olmak şartı aranmaktadır; ancak kullanıcı mezun durumundadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 453
   },
   {
     "id": "igt_2240011",
@@ -749,7 +778,8 @@
     "city": "Ni̇ğde",
     "isSuitable": false,
     "aiExplanation": "İlan tamamen iptal edildiği için herhangi bir kadroya başvuru yapmak mümkün değildir.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 454
   },
   {
     "id": "igt_2238204",
@@ -765,7 +795,8 @@
     "city": "Gazi̇antep",
     "isSuitable": false,
     "aiExplanation": "İlanda aranan unvan Rehber Öğretmen olup, kullanıcının mezun olduğu Bilgisayar Mühendisliği bölümü bu pozisyon için gerekli şartları sağlamamaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 455
   },
   {
     "id": "igt_2236980",
@@ -781,7 +812,8 @@
     "city": "Ardahan",
     "isSuitable": false,
     "aiExplanation": "İlanda Bilgisayar Mühendisliği kadrosu açılmamış, MEB kurumlarında çalışma şartlarını taşıyan \"Rehber Öğretmen\" aranmaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 456
   },
   {
     "id": "igt_2232010",
@@ -797,7 +829,8 @@
     "city": "Ağri",
     "isSuitable": false,
     "aiExplanation": "İlanda Çözümleyici kadrosu açılmış ancak Bilgisayar Mühendisliği değil İşletme, Siyaset Bilimi ve yerel yönetimler bölümlerinin birinden mezuniyet şartı aranmaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 457
   },
   {
     "id": "igt_2230483",
@@ -813,7 +846,8 @@
     "city": "Isparta",
     "isSuitable": false,
     "aiExplanation": "İlan metninde kadro unvanları ve nitelikleri belirtilmemiş olup sadece başvuru tarihlerinin değiştirildiğine dair düzeltme yayımlanmıştır; bu nedenle başvuru yapabileceğiniz net bir Bilgisayar Mühendisliği kadrosu bulunmamaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 458
   },
   {
     "id": "igt_2229085",
@@ -829,7 +863,8 @@
     "city": "İstanbul",
     "isSuitable": true,
     "aiExplanation": "İlanda Bilgisayar Mühendisliği mezunları için P3 puan türünden en az 70 taban puanla Mühendis kadrosu açılmıştır ve kullanıcı 2026 KPSS puanına sahiptir.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 459
   },
   {
     "id": "igt_2228917",
@@ -845,7 +880,8 @@
     "city": "Kocaeli̇",
     "isSuitable": false,
     "aiExplanation": "Uzman Personel (Bilgisayar Mühendisliği) kadrosuna başvurabilmek için ilan tarihleri itibarıyla son 5 yıl içerisinde alınmış en az 70 puanlık YDS/e-YDS İngilizce belgesi zorunludur ve kullanıcı bu şartı sağlamamaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 460
   },
   {
     "id": "igt_2227126",
@@ -861,7 +897,8 @@
     "city": "Ankara",
     "isSuitable": false,
     "aiExplanation": "İlanda her ne kadar Mühendislik fakültesi mezuniyeti kabul edilse de, başvuru için 2025 veya 2026 yıllarında yapılan KPSS'den ilgili puan türlerinden en yüksek puanlı 800 kişi arasında yer alma ve tecrübesiz/sertifikasız profilin bu sıralamaya girip giremeyeceği belirsizliğinden ziyade, ilandaki genel şartları sağlasanız dahi ilanda belirtilen KPSSP1, KPSSP2, KPSSP3, KPSSP25, KPSSP26, KPSSP27, KPSSP28 ve KPSSP45 puan türlerinden 75 ve üzerinde puana sahip olup olmadığınız profilde belirtilmediği ve kontenjana (ilk 800 kişi) girme garantisi bulunmadığı için doğrudan uygunluk onaylanamamaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 461
   },
   {
     "id": "igt_2223911",
@@ -877,7 +914,8 @@
     "city": "Kirşehi̇r",
     "isSuitable": false,
     "aiExplanation": "İlanda sadece istatistik, ilköğretim matematik öğretmenliği ve işletme programları mezunları için Memur kadrosu açılmıştır, Bilgisayar Mühendisliği mezuniyeti istenmemektedir.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 462
   },
   {
     "id": "igt_2226099",
@@ -893,23 +931,8 @@
     "city": "Bolu",
     "isSuitable": false,
     "aiExplanation": "İlanda Mühendis kadrosu açılmış ancak Bilgisayar değil İnşaat Mühendisliği bölümünden mezun olmak şartı aranmaktadır.",
-    "aiScanned": true
-  },
-  {
-    "id": "igt_2226098",
-    "igt_id": "2226098",
-    "title": "Elmakaya Belediye Başkanlığı Memur Alım İlanı",
-    "institution": "ELMAKAYA BELEDİYE BAŞKANLIĞI",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-09-16T21:00:01Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2226098/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-elmakaya-belediye-baskanligi-memur-alim-ilani",
-    "city": "Muş",
-    "isSuitable": false,
-    "aiExplanation": "İlanda Mühendis kadrosu açılmış ancak Bilgisayar değil jeodezi ve fotogrametri, jeodezi ve haritacılık, harita veya geomatik mühendisliği mezuniyeti istenmektedir.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 463
   },
   {
     "id": "igt_2226095",
@@ -925,7 +948,8 @@
     "city": "Aydin",
     "isSuitable": false,
     "aiExplanation": "İlanda herhangi bir lisans programından mezun olunması şartıyla Zabıta Memuru kadrosu açılmış ve 2026 KPSS P3 puanı kabul edilmekte olmasına rağmen, başvuru için en az (B) sınıfı sürücü belgesi şartı aranmakta olup kullanıcının sürücü belgesi bulunmamaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 464
   },
   {
     "id": "igt_2220817",
@@ -941,7 +965,8 @@
     "city": "Ankara",
     "isSuitable": false,
     "aiExplanation": "İlanda Bilgisayar Mühendisliği mezuniyetine yönelik herhangi bir kadro açılmamış olup, sadece Hukuk, Muhasebe ve Finans Yönetimi, Maliye, İşletme, İktisat ile Çalışma Ekonomisi ve Endüstri İlişkileri lisans programı mezunları kabul edilmektedir.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 465
   },
   {
     "id": "igt_2188158",
@@ -957,7 +982,8 @@
     "city": "Ankara",
     "isSuitable": false,
     "aiExplanation": "İlanda Gelir Uzman Yardımcısı kadroları açılmış olup, Bilgisayar Mühendisliği mezuniyetine yönelik herhangi bir kadro yer almamaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 466
   },
   {
     "id": "igt_2176787",
@@ -973,7 +999,8 @@
     "city": "Ankara",
     "isSuitable": false,
     "aiExplanation": "İlanda bilgisayar mühendisliği kadrosu açılmamış olup, duyurusu yapılan sınav stajını tamamlamış Serbest Muhasebeci Mali Müşavir adaylarına yöneliktir ve 0 tecrübeli yeni mezun bilgisayar mühendisi bu şartları sağlamamaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 467
   },
   {
     "id": "igt_1973572",
@@ -989,182 +1016,279 @@
     "city": "İstanbul",
     "isSuitable": false,
     "aiExplanation": "Bu ilan bir kamu personeli veya kadro alım ilanı olmayıp, SEGEM tarafından düzenlenen **Aktüerlik Sınavları** duyurusudur; dolayısıyla başvuru yapılabilecek bir kadro veya istihdam pozisyonu bulunmamaktadır.",
-    "aiScanned": true
+    "aiScanned": true,
+    "telegram_message_id": 468
   },
   {
-    "id": "041d7e354f9e71802bec0c57d9e9d361",
+    "id": "2a8bf1a44594fdc9df7a53ab6ffb7d8d",
+    "title": "Cumhurbaşkanlığı Strateji ve Bütçe Başkanlığından:",
+    "institution": "Cumhurbaşkanlığı Strateji ve Bütçe",
+    "department": "Resmi Gazete İlanı",
+    "type": "Kamu Personeli Alımı",
+    "status": "Aktif",
+    "startDate": "2026-10-22T00:00:00",
+    "endDate": "2026-11-06T23:59:00",
+    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4.htm",
+    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4-1.pdf",
+    "city": "Tüm Türkiye",
+    "isSuitable": false,
+    "aiExplanation": "İlandaki tüm pozisyonlar (Yazılım Geliştirme Uzmanı, Kıdemli Yazılım Geliştirme Uzmanı ve Kıdemli Sistem ve Güvenlik Uzmanı) için en az 3 ila 5 yıl mesleki tecrübe şartı aranmaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 469
+  },
+  {
+    "id": "9d37202a6e6fabe6972201d9ca9a7e3b",
     "title": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı Yerel Yönetimler Genel Müdürlüğünden:",
     "institution": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı Yerel Yönetimler Genel Müdürlüğünden:",
     "department": "Resmi Gazete İlanı",
     "type": "Kamu Personeli Alımı",
     "status": "Aktif",
-    "startDate": "2026-10-21T00:00:00",
-    "endDate": "2026-11-05T23:59:00",
-    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4.htm",
-    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4-2.pdf",
+    "startDate": "2026-10-22T00:00:00",
+    "endDate": "2026-11-06T23:59:00",
+    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4.htm",
+    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4-2.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": false,
-    "aiExplanation": "İlanda herhangi bir personel alım kadrosu bulunmamakta, metin tamamen ihalelere katılmaktan yasaklama kararlarını içermektedir.",
-    "aiScanned": true
+    "aiExplanation": "İlanda herhangi bir personel alımı veya kadro ihdası bulunmamakta, yalnızca ihale yasaklama kararları yayımlanmıştır.",
+    "aiScanned": true,
+    "telegram_message_id": 470
   },
   {
-    "id": "0f816f187df21cf9555388e4f934ef63",
+    "id": "c5a50c6021f23c32c87ae5072e0102a8",
     "title": "Milli Eğitim Bakanlığı Destek Hizmetleri Genel Müdürlüğünden:",
     "institution": "Milli Eğitim Bakanlığı Destek Hizmetleri Genel Müdürlüğünden:",
     "department": "Resmi Gazete İlanı",
     "type": "Kamu Personeli Alımı",
     "status": "Aktif",
-    "startDate": "2026-10-21T00:00:00",
-    "endDate": "2026-11-05T23:59:00",
-    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4.htm",
-    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4-3.pdf",
+    "startDate": "2026-10-22T00:00:00",
+    "endDate": "2026-11-06T23:59:00",
+    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4.htm",
+    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4-3.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": false,
-    "aiExplanation": "Bu belge bir personel alımı ilanı olmayıp, 4734 sayılı Kamu İhale Kanunu uyarınca Abdülmuttalip Akgün adlı gerçek kişinin ihalelere katılmaktan yasaklanması kararına aittir.",
-    "aiScanned": true
+    "aiExplanation": "İlan metni ve detayları eklenmediği için başvuru şartlarının sağlanıp sağlanamadığı incelenememektedir.",
+    "aiScanned": true,
+    "telegram_message_id": 471
   },
   {
-    "id": "abc79081fd103c1436127805edf39f6b",
-    "title": "Sağlık Bakanlığı Kamu Hastaneleri Genel Müdürlüğünden:",
-    "institution": "Sağlık Bakanlığı Kamu Hastaneleri Genel Müdürlüğünden:",
+    "id": "495cfa62cd395721ac6209a7537c135f",
+    "title": "Milli Savunma Bakanlığı Makine ve Kimya Endüstri A.Ş. Genel Müdürlüğünden:",
+    "institution": "Milli Savunma Bakanlığı Makine ve Kimya Endüstri A.Ş. Genel Müdürlüğünden:",
     "department": "Resmi Gazete İlanı",
     "type": "Kamu Personeli Alımı",
     "status": "Aktif",
-    "startDate": "2026-10-21T00:00:00",
-    "endDate": "2026-11-05T23:59:00",
-    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4.htm",
-    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4-4.pdf",
+    "startDate": "2026-10-22T00:00:00",
+    "endDate": "2026-11-06T23:59:00",
+    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4.htm",
+    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4-4.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": false,
-    "aiExplanation": "İlanda herhangi bir personel alımı veya kadro açılmamış, yalnızca şirketler veya şahıslar için \"İhalelere Katılmaktan Yasaklama Kararları\" yayımlanmıştır.",
-    "aiScanned": true
+    "aiExplanation": "Belgede bir personel alım ilanı yer almamakta olup, doğrudan 'REMKA TIBBİ CİHAZLAR MAKİNA NAKLİYAT SANAYİ VE TİCARET LİMİTED ŞİRKETİ' hakkında verilmiş bir ihalelere katılmaktan yasaklama kararı bulunmaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 472
   },
   {
-    "id": "98ad4733d2edd755a323631d39e21b41",
-    "title": "Sağlık Bakanlığı Strateji Geliştirme Başkanlığından:",
-    "institution": "Sağlık Bakanlığı Strateji Geliştirme",
+    "id": "9fa8ee716d148194775a78eda65d53dc",
+    "title": "Tarım ve Orman Bakanlığı Orman Genel Müdürlüğünden:",
+    "institution": "Tarım ve Orman Bakanlığı Orman Genel Müdürlüğünden:",
     "department": "Resmi Gazete İlanı",
     "type": "Kamu Personeli Alımı",
     "status": "Aktif",
-    "startDate": "2026-10-21T00:00:00",
-    "endDate": "2026-11-05T23:59:00",
-    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4.htm",
-    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4-5.pdf",
+    "startDate": "2026-10-22T00:00:00",
+    "endDate": "2026-11-06T23:59:00",
+    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4.htm",
+    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4-5.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": false,
-    "aiExplanation": "İlanda herhangi bir mühendislik veya personel alımı kadrosu bulunmamakta; metin tamamen ihalelere katılmaktan yasaklama kararlarını içermektedir.",
-    "aiScanned": true
+    "aiExplanation": "İlan metninin tamamı \"İhalelere Katılmaktan Yasaklama Kararları\" ile ilgili duyurulardan ibarettir; herhangi bir kamu personeli veya bilgisayar mühendisi alım kadrosu yer almamaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 473
   },
   {
-    "id": "ee14d333928eeba07fdb31be6faf418a",
-    "title": "Sağlık Bakanlığı Sağlık Yatırımları Genel Müdürlüğünden:",
-    "institution": "Sağlık Bakanlığı Sağlık Yatırımları Genel Müdürlüğünden:",
+    "id": "f785ccc6d9c3007b3b0558a386ec32d5",
+    "title": "Galatasaray Üniversitesi Rektörlüğünden:",
+    "institution": "Galatasaray Üniversitesi",
     "department": "Resmi Gazete İlanı",
     "type": "Kamu Personeli Alımı",
     "status": "Aktif",
-    "startDate": "2026-10-21T00:00:00",
-    "endDate": "2026-11-05T23:59:00",
-    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4.htm",
-    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4-6.pdf",
+    "startDate": "2026-10-22T00:00:00",
+    "endDate": "2026-11-06T23:59:00",
+    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4.htm",
+    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4-6.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": false,
-    "aiExplanation": "İtalyanca veya teknik bir personel alımı olmayıp, belge bir şirketin (İlbey Özen İnşaat Taahhüt Sanayi ve Ticaret Limited Şirketi) ihalelere katılmaktan yasaklanma kararını içermektedir.",
-    "aiScanned": true
+    "aiExplanation": "İlanda yalnızca Koruma ve Güvenlik Görevlisi ile Destek Personeli (Şoför ve Temizlik) kadroları açılmış olup, Bilgisayar Mühendisliği mezunlarına yönelik herhangi bir kadro bulunmamaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 474
   },
   {
-    "id": "06d77204663e04cb1a5fec6689afd69c",
-    "title": "Adalet Bakanlığı Hukuk İşleri Genel Müdürlüğünden:",
-    "institution": "Adalet Bakanlığı Hukuk İşleri Genel Müdürlüğünden:",
+    "id": "45c06d56fb7d3cd17fc3a472c0e6b4d8",
+    "title": "KTO Karatay Üniversitesi Rektörlüğünden:",
+    "institution": "KTO Karatay Üniversitesi",
     "department": "Resmi Gazete İlanı",
     "type": "Kamu Personeli Alımı",
     "status": "Aktif",
-    "startDate": "2026-10-21T00:00:00",
-    "endDate": "2026-11-05T23:59:00",
-    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4.htm",
-    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4-7.pdf",
+    "startDate": "2026-10-22T00:00:00",
+    "endDate": "2026-11-06T23:59:00",
+    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4.htm",
+    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4-7.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": false,
-    "aiExplanation": "İlanda mühendislik kadrosu bulunmamakta; yalnızca birinci ve ikinci sınıf noter atamaları yapılmaktadır.",
-    "aiScanned": true
+    "aiExplanation": "İlanda yalnızca Hukuk, Endüstriyel Tasarım, İktisat ve Tıp fakültelerine yönelik Profesör ve Doktor Öğretim Üyesi kadroları açılmış olup, Bilgisayar Mühendisliği kadrosu bulunmamaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 475
   },
   {
-    "id": "5508c868aa7c69f0f1f95e58b7425c01",
-    "title": "Fatih Sultan Mehmet Vakıf Üniversitesi Rektörlüğünden:",
-    "institution": "Fatih Sultan Mehmet Vakıf Üniversitesi",
+    "id": "5ee62481dd91230efc2281187b89bc43",
+    "title": "Adalet Bakanlığından:",
+    "institution": "Adalet Bakanlığından:",
     "department": "Resmi Gazete İlanı",
     "type": "Kamu Personeli Alımı",
     "status": "Aktif",
-    "startDate": "2026-10-21T00:00:00",
-    "endDate": "2026-11-05T23:59:00",
-    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4.htm",
-    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4-8.pdf",
+    "startDate": "2026-10-22T00:00:00",
+    "endDate": "2026-11-06T23:59:00",
+    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4.htm",
+    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4-8.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": false,
-    "aiExplanation": "İlanda \"Öğretim Üyesi\" ve \"Öğretim Elemanı\" kadroları için alım yapıldığı belirtilmekte olup, bu kadrolar için akademik unvan (Doktora/Yüksek Lisans) veya ALES/YDS gibi akademik personel giriş şartları aranmaktadır; yeni mezun mühendislik kadrosu bulunmamaktadır.",
-    "aiScanned": true
+    "aiExplanation": "İlanda herhangi bir personel alımı veya kadro ihdası yapılmamış; yalnızca Adana ve Manavgat İcra Müdürlüklerindeki kayıp/imha olmuş iki adet dosya için 4473 sayılı Kanun hükümlerinin uygulanacağı duyurulmuştur.",
+    "aiScanned": true,
+    "telegram_message_id": 476
   },
   {
-    "id": "3174bbaeed7b8968bd08c7434b437efc",
-    "title": "Çağ Üniversitesi Rektörlüğünden:",
-    "institution": "Çağ Üniversitesi",
+    "id": "11749d8a79d0eff83054c81f95c6f9e7",
+    "title": "Muş İli Elmakaya Belediye Başkanlığından:",
+    "institution": "Muş İli Elmakaya Belediye",
     "department": "Resmi Gazete İlanı",
     "type": "Kamu Personeli Alımı",
     "status": "Aktif",
-    "startDate": "2026-10-21T00:00:00",
-    "endDate": "2026-11-05T23:59:00",
-    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4.htm",
-    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4-9.pdf",
-    "city": "Tüm Türkiye",
+    "startDate": "2026-10-22T00:00:00",
+    "endDate": "2026-11-06T23:59:00",
+    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4.htm",
+    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4-9.pdf",
+    "city": "Muş",
     "isSuitable": false,
-    "aiExplanation": "İlanda sadece İktisadi ve İdari Bilimler Fakültesi bünyesinde Arş. Gör. kadroları açılmış olup, Bilgisayar Mühendisliği mezunlarını kapsayan bir alım bulunmamaktadır.",
-    "aiScanned": true
+    "aiExplanation": "İlanda bilgisayar mühendisliği kadrosu açılmamıştır.",
+    "aiScanned": true,
+    "telegram_message_id": 477
   },
   {
-    "id": "612eb0c6966d2600c0d0635972ecf2df",
+    "id": "7122e3fedf7e1f8ec7a6428c291a343c",
+    "title": "Süleyman Demirel Üniversitesi Rektörlüğünden:",
+    "institution": "Süleyman Demirel Üniversitesi",
+    "department": "Resmi Gazete İlanı",
+    "type": "Kamu Personeli Alımı",
+    "status": "Aktif",
+    "startDate": "2026-10-22T00:00:00",
+    "endDate": "2026-11-06T23:59:00",
+    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4.htm",
+    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4-11.pdf",
+    "city": "Tüm Türkiye",
+    "isSuitable": false,
+    "aiExplanation": "İlanda Bilgisayar Mühendisliği kadrosu açılmamış olup, sadece Fizyoterapi ve Rehabilitasyon alanında doktora yapmış Doktor Öğretim Üyesi alınacağı belirtilmiştir.",
+    "aiScanned": true,
+    "telegram_message_id": 478
+  },
+  {
+    "id": "515ab801ab2a6e48863895b772b6af86",
+    "title": "Enerji ve Tabii Kaynaklar Bakanlığı Maden ve Petrol İşleri Genel Müdürlüğünden:",
+    "institution": "Enerji ve Tabii Kaynaklar Bakanlığı Maden ve Petrol İşleri Genel Müdürlüğünden:",
+    "department": "Resmi Gazete İlanı",
+    "type": "Kamu Personeli Alımı",
+    "status": "Aktif",
+    "startDate": "2026-10-22T00:00:00",
+    "endDate": "2026-11-06T23:59:00",
+    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4.htm",
+    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4-13.pdf",
+    "city": "Tüm Türkiye",
+    "isSuitable": false,
+    "aiExplanation": "İlanda herhangi bir kamu personeli veya mühendis alımı kadrosu açılmamış, metin yalnızca bir petrol arama ruhsatı süre uzatımına ilişkin bilgilendirme ilanından ibarettir.",
+    "aiScanned": true,
+    "telegram_message_id": 479
+  },
+  {
+    "id": "bd321d3aeebdcde4fffee82a171eea1b",
+    "title": "Boğaziçi Üniversitesi Rektörlüğünden:",
+    "institution": "Boğaziçi Üniversitesi",
+    "department": "Resmi Gazete İlanı",
+    "type": "Kamu Personeli Alımı",
+    "status": "Aktif",
+    "startDate": "2026-10-22T00:00:00",
+    "endDate": "2026-11-06T23:59:00",
+    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4.htm",
+    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4-14.pdf",
+    "city": "Tüm Türkiye",
+    "isSuitable": false,
+    "aiExplanation": "İlanda bilgisayar mühendisliği kadrosu açılmamış, yalnızca idari ve destek personeli alımı yapılmıştır.",
+    "aiScanned": true,
+    "telegram_message_id": 480
+  },
+  {
+    "id": "26bfc1e627d6555c5eb33c5401763a1e",
+    "title": "Bolu Abant İzzet Baysal Üniversitesi Rektörlüğünden:",
+    "institution": "Bolu Abant İzzet Baysal Üniversitesi",
+    "department": "Resmi Gazete İlanı",
+    "type": "Kamu Personeli Alımı",
+    "status": "Aktif",
+    "startDate": "2026-10-22T00:00:00",
+    "endDate": "2026-11-06T23:59:00",
+    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4.htm",
+    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4-15.pdf",
+    "city": "Bolu",
+    "isSuitable": false,
+    "aiExplanation": "İlan yalnızca Diş Hekimliği, Eğitim, Fen Edebiyat, Güzel Sanatlar, İktisadi ve İdari Bilimler ve Mimarlık fakültelerine yönelik Profesör, Doçent ve Doktor Öğretim Üyesi alımlarını kapsamaktadır; Bilgisayar Mühendisliği kadrosu bulunmamaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 481
+  },
+  {
+    "id": "cee604e96a5d94bc063df9e211971313",
     "title": "Ege Üniversitesi Rektörlüğünden:",
     "institution": "Ege Üniversitesi",
     "department": "Resmi Gazete İlanı",
     "type": "Kamu Personeli Alımı",
     "status": "Aktif",
-    "startDate": "2026-10-21T00:00:00",
-    "endDate": "2026-11-05T23:59:00",
-    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4.htm",
-    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4-10.pdf",
+    "startDate": "2026-10-22T00:00:00",
+    "endDate": "2026-11-06T23:59:00",
+    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4.htm",
+    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4-16.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": false,
-    "aiExplanation": "İlan 'Öğretim Üyesi Alım İlanı' olup, bu pozisyonlar için lisansüstü eğitim (yüksek lisans veya doktora) ve akademik deneyim gerekmektedir.",
-    "aiScanned": true
+    "aiExplanation": "İlandaki bilgisayar veya yazılım mühendisliği ile ilgili kadrolar için tezli yüksek lisans yapmış olmak ve en az 1 yıl mesleki tecrübe şartı aranmaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 482
   },
   {
-    "id": "485b3cfbe796d80141bb6781ae5360e9",
-    "title": "Pamukkale Üniversitesi Rektörlüğünden:",
-    "institution": "Pamukkale Üniversitesi",
+    "id": "d885d69d462315eaaf5188d2dafc08e0",
+    "title": "İstanbul Beykent Üniversitesi Rektörlüğünden:",
+    "institution": "İstanbul Beykent Üniversitesi",
     "department": "Resmi Gazete İlanı",
     "type": "Kamu Personeli Alımı",
     "status": "Aktif",
-    "startDate": "2026-10-21T00:00:00",
-    "endDate": "2026-11-05T23:59:00",
-    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4.htm",
-    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4-12.pdf",
-    "city": "Tüm Türkiye",
+    "startDate": "2026-10-22T00:00:00",
+    "endDate": "2026-11-06T23:59:00",
+    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4.htm",
+    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4-17.pdf",
+    "city": "İstanbul",
     "isSuitable": false,
-    "aiExplanation": "İlan detay metninde herhangi bir unvan, kadro veya başvuru şartı bilgisi bulunmamaktadır.",
-    "aiScanned": true
+    "aiExplanation": "İlanda sadece Profesör, Doçent ve Doktor Öğretim Üyesi kadroları açılmış olup, yeni mezun bir bilgisayar mühendisinin başvurabileceği bir kadro bulunmamaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 483
   },
   {
-    "id": "31d37b30acaf1ab96d6fd34d726ceaa6",
+    "id": "a7a64e34bd4c0d57e008853ef9bf7de9",
     "title": "Kültür ve Turizm Bakanlığından:",
     "institution": "Kültür ve Turizm Bakanlığından:",
     "department": "Resmi Gazete İlanı",
     "type": "Kamu Personeli Alımı",
     "status": "Aktif",
-    "startDate": "2026-10-21T00:00:00",
-    "endDate": "2026-11-05T23:59:00",
-    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4.htm",
-    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261021-4-13.pdf",
+    "startDate": "2026-10-22T00:00:00",
+    "endDate": "2026-11-06T23:59:00",
+    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4.htm",
+    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261022-4-18.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": false,
-    "aiExplanation": "İncelediğiniz belge Kültür ve Turizm Bakanlığına bağlı koruma bölge kurullarının sit alanı ilan kararlarını içermekte olup, herhangi bir kamu personeli alım ilanı veya kadro tablosu barındırmamaktadır.",
-    "aiScanned": true
+    "aiExplanation": "İlanda herhangi bir personel veya kadro alımı bulunmamakta; Uşak ili Eşme ilçesindeki bir taşınmazın 3. derece arkeolojik sit alanı olarak tescil edilmesi ve koruma koşullarının belirlenmesine dair Kültür Varlıklarını Koruma Bölge Kurulu kararı yer almaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 484
   }
 ]

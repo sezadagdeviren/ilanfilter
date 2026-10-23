@@ -1201,9 +1201,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261023-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261023-4-6.pdf",
     "city": "Hatay",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlan metninde herhangi bir personel alımı veya kadro bulunmamakta, yalnızca \"İhalelerden Yasaklama Kararları\" yayımlanmıştır.",
+    "aiScanned": true,
+    "telegram_message_id": 503
   },
   {
     "id": "fcb6d81428fee7f4e771a06eb16c22d1",
@@ -1250,7 +1251,7 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261023-4-10.pdf",
     "city": "İstanbul",
     "isSuitable": null,
-    "aiExplanation": "",
+    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
     "aiScanned": false
   },
   {

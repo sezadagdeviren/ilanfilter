@@ -1,5 +1,39 @@
 [
   {
+    "id": "igt_2268404",
+    "igt_id": "2268404",
+    "title": "İzmir Büyükşehir Belediye Başkanlığı Zabıta Memur Alım İlanı",
+    "institution": "İZMİR BÜYÜKŞEHİR BELEDİYE BAŞKANLIĞI",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-10-24T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2268404/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-izmir-buyuksehir-belediye-baskanligi-zabita-memur-alim-ilani",
+    "city": "İzmi̇r",
+    "isSuitable": false,
+    "aiExplanation": "İlanda yalnızca antrenörlük, beden eğitimi, spor bilimleri, yerel yönetimler, kamu yönetimi ve siyaset bilimi lisans programları ile belirli ön lisans programlarından mezun olanlar için zabıta memuru kadroları açılmış olup, Bilgisayar Mühendisliği mezuniyetine yer verilmemiştir.",
+    "aiScanned": true,
+    "telegram_message_id": 534
+  },
+  {
+    "id": "igt_2268396",
+    "igt_id": "2268396",
+    "title": "Düzeltme İlanı (Marmara Üniversitesi Rektörlüğü)",
+    "institution": "MARMARA ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-10-25T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2268396/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-duzeltme-ilani-marmara-universitesi-rektorlugu-",
+    "city": "İstanbul",
+    "isSuitable": false,
+    "aiExplanation": "İlandaki kadrolar Büro Personeli, Destek Personeli (Şoför) ve Destek Personeli (Hizmetli) pozisyonlarından oluşmakta olup ortaöğretim (lise) mezunu olma şartı aranmaktadır; Bilgisayar Mühendisliği lisans mezuniyetine uygun kadro bulunmamaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 535
+  },
+  {
     "id": "igt_2266674",
     "igt_id": "2266674",
     "title": "Kırşehir Boztepe Belediye Başkanlığı Memur Alım İlanı",
@@ -66,23 +100,6 @@
     "aiExplanation": "İlanda Bilgisayar Mühendisliği kadrosu açılmamış olup, yalnızca Bilgi ve Belge Yönetimi, Kütüphanecilik, Arşivcilik, Dokümantasyon ve Enformasyon bölümleri mezunu Kütüphaneci alımı yapılmaktadır.",
     "aiScanned": true,
     "telegram_message_id": 495
-  },
-  {
-    "id": "igt_2266482",
-    "igt_id": "2266482",
-    "title": "Marmara Üniversitesi Rektörlüğünden Sözleşmeli Personel Alım İlanı",
-    "institution": "MARMARA ÜNİVERSİTESİ REKTÖRLÜĞÜ",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-10-22T21:00:01Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2266482/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-marmara-universitesi-rektorlugunden-sozlesmeli-personel-alim-ilani",
-    "city": "İstanbul",
-    "isSuitable": false,
-    "aiExplanation": "İlanda bilgisayar mühendisliği kadrosu açılmamış olup, yalnızca Destek Personeli (D02) pozisyonu için alım yapılmaktadır.",
-    "aiScanned": true,
-    "telegram_message_id": 496
   },
   {
     "id": "igt_2265112",

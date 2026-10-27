@@ -1,5 +1,55 @@
 [
   {
+    "id": "igt_2269389",
+    "igt_id": "2269389",
+    "title": "Enformasyon Memurluğu Sınavı Hakkında Duyuru",
+    "institution": "TÜRKİYE SEYAHAT ACENTALARI BİRLİĞİ İKTİSADİ İŞLETMESİ",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-10-25T21:00:00Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2269389/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-enformasyon-memurlugu-sinavi-hakkinda-duyuru",
+    "city": "İstanbul",
+    "isSuitable": null,
+    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
+    "aiScanned": false
+  },
+  {
+    "id": "igt_2269849",
+    "igt_id": "2269849",
+    "title": "İzmir ili Bergama Belediye Başkanlığı Memur Alım İlanı",
+    "institution": "BERGAMA BELEDİYE BAŞKANLIĞI",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-10-26T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2269849/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-izmir-ili-bergama-belediye-baskanligi-memur-alim-ilani",
+    "city": "İzmi̇r",
+    "isSuitable": false,
+    "aiExplanation": "İlanda yalnızca ekonomi, iktisat, maliye, uluslararası ilişkiler ve halkla ilişkiler ve tanıtım bölümlerinden mezun adaylar için memur ve evlendirme memuru kadroları açılmış olup, Bilgisayar Mühendisliği mezuniyetine uygun bir kadro bulunmamaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 538
+  },
+  {
+    "id": "igt_2269836",
+    "igt_id": "2269836",
+    "title": "İptal İlanı (Doğanyol Belediye Başkanlığı)",
+    "institution": "DOĞANYOL BELEDİYE BAŞKANLIĞI",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-10-26T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2269836/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-iptal-ilani-doganyol-belediye-baskanligi-",
+    "city": "Malatya",
+    "isSuitable": false,
+    "aiExplanation": "Malatya Doğanyol Belediye Başkanlığı tarafından yayımlanan memur alım ilanı tamamen **iptal edilmiştir**.",
+    "aiScanned": true,
+    "telegram_message_id": 539
+  },
+  {
     "id": "igt_2268404",
     "igt_id": "2268404",
     "title": "İzmir Büyükşehir Belediye Başkanlığı Zabıta Memur Alım İlanı",
@@ -202,23 +252,6 @@
     "aiExplanation": "İlanda bilgisayar mühendisliği kadrosu açılmamış olup, mahkemeler için 2027 yılı resmi bilirkişi tercüman listesi oluşturulması amacıyla tercümanlık başvuruları duyurulmuştur.",
     "aiScanned": true,
     "telegram_message_id": 410
-  },
-  {
-    "id": "igt_2263556",
-    "igt_id": "2263556",
-    "title": "Doğanyol Belediye Başkanlığı Sözleşmeli Personel Alım İlanı",
-    "institution": "DOĞANYOL BELEDİYE BAŞKANLIĞI",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-10-20T21:00:01Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2263556/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-doganyol-belediye-baskanligi-sozlesmeli-personel-alim-ilani",
-    "city": "Malatya",
-    "isSuitable": false,
-    "aiExplanation": "İlanda Çözümleyici kadrosu açılmış ancak Bilgisayar Mühendisliği değil; kamu yönetimi, halkla ilişkiler ve tanıtım ve yerel yönetimler bölümlerinin birinden mezuniyet şartı aranmaktadır.",
-    "aiScanned": true,
-    "telegram_message_id": 411
   },
   {
     "id": "igt_2262386",
@@ -980,9 +1013,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261027-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261027-4-3.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlanda sadece İnsan ve Toplum Bilimleri Fakültesi İngiliz Dili ve Edebiyatı Anabilim Dalı için Dr. Öğr. Üyesi kadrosu açılmış olup, Bilgisayar Mühendisliği mezuniyetine yönelik herhangi bir kadro bulunmamaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 540
   },
   {
     "id": "d49bfb82974777c9a6354866ee3f0550",
@@ -996,9 +1030,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261027-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261027-4-4.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlanda herhangi bir personel alımı veya kadro duyurusu bulunmamakta, yalnızca ihale yasaklama kararları yayımlanmaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 541
   },
   {
     "id": "ce093e3743ae85aa59ccf0b767f93c74",
@@ -1012,9 +1047,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261027-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261027-4-5.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlandaki belge bir personel alım ilanı değil, bir şirkete (İnnova Organik Gıda...) verilen ihalelere katılmaktan yasaklama kararıdır; dolayısıyla herhangi bir kadro alımı içermemektedir.",
+    "aiScanned": true,
+    "telegram_message_id": 542
   },
   {
     "id": "47e190918dd70c429fe9476f5c61018f",
@@ -1028,9 +1064,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261027-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261027-4-6.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlanda herhangi bir personel alımı veya kadro bulunmamakta, yalnızca Sağlık Bakanlığı Kamu Hastaneleri Genel Müdürlüğü tarafından verilen ihalelerden yasaklama kararları yayımlanmaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 543
   },
   {
     "id": "2aaee6548b00de3bee97418e065e04b6",
@@ -1044,9 +1081,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261027-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261027-4-7.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlan metni tamamen ihalelere katılmaktan yasaklama kararlarıyla ilgilidir ve herhangi bir memur veya Bilgisayar Mühendisi alım kadrosu içermemektedir.",
+    "aiScanned": true,
+    "telegram_message_id": 544
   },
   {
     "id": "27632d3b21ed65f43ee4ac2849d8f73e",
@@ -1060,9 +1098,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261027-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261027-4-8.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlan metni tamamen \"İhalelerden Yasaklama Kararları\" ile ilgili olup, TİGEM bünyesinde herhangi bir Bilgisayar Mühendisi veya personel alım kadrosu içermemektedir.",
+    "aiScanned": true,
+    "telegram_message_id": 545
   },
   {
     "id": "f7f35830e4c0284f3561c1c872b187a2",
@@ -1076,25 +1115,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261027-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261027-4-9.pdf",
     "city": "Kütahya",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
-  },
-  {
-    "id": "1b45415f0010447393838e046e6458ca",
-    "title": "İzmir İli Bergama Belediye Başkanlığından:",
-    "institution": "İzmir İli Bergama Belediye",
-    "department": "Resmi Gazete İlanı",
-    "type": "Kamu Personeli Alımı",
-    "status": "Aktif",
-    "startDate": "2026-10-27T00:00:00",
-    "endDate": "2026-11-11T23:59:00",
-    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261027-4.htm",
-    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261027-4-10.pdf",
-    "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlgili belgede ve ilan içeriğinde herhangi bir kamu personeli alımı yapılmamakta, yalnızca Kütahya Dumlupınar Üniversitesi Rektörlüğü tarafından bir gerçek kişiye verilen ihalelere katılmaktan yasaklama kararı yer almaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 546
   },
   {
     "id": "cee0e70154ce4bb95700f4cc3afff362",
@@ -1108,9 +1132,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261027-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261027-4-11.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlanda Bilgisayar Mühendisliği alanında araştırma görevlisi ve doktor öğretim üyesi kadroları açılmış olup, bu pozisyonlar için lisans mezuniyeti yeterli olmayıp doçent veya doktora derecesine sahip olma şartı aranmaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 547
   },
   {
     "id": "07922a7e2839ec885958ea53b00d1841",
@@ -1124,9 +1149,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261027-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261027-4-12.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlanda yalnızca Profesör ve Doktor Öğretim Üyesi kadroları açılmış olup, Bilgisayar Mühendisliği alanında veya yeni mezunlara yönelik herhangi bir kadro bulunmamaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 548
   },
   {
     "id": "c51b3d0c5a5d619fb6e369e7e991bee2",
@@ -1140,8 +1166,9 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261027-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261027-4-13.pdf",
     "city": "Muş",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlanda akademik kadrolar (Öğretim Üyesi, Öğretim Görevlisi ve Araştırma Görevlisi) aranmakta olup, yeni mezun Bilgisayar Mühendisliği lisans mezunları için doğrudan başvurabilecekleri genel bir kamu personeli (mühendislik) kadrosu açılmamıştır.",
+    "aiScanned": true,
+    "telegram_message_id": 549
   }
 ]

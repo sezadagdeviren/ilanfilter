@@ -543,23 +543,6 @@
     "telegram_message_id": 430
   },
   {
-    "id": "igt_2254634",
-    "igt_id": "2254634",
-    "title": "Orta Karadeniz Kalkınma Ajansı Personel Alım İlanı",
-    "institution": "ORTA KARADENİZ KALKINMA AJANSI GENEL SEKRETERLİĞİ",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-10-12T21:00:01Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2254634/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-orta-karadeniz-kalkinma-ajansi-personel-alim-ilani",
-    "city": "Samsun",
-    "isSuitable": false,
-    "aiExplanation": "İlandaki Bilgisayar Mühendisliği uzman kadrosuna başvurabilmek için son başvuru tarihi itibarıyla ÖSYM'den en az 80 KPSS puanı ve İngilizce dilinden (C) düzeyinde yabancı dil belgesi (YÖD-DİL hariç) şartı aranmaktadır, ancak kullanıcının bu belgelere dair bir bilgisi veya tecrübesi bulunmamaktadır.",
-    "aiScanned": true,
-    "telegram_message_id": 432
-  },
-  {
     "id": "igt_2254593",
     "igt_id": "2254593",
     "title": "Mevlana Kalkınma Ajansı Personel Alım İlanı",
@@ -575,23 +558,6 @@
     "aiExplanation": "İlanda Bilgisayar Mühendisliği kadrosu açılmamış, sadece İnşaat Mühendisliği mezuniyeti istenmektedir.",
     "aiScanned": true,
     "telegram_message_id": 433
-  },
-  {
-    "id": "igt_2254540",
-    "igt_id": "2254540",
-    "title": "İstanbul Teknik Üniversitesi Rektörlüğü Personel Alım İlanı",
-    "institution": "İSTANBUL TEKNİK ÜNİVERSİTESİ REKTÖRLÜĞÜ",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-10-12T21:00:01Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2254540/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-istanbul-teknik-universitesi-rektorlugu-personel-alim-ilani",
-    "city": "İstanbul",
-    "isSuitable": false,
-    "aiExplanation": "İlan; Destek Personeli ve Koruma ve Güvenlik Görevlisi kadrolarından oluşmakta olup, Bilgisayar Mühendisliği mezunları için herhangi bir mühendislik kadrosu açılmamıştır.",
-    "aiScanned": true,
-    "telegram_message_id": 435
   },
   {
     "id": "igt_2252977",
@@ -798,23 +764,6 @@
     "telegram_message_id": 453
   },
   {
-    "id": "igt_2240011",
-    "igt_id": "2240011",
-    "title": "İptal ilanı (Çukurkuyu Belediye Başkanlığı)",
-    "institution": "ÇUKURKUYU BELEDİYE BAŞKANLIĞI",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-09-29T21:00:01Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2240011/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-iptal-ilani-cukurkuyu-belediye-baskanligi-",
-    "city": "Ni̇ğde",
-    "isSuitable": false,
-    "aiExplanation": "İlan tamamen iptal edildiği için herhangi bir kadroya başvuru yapmak mümkün değildir.",
-    "aiScanned": true,
-    "telegram_message_id": 454
-  },
-  {
     "id": "igt_2238204",
     "igt_id": "2238204",
     "title": "Rehber öğretmen alımı yapılacaktır",
@@ -898,23 +847,6 @@
     "aiExplanation": "İlanda Bilgisayar Mühendisliği mezunları için P3 puan türünden en az 70 taban puanla Mühendis kadrosu açılmıştır ve kullanıcı 2026 KPSS puanına sahiptir.",
     "aiScanned": true,
     "telegram_message_id": 459
-  },
-  {
-    "id": "igt_2228917",
-    "igt_id": "2228917",
-    "title": "Doğu Marmara Kalkınma Ajansı Personel Alım İlanı",
-    "institution": "DOĞU MARMARA KALKINMA AJANSI GENEL SEKRETERLİĞİ",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-09-20T21:00:01Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2228917/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-dogu-marmara-kalkinma-ajansi-personel-alim-ilani",
-    "city": "Kocaeli̇",
-    "isSuitable": false,
-    "aiExplanation": "Uzman Personel (Bilgisayar Mühendisliği) kadrosuna başvurabilmek için ilan tarihleri itibarıyla son 5 yıl içerisinde alınmış en az 70 puanlık YDS/e-YDS İngilizce belgesi zorunludur ve kullanıcı bu şartı sağlamamaktadır.",
-    "aiScanned": true,
-    "telegram_message_id": 460
   },
   {
     "id": "igt_2223911",

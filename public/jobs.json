@@ -1,5 +1,56 @@
 [
   {
+    "id": "igt_2271555",
+    "igt_id": "2271555",
+    "title": "Cumhurbaşkanlığı Milli Saraylar İdaresi Başkanlığı Sözleşmeli Personel Alım İlanı",
+    "institution": "CUMHURBAŞKANLIĞI MİLLİ SARAYLAR İDARESİ BAŞKANLIĞI",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-10-27T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2271555/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-cumhurbaskanligi-milli-saraylar-idaresi-baskanligi-sozlesmeli-personel-alim-ilani",
+    "city": "İstanbul",
+    "isSuitable": false,
+    "aiExplanation": "İlanda Bilgisayar Mühendisliği kadrosu açılmamış olup, yalnızca Arkeoloji, Sanat Tarihi ve ilgili bölümlerden mezun adayların başvurabileceği Müze Görevlisi (Kazı Görevlisi) alımı yapılmaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 552
+  },
+  {
+    "id": "igt_2271489",
+    "igt_id": "2271489",
+    "title": "Burdur Mehmet Akif Ersoy Üniversitesi Sözleşmeli Bilişim Personeli Alım İlanı",
+    "institution": "BURDUR M.AKİF ERSOY ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-10-27T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2271489/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-burdur-mehmet-akif-ersoy-universitesi-sozlesmeli-bilisim-personeli-alim-ilani",
+    "city": "Burdur",
+    "isSuitable": false,
+    "aiExplanation": "İlandaki Sistem Yöneticisi pozisyonu için en az 3 yıl mesleki tecrübe şartı aranmakta olup, kullanıcının hiç iş tecrübesi bulunmamaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 553
+  },
+  {
+    "id": "igt_2271463",
+    "igt_id": "2271463",
+    "title": "Elazığ İl Özel İdaresi Sözleşmeli Personel Alım İlanı",
+    "institution": "ELAZIĞ İL ÖZEL İDARESİ",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-10-27T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2271463/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-elazig-il-ozel-idaresi-sozlesmeli-personel-alim-ilani",
+    "city": "Elaziğ",
+    "isSuitable": false,
+    "aiExplanation": "İlanda yalnızca Psikolog ve Sosyal Çalışmacı kadroları açılmış olup, Bilgisayar Mühendisliği mezunları için herhangi bir kadro bulunmamaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 554
+  },
+  {
     "id": "igt_2269389",
     "igt_id": "2269389",
     "title": "Enformasyon Memurluğu Sınavı Hakkında Duyuru",
@@ -917,23 +968,6 @@
     "telegram_message_id": 468
   },
   {
-    "id": "b21732d9c784ac03ed2611cbf062f2d9",
-    "title": "Cumhurbaşkanlığı Milli Saraylar İdaresi Başkanlığından:",
-    "institution": "Cumhurbaşkanlığı Milli Saraylar İdaresi",
-    "department": "Resmi Gazete İlanı",
-    "type": "Kamu Personeli Alımı",
-    "status": "Aktif",
-    "startDate": "2026-10-28T00:00:00",
-    "endDate": "2026-11-12T23:59:00",
-    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261028-4.htm",
-    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261028-4-1.pdf",
-    "city": "Tüm Türkiye",
-    "isSuitable": false,
-    "aiExplanation": "İlanda Müze Görevlisi (Kazı Görevlisi) kadrosu açılmış olup yalnızca Arkeoloji, Sanat Tarihi ve benzeri lisans bölümlerinden mezuniyet şartı aranmaktadır; Bilgisayar Mühendisliği mezuniyetine yer verilmemiştir.",
-    "aiScanned": true,
-    "telegram_message_id": 550
-  },
-  {
     "id": "514fb632d611eb511a0762780b25c177",
     "title": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı Yerel Yönetimler Genel Müdürlüğünden:",
     "institution": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı Yerel Yönetimler Genel Müdürlüğünden:",
@@ -945,9 +979,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261028-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261028-4-2.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlanda herhangi bir personel alımı veya kadro ihdası bulunmamakta, yalnızca ihalelerden yasaklama ve yasaklama kararının kaldırılmasına ilişkin kararlar yayımlanmaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 555
   },
   {
     "id": "14a51009697fd0bfb49fcc5e0d55adb9",
@@ -961,9 +996,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261028-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261028-4-3.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlanda herhangi bir personel alımı veya mühendislik kadrosu açılmamış olup, belge \"GİNTEK İNŞAAT SANAYİ TURİZM VE TİCARET ANONİM ŞİRKETİ\" adlı tüzel kişi hakkında verilen İhalelere Katılmaktan Yasaklama Kararı'dır.",
+    "aiScanned": true,
+    "telegram_message_id": 556
   },
   {
     "id": "ef3de785eb8f7baf14d8ef41aadca691",
@@ -994,7 +1030,7 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261028-4-5.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": null,
-    "aiExplanation": "",
+    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
     "aiScanned": false
   },
   {
@@ -1010,7 +1046,7 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261028-4-6.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": null,
-    "aiExplanation": "",
+    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
     "aiScanned": false
   },
   {

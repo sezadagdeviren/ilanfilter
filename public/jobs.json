@@ -271,23 +271,6 @@
     "telegram_message_id": 488
   },
   {
-    "id": "igt_2264013",
-    "igt_id": "2264013",
-    "title": "İptal İlanı (İzmir Kalkınma Ajansı)",
-    "institution": "İZMİR KALKINMA AJANSI GENEL SEKRETERLİĞİ",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-10-20T21:00:01Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2264013/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-iptal-ilani-izmir-kalkinma-ajansi-",
-    "city": "İzmi̇r",
-    "isSuitable": false,
-    "aiExplanation": "İzmir Kalkınma Ajansı tarafından 7 Nisan 2026 tarihinde yayımlanan ilgili personel alım ilanı tamamen iptal edilmiştir.",
-    "aiScanned": true,
-    "telegram_message_id": 409
-  },
-  {
     "id": "igt_2261868",
     "igt_id": "2261868",
     "title": "Tercüman listesi başvuruları hakkında duyuru",
@@ -526,23 +509,6 @@
     "telegram_message_id": 426
   },
   {
-    "id": "igt_2256225",
-    "igt_id": "2256225",
-    "title": "Keşan Belediye Başkanlığı Memur Alım İlanı",
-    "institution": "KEŞAN BELEDİYE BAŞKANLIĞI",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-10-13T21:00:01Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2256225/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-kesan-belediye-baskanligi-memur-alim-ilani",
-    "city": "Edi̇rne",
-    "isSuitable": false,
-    "aiExplanation": "İlanda İnşaat Mühendisliği ve Elektrik-Elektronik Mühendisliği kadroları açılmış olup, Bilgisayar Mühendisliği mezuniyeti istenmemektedir.",
-    "aiScanned": true,
-    "telegram_message_id": 427
-  },
-  {
     "id": "igt_2255032",
     "igt_id": "2255032",
     "title": "2027 yılı İstanbul İli Tercüman Listesine başvuru ilanı",
@@ -575,23 +541,6 @@
     "aiExplanation": "İlanda Bilgisayar Mühendisliği kadrosu veya memur alımı açılmamış, adliyeler için yabancı dil ve işaret dili bilen tercüman alımı yapılmaktadır.",
     "aiScanned": true,
     "telegram_message_id": 429
-  },
-  {
-    "id": "igt_2255997",
-    "igt_id": "2255997",
-    "title": "Düzce Üniversitesi Rektörlüğünden Sözleşmeli Personel Alım İlanı",
-    "institution": "DÜZCE ÜNİVERSİTESİ REKTÖRLÜĞÜ",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-10-13T21:00:01Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2255997/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-duzce-universitesi-rektorlugunden-sozlesmeli-personel-alim-ilani",
-    "city": "Düzce",
-    "isSuitable": false,
-    "aiExplanation": "Kadrolar yalnızca farklı unvanlardan oluşmaktadır; metnin paylaşılan kısmında Bilgisayar Mühendisliği kadrosuna dair herhangi bir alım yer almamaktadır.",
-    "aiScanned": true,
-    "telegram_message_id": 430
   },
   {
     "id": "igt_2254593",
@@ -900,23 +849,6 @@
     "telegram_message_id": 459
   },
   {
-    "id": "igt_2223911",
-    "igt_id": "2223911",
-    "title": "Personel Alımı Duyurusu",
-    "institution": "MUCUR BELEDİYE BAŞKANLIĞI",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-09-16T21:00:00Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2223911/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-personel-alimi-duyurusu",
-    "city": "Kirşehi̇r",
-    "isSuitable": false,
-    "aiExplanation": "İlanda sadece istatistik, ilköğretim matematik öğretmenliği ve işletme programları mezunları için Memur kadrosu açılmıştır, Bilgisayar Mühendisliği mezuniyeti istenmemektedir.",
-    "aiScanned": true,
-    "telegram_message_id": 462
-  },
-  {
     "id": "igt_2188158",
     "igt_id": "2188158",
     "title": "Gelir İdaresi Başkanlığından 860 Gelir Uzman Yardımcısı Alım İlanı",
@@ -1013,9 +945,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261028-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261028-4-4.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlanda herhangi bir personel alımı veya kadro ihdası bulunmamakta, yalnızca Resmi Gazete'de yayımlanan \"İhalelere Katılmaktan Yasaklama Kararları\" yer almaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 559
   },
   {
     "id": "e9a9e4e6d3540b76a553f19a37683fd0",
@@ -1029,9 +962,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261028-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261028-4-5.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlanda herhangi bir personel alımı yapılmamakta, yalnızca ihalelere katılmaktan yasaklama kararları yayımlanmaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 560
   },
   {
     "id": "0b68c5c81b0761c6d63a759adb5d8cde",
@@ -1045,9 +979,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261028-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261028-4-6.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlanda herhangi bir kamu personeli veya mühendis alım kadrosu bulunmamakta, yalnızca ihalelere katılmaktan yasaklama kararları yer almaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 561
   },
   {
     "id": "92779a5763f53015670328ffd7d58e40",
@@ -1061,9 +996,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261028-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261028-4-7.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlanda herhangi bir personel alım kadrosu yer almamakta; belge, Hakan Eren adlı şahıs hakkında Tarım ve Orman Bakanlığı Bitkisel Üretim Genel Müdürlüğü tarafından verilmiş 'İhalelere Katılmaktan Yasaklama Kararı'nı içermektedir.",
+    "aiScanned": true,
+    "telegram_message_id": 562
   },
   {
     "id": "31350c6c814ff0347c8246758f97dbd5",
@@ -1077,9 +1013,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261028-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261028-4-8.pdf",
     "city": "Burdur",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlandaki Sistem Yöneticisi pozisyonu için en az 3 yıl mesleki tecrübe şartı aranmaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 563
   },
   {
     "id": "3e60c1b424857e9ac3060ed5d51cbfd5",
@@ -1093,9 +1030,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261028-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261028-4-10.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlandaki Bilgisayar Mühendisliği kadroları için lisans mezuniyeti yeterli olmayıp, ilgili alanlarda Doktora derecesine sahip olmak şartı aranmaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 564
   },
   {
     "id": "8ea3c59036da3b7c0daa65980aef26f3",
@@ -1109,9 +1047,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261028-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261028-4-11.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlanda bilgisayar mühendisliği kadrosu açılmamış; sadece Tiyatro, Tıp, Ekonomi ve Hukuk alanlarında Profesör, Doçent ve Doktor Öğretim Üyesi alımı yapılmaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 565
   },
   {
     "id": "5a8ea04f476bcfe27a5789e377196669",
@@ -1125,9 +1064,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261028-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261028-4-12.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlanda herhangi bir personel alımı veya kadro ihdası bulunmamakta; yalnızca Bilecik İcra Müdürlüğüne ait kayıp bir dosya için 4473 sayılı Kanun hükümleri gereğince işlem yapılacağına dair mahkeme ilanı yayımlanmıştır.",
+    "aiScanned": true,
+    "telegram_message_id": 566
   },
   {
     "id": "377d8d3ce0458e172e08a762cdf4caef",
@@ -1141,8 +1081,9 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261028-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261028-4-13.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlanda açılan kadro Doktor Öğretim Üyesi pozisyonu için olup, en az doktora derecesi istenmektedir; ayrıca kullanıcı deneyimsiz yeni mezun bir bilgisayar mühendisidir.",
+    "aiScanned": true,
+    "telegram_message_id": 567
   }
 ]

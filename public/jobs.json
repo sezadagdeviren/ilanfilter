@@ -254,23 +254,6 @@
     "telegram_message_id": 487
   },
   {
-    "id": "igt_2265050",
-    "igt_id": "2265050",
-    "title": "İptal İlanı (Elmakaya Belediye Başkanlığı)",
-    "institution": "ELMAKAYA BELEDİYE BAŞKANLIĞI",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-10-21T21:00:01Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2265050/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-iptal-ilani-elmakaya-belediye-baskanligi-",
-    "city": "Muş",
-    "isSuitable": false,
-    "aiExplanation": "Muş İli Elmakaya Belediye Başkanlığı tarafından yayımlanan ilgili memur alım ilanı tamamen iptal edilmiştir.",
-    "aiScanned": true,
-    "telegram_message_id": 488
-  },
-  {
     "id": "igt_2261868",
     "igt_id": "2261868",
     "title": "Tercüman listesi başvuruları hakkında duyuru",

@@ -458,23 +458,6 @@
     "telegram_message_id": 420
   },
   {
-    "id": "igt_2258113",
-    "igt_id": "2258113",
-    "title": "Tercüman bilirkişi listesinin düzenlenmesine ilişkin ilan",
-    "institution": "TOKAT ADLİ YARGI İLK DERECE MAHKEMESİ ADALET KOMİSYONU",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-10-15T21:00:01Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2258113/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-tercuman-bilirkisi-listesinin-duzenlenmesine-iliskin-ilan",
-    "city": "Tokat",
-    "isSuitable": false,
-    "aiExplanation": "İlan bir kamu personeli alımı olmayıp, mahkemeler için 2027 yılı \"Tercüman Bilirkişi\" listesinin düzenlenmesine ilişkindir ve bu kapsamda mühendislik kadrosu açılmamıştır.",
-    "aiScanned": true,
-    "telegram_message_id": 497
-  },
-  {
     "id": "igt_2253698",
     "igt_id": "2253698",
     "title": "Proje Teknik Elemanı Alım İlanı",
@@ -996,9 +979,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261030-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261030-4-4.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlanda Bilgisayar Mühendisliği kadrosu açılmamış olup sadece Hukuk, İİBF/Siyasal Bilgiler, İnşaat Mühendisliği ve Makine Mühendisliği bölümleri için alım yapılmaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 577
   },
   {
     "id": "a5dc754ebfa1968d7805aee4fdea89fd",
@@ -1045,7 +1029,7 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261030-4-9.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": null,
-    "aiExplanation": "",
+    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
     "aiScanned": false
   },
   {

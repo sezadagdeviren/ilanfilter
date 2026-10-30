@@ -441,23 +441,6 @@
     "telegram_message_id": 419
   },
   {
-    "id": "igt_2259248",
-    "igt_id": "2259248",
-    "title": "Türk Akreditasyon Kurumu Sözleşmeli Bilişim Personeli Sınav İlanı",
-    "institution": "(TÜRKAK) TÜRK AKREDİTASYON KURUMU BAŞKANLIĞI",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-10-15T21:00:01Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2259248/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-turk-akreditasyon-kurumu-sozlesmeli-bilisim-personeli-sinav-ilani",
-    "city": "Ankara",
-    "isSuitable": false,
-    "aiExplanation": "İlandaki Bilişim Personeli pozisyonları için en az 5 yıl mesleki tecrübe şartı aranmaktadır ve adayın hiçbir iş tecrübesi bulunmamaktadır.",
-    "aiScanned": true,
-    "telegram_message_id": 420
-  },
-  {
     "id": "igt_2253698",
     "igt_id": "2253698",
     "title": "Proje Teknik Elemanı Alım İlanı",
@@ -473,40 +456,6 @@
     "aiExplanation": "İlanda açılan pozisyonlar yalnızca veteriner hekim, ziraat mühendisi (zooteknist) veya veteriner sağlık/ziraat teknisyeni (Hayvan Sağlığı Alanı) kadrolarından oluşmaktadır; Bilgisayar Mühendisliği mezuniyeti kabul edilmemektedir.",
     "aiScanned": true,
     "telegram_message_id": 422
-  },
-  {
-    "id": "igt_2259085",
-    "igt_id": "2259085",
-    "title": "İskenderun Teknik Üniversitesi Rektörlüğünden İç Denetçi Alım İlanı",
-    "institution": "İSKENDERUN TEKNİK ÜNİVERSİTESİ REKTÖRLÜĞÜ",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-10-15T21:00:01Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2259085/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-iskenderun teknik universitesi rektorlugunden-ic-denetci-alim-ilani",
-    "city": "Hatay",
-    "isSuitable": false,
-    "aiExplanation": "İlanda açılan İç Denetçi kadrosu için halen bir kamu kurumunda görev yapıyor olmak ve Kamu İç Denetçi Sertifikasına sahip olmak şartı aranmaktadır, ayrıca naklen atama yapılacaktır.",
-    "aiScanned": true,
-    "telegram_message_id": 423
-  },
-  {
-    "id": "igt_2259083",
-    "igt_id": "2259083",
-    "title": "Sayıştay Başkanlığından Sözleşmeli Bilişim Personeli Alım İlanı",
-    "institution": "SAYIŞTAY BAŞKANLIĞI",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-10-15T21:00:01Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2259083/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-sayistay baskanligindan-sozlesmeli-bilisim-personeli-alim-ilani",
-    "city": "Ankara",
-    "isSuitable": false,
-    "aiExplanation": "İlandaki pozisyonlar için en az 3 ila 10 yıl arası mesleki tecrübe şartı aranmaktadır.",
-    "aiScanned": true,
-    "telegram_message_id": 424
   },
   {
     "id": "igt_2256657",
@@ -592,23 +541,6 @@
     "aiExplanation": "İlanda Bilgisayar Mühendisliği kadrosu açılmamış, sadece İnşaat Mühendisliği mezuniyeti istenmektedir.",
     "aiScanned": true,
     "telegram_message_id": 433
-  },
-  {
-    "id": "igt_2252977",
-    "igt_id": "2252977",
-    "title": "Tasarruf Mevduatı Sigorta Fonu Başkanlığından Fon Denetçi Yardımcısı, Fon Uzman Yardımcısı ve Fon Avukatı Alım İlanı",
-    "institution": "TASARRUF MEVDUATI SİGORTA FONU BAŞKANLIĞI",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-10-11T21:00:01Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2252977/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-tasarruf mevduati sigorta fonu baskanligindan-fon-denetci-yardimcisi-fon-uzman-yardimcisi-ve-fon-avukati-alim-ilani",
-    "city": "İstanbul",
-    "isSuitable": false,
-    "aiExplanation": "İlandaki Fon Denetçi Yardımcısı ve Fon Uzman Yardımcısı kadroları için 2025 veya 2026 yılı KPSS (A grubu) ve en az 50 YDS/e-YDS puanı şartı aranırken, kullanıcının 2026 KPSS puanı olmasına rağmen yabancı dil (YDS/e-YDS) puanı bulunmamaktadır; Fon Avukatlığı kadrosu ise yalnızca hukuk fakültesi mezunlarına yöneliktir.",
-    "aiScanned": true,
-    "telegram_message_id": 439
   },
   {
     "id": "igt_2252974",
@@ -728,23 +660,6 @@
     "aiExplanation": "İlanda lisans mezunu Bilgisayar Mühendisliği kadrosu açılmamış, yalnızca ortaöğretim (lise/dengi) mezunları için Teknisyen kadrosu ve 2024 KPSS P94 puanı istenmiştir.",
     "aiScanned": true,
     "telegram_message_id": 449
-  },
-  {
-    "id": "igt_2240651",
-    "igt_id": "2240651",
-    "title": "2027 Yılı Tercüman Bilirkişi İlanı",
-    "institution": "ESKİŞEHİR ADLİ YARGI İLK DERECE MAHKEMESİ ADALET KOM. BAŞK.",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-10-01T21:00:01Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2240651/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-2027-yili-tercuman-bilirkisi-ilani",
-    "city": "Eski̇şehi̇r",
-    "isSuitable": false,
-    "aiExplanation": "İlanda Bilgisayar Mühendisliği kadrosu açılmamış olup, mahkemeler için yabancı dil veya işaret dili bilen tercüman alımı yapılmaktadır.",
-    "aiScanned": true,
-    "telegram_message_id": 450
   },
   {
     "id": "igt_2242996",
@@ -996,9 +911,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261030-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261030-4-6.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlanda herhangi bir personel alımı veya mühendis kadrosu bulunmamakta; metin tamamen ihalelerden yasaklama kararlarını içermektedir.",
+    "aiScanned": true,
+    "telegram_message_id": 579
   },
   {
     "id": "371cdce8619fab7f5b6b7a5acfd20bc5",
@@ -1012,9 +928,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261030-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261030-4-7.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlanda herhangi bir personel alımı veya kadro açılışı yapılmamış olup, metin yalnızca 4708 sayılı Kanun kapsamında idari yaptırıma sebep olan yapı denetim elemanlarının ilanına ilişkindir.",
+    "aiScanned": true,
+    "telegram_message_id": 580
   },
   {
     "id": "c74a5a6ca1382f8677978111de8713fe",
@@ -1028,9 +945,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261030-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261030-4-9.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlanda Dr. Öğretim Üyesi kadroları için ilgili alanlarda doktora yapmış olmak, diğer öğretim elemanı kadroları içinse ilgili mühendislik (Kamu Hukuku, İnşaat ve Harita) mezuniyeti ve akademik/özel şartlar aranmaktadır; yeni mezun Bilgisayar Mühendisliği unvanına uygun kadro bulunmamaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 581
   },
   {
     "id": "79ea9a408af3a6851d45c95afdd47376",
@@ -1044,9 +962,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261030-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261030-4-11.pdf",
     "city": "Batman",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlanda yalnızca Profesör, Doçent ve Doktor Öğretim Üyesi akademik kadroları açılmış olup, yeni mezun ve deneyimsiz bir bilgisayar mühendisinin başvurabileceği bir kadro bulunmamaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 582
   },
   {
     "id": "abc2839d809f6227d1a580335f61889e",
@@ -1060,9 +979,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261030-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261030-4-12.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlanda sadece Profesör ve Doçent kadroları için öğretim üyesi alımı yapılmakta olup, yeni mezun ve deneyimsiz bir bilgisayar mühendisinin başvurabileceği bir kadro bulunmamaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 583
   },
   {
     "id": "90ba72367c3853bbf5e59520c5a9e2d5",
@@ -1076,8 +996,9 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261030-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/10/20261030-4-13.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlanda açılan tüm kadrolar Doktor Öğretim Üyesi ve Doçent Doktor seviyesinde olup, yüksek lisans, doktora, doçentlik unvanı ve uluslararası indeksli akademik yayın şartları aranmaktadır; yeni mezun ve tecrübesiz bir bilgisayar mühendisi bu akademik kadrolara başvuramaz.",
+    "aiScanned": true,
+    "telegram_message_id": 584
   }
 ]

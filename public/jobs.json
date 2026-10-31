@@ -492,23 +492,6 @@
     "telegram_message_id": 426
   },
   {
-    "id": "igt_2255032",
-    "igt_id": "2255032",
-    "title": "2027 yılı İstanbul İli Tercüman Listesine başvuru ilanı",
-    "institution": "İSTANBUL CUMHURİYET BAŞSAVCILIĞI",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-10-13T21:00:00Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2255032/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-2027-yili-istanbul-ili-tercuman-listesine-basvuru-ilani",
-    "city": "İstanbul",
-    "isSuitable": false,
-    "aiExplanation": "İlanda bilgisayar mühendisliği kadrosu veya memur alımı değil, mahkemeler için Adalet Komisyonunca düzenlenecek olan \"Tercüman Listesine\" başvuru ilanı açılmıştır.",
-    "aiScanned": true,
-    "telegram_message_id": 428
-  },
-  {
     "id": "igt_2254593",
     "igt_id": "2254593",
     "title": "Mevlana Kalkınma Ajansı Personel Alım İlanı",
@@ -560,23 +543,6 @@
     "telegram_message_id": 443
   },
   {
-    "id": "igt_2246674",
-    "igt_id": "2246674",
-    "title": "Tercümanlık yapacakların listesi ile ilgili duyuru",
-    "institution": "ANTALYA ADLİ YARGI İLK DERECE MAHKEMESİ ADALET KOMİSYONU BAŞKANLIĞI",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-10-06T21:00:01Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2246674/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-tercumanlik-yapacaklarin-listesi-ile-ilgili-duyuru",
-    "city": "Antalya",
-    "isSuitable": false,
-    "aiExplanation": "İlanda bilgisayar mühendisliği veya herhangi bir kadro alımı yapılmamakta; yalnızca Antalya Adliyesi yargı çevresinde görev yapacak tercüman listesi için başvuru alınmaktadır.",
-    "aiScanned": true,
-    "telegram_message_id": 444
-  },
-  {
     "id": "igt_2246165",
     "igt_id": "2246165",
     "title": "Düzeltme İlanı (Malazgirt Belediye Başkanlığı)",
@@ -592,23 +558,6 @@
     "aiExplanation": "İlan bir düzeltme metni olup, metinde hangi unvan ve kadroların alım yapılacağına dair detaylar yer almadığı ve ana ilanın şartlarına erişilemediği için kullanıcının mezuniyetine ve KPSS puanına uygunluğu doğrulanamamaktadır.",
     "aiScanned": true,
     "telegram_message_id": 445
-  },
-  {
-    "id": "igt_2243231",
-    "igt_id": "2243231",
-    "title": "Tercümanlık Bilirkişi Listelerine Başvuru Duyurusu",
-    "institution": "TEKİRDAĞ ADLİ YARGI İLK DERECE MAHKEMESİ ADALET KOMİSYONU BAŞKANLIĞI",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-10-04T21:00:01Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2243231/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-tercumanlik-bilirkisi-listelerine-basvuru-duyurusu",
-    "city": "Teki̇rdağ",
-    "isSuitable": false,
-    "aiExplanation": "İlanda bilgisayar mühendisliği kadrosu açılmamış olup, sadece çeşitli dillerde ve işaret dilinde tercüman bilirkişi alımı yapılmaktadır.",
-    "aiScanned": true,
-    "telegram_message_id": 447
   },
   {
     "id": "igt_2237196",
@@ -694,23 +643,6 @@
     "aiExplanation": "İlanda Çözümleyici kadrosu açılmış ancak Bilgisayar Mühendisliği değil İşletme, Siyaset Bilimi ve yerel yönetimler bölümlerinin birinden mezuniyet şartı aranmaktadır.",
     "aiScanned": true,
     "telegram_message_id": 457
-  },
-  {
-    "id": "igt_2230483",
-    "igt_id": "2230483",
-    "title": "Düzeltme İlanı (Batı Akdeniz Kalkınma Ajansı)",
-    "institution": "BATI AKDENİZ KALKINMA AJANSI GENEL SEKRETERLİĞİ",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-09-21T21:00:01Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2230483/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-duzeltme-ilani-bati-akdeniz-kalkinma-ajansi-",
-    "city": "Isparta",
-    "isSuitable": false,
-    "aiExplanation": "İlan metninde kadro unvanları ve nitelikleri belirtilmemiş olup sadece başvuru tarihlerinin değiştirildiğine dair düzeltme yayımlanmıştır; bu nedenle başvuru yapabileceğiniz net bir Bilgisayar Mühendisliği kadrosu bulunmamaktadır.",
-    "aiScanned": true,
-    "telegram_message_id": 458
   },
   {
     "id": "igt_2229085",

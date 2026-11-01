@@ -724,8 +724,9 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261101-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261101-4-3.pdf",
     "city": "Şanliurfa",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlanda sadece herhangi bir lisans programından mezun olup en az (B) sınıfı sürücü belgesine sahip adaylar aranmaktadır; kullanıcının (B) sınıfı sürücü belgesi bulunmamaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 609
   }
 ]

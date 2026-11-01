@@ -407,23 +407,6 @@
     "telegram_message_id": 418
   },
   {
-    "id": "igt_2260916",
-    "igt_id": "2260916",
-    "title": "İzmir İli Karabağlar Belediye Başkanlığı Sözleşmeli Personel Alım İlanı",
-    "institution": "KARABAĞLAR BELEDİYE BAŞKANLIĞI",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-10-17T21:00:01Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2260916/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-izmir-ili-karabaglar-belediye-baskanligi-sozlesmeli-personel-alim-ilani",
-    "city": "İzmi̇r",
-    "isSuitable": false,
-    "aiExplanation": "İlanda Mühendis kadrosu açılmış ancak Bilgisayar değil Çevre Mühendisliği mezuniyeti istenmektedir.",
-    "aiScanned": true,
-    "telegram_message_id": 419
-  },
-  {
     "id": "igt_2253698",
     "igt_id": "2253698",
     "title": "Proje Teknik Elemanı Alım İlanı",

@@ -192,7 +192,12 @@ def fetch_ilan_gov_tr_jobs():
                 title = a.get("title", "").strip()
                 institution = a.get("advertiserName", "").strip() or title
                 url_str = a.get("urlStr", "")
-                detail_link = f"https://www.ilan.gov.tr{url_str}" if url_str else f"https://www.ilan.gov.tr/ilan/{ad_id}"
+                if url_str:
+                    # Non-breaking space ve boşlukları tireye dönüştür, temiz URL oluştur
+                    cleaned_url_str = url_str.replace('\xa0', '-').replace(' ', '-')
+                    detail_link = f"https://www.ilan.gov.tr{cleaned_url_str}"
+                else:
+                    detail_link = f"https://www.ilan.gov.tr/ilan/{ad_id}"
                 city = a.get("addressCityName") or extract_city(institution + " " + title)
 
                 jobs.append({
@@ -481,7 +486,11 @@ def format_job_message(job):
         f"💡 *AI Yorumu:*\n_{aciklama}_\n"
     )
     if job.get("detailLink"):
-        msg += f"\n🔗 [İlana Git]({job['detailLink']})"
+        raw_link = job["detailLink"].replace('\xa0', '-').replace(' ', '-')
+        msg += f"\n🔗 [İlana Git]({raw_link})"
+    if job.get("pdf_link"):
+        raw_pdf = job["pdf_link"].replace('\xa0', '-').replace(' ', '-')
+        msg += f"\n📄 [İlan Metni / PDF]({raw_pdf})"
     return msg
 
 def send_telegram(text):

@@ -1,5 +1,56 @@
 [
   {
+    "id": "igt_2275940",
+    "igt_id": "2275940",
+    "title": "Kültür ve Turizm Bakanlığı Türkiye Turizm Tanıtım ve Geliştirme Ajansından Personel Alım İlanı",
+    "institution": "KÜLTÜR VE TURİZM BAKANLIĞI TÜRKİYE TURİZM TANITIM VE GELİŞTİRME AJANSI",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-11-02T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2275940/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-kultur ve turizm bakanligi turkiye turizm tanitim ve gelistirme ajansindan-personel-alim-ilani",
+    "city": "Ankara",
+    "isSuitable": false,
+    "aiExplanation": "İlanda Bilgisayar Mühendisliği kadrosu açılmamıştır ve başvurabilmek için son iki yıl içinde YDS/e-YDS'den en az (B) seviyesinde puan alma veya %100 yabancı dille eğitim veren bir programdan mezun olma şartı aranmaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 637
+  },
+  {
+    "id": "igt_2275934",
+    "igt_id": "2275934",
+    "title": "Dokuz Eylül Üniversitesi Rektörlüğünden Sözleşmeli Personel Alım İlanı",
+    "institution": "DOKUZ EYLÜL ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-11-02T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2275934/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-dokuz eylul universitesi rektorlugunden-sozlesmeli-personel-alim-ilani",
+    "city": "İzmi̇r",
+    "isSuitable": false,
+    "aiExplanation": "İlanda yalnızca Hemşire kadrosu için alım yapıldığı duyurulmuş olup, Bilgisayar Mühendisliği mezuniyetine yönelik herhangi bir pozisyon bulunmamaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 638
+  },
+  {
+    "id": "igt_2275931",
+    "igt_id": "2275931",
+    "title": "Posof Belediye Başkanlığı (İptal İlanı)",
+    "institution": "POSOF BELEDİYE BAŞKANLIĞI",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-11-02T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2275931/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-posof-belediye-baskanligi-iptal-ilani-",
+    "city": "Ardahan",
+    "isSuitable": false,
+    "aiExplanation": "Posof Belediye Başkanlığı tarafından yayımlanan ilgili memur alımı ilanı tamamen iptal edilmiştir.",
+    "aiScanned": true,
+    "telegram_message_id": 639
+  },
+  {
     "id": "igt_2270609",
     "igt_id": "2270609",
     "title": "Proje Teknik Elemanı Alınacak",
@@ -424,23 +475,6 @@
     "telegram_message_id": 494
   },
   {
-    "id": "igt_2266544",
-    "igt_id": "2266544",
-    "title": "Kültür ve Turizm Bakanlığından 162 Sözleşmeli Kütüphaneci Alım İlanı",
-    "institution": "KÜLTÜR VE TURİZM BAKANLIĞI",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-10-22T21:00:01Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2266544/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-kultur ve turizm bakanligindan-162-sozlesmeli-kutuphaneci-alim-ilani",
-    "city": "Ankara",
-    "isSuitable": false,
-    "aiExplanation": "İlanda Bilgisayar Mühendisliği kadrosu açılmamış olup, yalnızca Bilgi ve Belge Yönetimi, Kütüphanecilik, Arşivcilik, Dokümantasyon ve Enformasyon bölümleri mezunu Kütüphaneci alımı yapılmaktadır.",
-    "aiScanned": true,
-    "telegram_message_id": 495
-  },
-  {
     "id": "igt_2265112",
     "igt_id": "2265112",
     "title": "Düzeltme İlanı (Sarıidris Belediye Başkanlığı)",
@@ -643,23 +677,6 @@
     "aiExplanation": "İlan bir düzeltme metni olup, metinde hangi unvan ve kadroların alım yapılacağına dair detaylar yer almadığı ve ana ilanın şartlarına erişilemediği için kullanıcının mezuniyetine ve KPSS puanına uygunluğu doğrulanamamaktadır.",
     "aiScanned": true,
     "telegram_message_id": 445
-  },
-  {
-    "id": "igt_2243042",
-    "igt_id": "2243042",
-    "title": "Posof Belediye Başkanlığı Sözleşmeli Personel Alım İlanı",
-    "institution": "POSOF BELEDİYE BAŞKANLIĞI",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-10-01T21:00:01Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2243042/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-posof-belediye-baskanligi-sozlesmeli-personel-alim-ilani",
-    "city": "Ardahan",
-    "isSuitable": false,
-    "aiExplanation": "İlanda lisans mezunu Bilgisayar Mühendisliği kadrosu açılmamış, yalnızca ortaöğretim (lise/dengi) mezunları için Teknisyen kadrosu ve 2024 KPSS P94 puanı istenmiştir.",
-    "aiScanned": true,
-    "telegram_message_id": 449
   },
   {
     "id": "igt_2242996",
@@ -917,23 +934,6 @@
     "telegram_message_id": 633
   },
   {
-    "id": "91c727f3a8e224d9f9c6aab4bbab74d3",
-    "title": "Dokuz Eylül Üniversitesi Rektörlüğünden:",
-    "institution": "Dokuz Eylül Üniversitesi",
-    "department": "Resmi Gazete İlanı",
-    "type": "Kamu Personeli Alımı",
-    "status": "Aktif",
-    "startDate": "2026-11-03T00:00:00",
-    "endDate": "2026-11-18T23:59:00",
-    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261103-4.htm",
-    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261103-4-11.pdf",
-    "city": "Tüm Türkiye",
-    "isSuitable": false,
-    "aiExplanation": "İlanda yalnızca Hemşire kadrosu açılmış olup, Bilgisayar Mühendisliği mezunları için herhangi bir kontenjan bulunmamaktadır.",
-    "aiScanned": true,
-    "telegram_message_id": 634
-  },
-  {
     "id": "a1662d7d3b2279f0e72816cb2f31557e",
     "title": "Gaziantep Üniversitesi Rektörlüğünden:",
     "institution": "Gaziantep Üniversitesi",
@@ -966,5 +966,22 @@
     "aiExplanation": "İlandaki Bilgisayar Mühendisliği mezunlarının başvurabileceği kadrolar yalnızca Doçent, Doktor Öğretim Üyesi ve Doktora yapmış Araştırma Görevlisi pozisyonları için açılmış olup, yeni mezun ve tecrübesiz adaylar bu akademik unvan şartlarını sağlamamaktadır.",
     "aiScanned": true,
     "telegram_message_id": 636
+  },
+  {
+    "id": "d005b5614fe4a2b2b895ebe918990151",
+    "title": "Kültür ve Turizm Bakanlığından:",
+    "institution": "Kültür ve Turizm Bakanlığından:",
+    "department": "Resmi Gazete İlanı",
+    "type": "Kamu Personeli Alımı",
+    "status": "Aktif",
+    "startDate": "2026-11-03T00:00:00",
+    "endDate": "2026-11-18T23:59:00",
+    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261103-4.htm",
+    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261103-4-15.pdf",
+    "city": "Tüm Türkiye",
+    "isSuitable": false,
+    "aiExplanation": "Kültür ve Turizm Bakanlığının bu ilan metninde herhangi bir kadro unvanı, nitelik kodu, mezuniyet şartı veya KPSS puan türü belirtilmemiş olup, eksik/boş metin nedeniyle başvuru şartları sağlanamamaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 640
   }
 ]

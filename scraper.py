@@ -31,10 +31,8 @@ keys_env = os.environ.get("GEMINI_API_KEYS", "")
 GEMINI_API_KEYS = [k.strip() for k in keys_env.split(",")] if keys_env else []
 
 ACTIVE_MODELS = [
-    "gemini-3.5-flash-lite",    # ✅ 500 RPD / 15 RPM - En yüksek kotalı ve hızlı
-    "gemini-3.1-flash-lite",    # ✅ 500 RPD / 15 RPM - Yedek yüksek kotalı
-    "gemini-2.5-flash",         # ✅ 20 RPD / 5 RPM - Sağlam birincil
-    "gemini-2.5-flash-lite",    # ✅ 20 RPD / 10 RPM - Yedek
+    "gemini-2.5-flash",         # ✅ Güvenilir ve doğru analiz yapan model
+    "gemini-2.5-flash-lite",    # ✅ Yedek kararlı model
 ]
 KARIYER_KAPISI_API = "https://api.kariyerkapisi.gov.tr/api"
 ILAN_GOV_TR_API = "https://www.ilan.gov.tr/api/api/services/app"
@@ -192,7 +190,12 @@ def fetch_ilan_gov_tr_jobs():
                 title = a.get("title", "").strip()
                 institution = a.get("advertiserName", "").strip() or title
                 url_str = a.get("urlStr", "")
-                detail_link = f"https://www.ilan.gov.tr{url_str}" if url_str else f"https://www.ilan.gov.tr/ilan/{ad_id}"
+                if url_str:
+                    # Non-breaking space ve boşlukları tireye dönüştür, temiz URL oluştur
+                    cleaned_url_str = url_str.replace('\xa0', '-').replace(' ', '-')
+                    detail_link = f"https://www.ilan.gov.tr{cleaned_url_str}"
+                else:
+                    detail_link = f"https://www.ilan.gov.tr/ilan/{ad_id}"
                 city = a.get("addressCityName") or extract_city(institution + " " + title)
 
                 jobs.append({
@@ -388,14 +391,10 @@ def analyze_job(job):
         f"Kurum: {job['institution']}\n\n"
         f"{metin_tanim}\n\n"
         "KURALLAR:\n"
-        "1. Cevabının EN BAŞINA sadece 'UYGUN:' veya 'UYGUN DEĞİL:' yaz.\n"
-        "2. ASLA 'kullanıcı şartları sağlamamaktadır', 'pozisyonlara uygun değildir', 'eğitim düzeyi uymamaktadır' gibi genel/yuvarlak/ezbere cümleler kurma!\n"
-        "3. İlanda hangi unvan/kadroların açıldığını incele ve elenme nedenini SOMUT OLARAK açıkla.\n"
-        "Örnek doğru açıklamalar:\n"
-        "- 'UYGUN DEĞİL: İlanda Mühendis kadrosu açılmış ancak Bilgisayar değil Çevre ve Harita Mühendisliği mezuniyeti istenmektedir.'\n"
-        "- 'UYGUN DEĞİL: İlandaki Bilgisayar Mühendisi kadrosu için en az 3 yıl mesleki tecrübe şartı aranmaktadır.'\n"
-        "- 'UYGUN DEĞİL: Kadrolar yalnızca Hemşire, Röntgen Teknisyeni ve Destek Personelinden oluşmaktadır; mühendislik alımı yoktur.'\n"
-        "- 'UYGUN DEĞİL: İlandaki lisans kadroları için 2024 KPSS P3 puanı zorunlu tutulmuştur.'\n\n"
+        "1. Eğer bu metin bir personel/memur/işçi alım ilanı DEĞİLSE (örneğin ihale yasağı, petrol arama ruhsatı duyurusu, tebligat, iptal/düzeltme ilanı vb. ise), doğrudan şu şekilde cevap ver:\n"
+        "   'UYGUN DEĞİL: Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).'\n"
+        "2. Eğer bir personel alım ilanı ise ve kullanıcı profiline uygunsa 'UYGUN: ...' ile başla ve hangi kadronun uygun olduğunu belirt.\n"
+        "3. Uygun değilse 'UYGUN DEĞİL: ...' ile başla. ASLA 'kullanıcı şartları sağlamamaktadır' gibi yuvarlak cümleler kurma! Hangi unvan/kadroların açıldığını incele ve elenme nedenini SOMUT OLARAK açıkla (örneğin bölüm uyuşmazlığı, tecrübe şartı, 2024 KPSS zorunluluğu, yabancı dil şartı vb.).\n\n"
         "Şimdi ilanı incele ve tek 1 net cümleyle sonucu yaz."
     )
 
@@ -481,7 +480,11 @@ def format_job_message(job):
         f"💡 *AI Yorumu:*\n_{aciklama}_\n"
     )
     if job.get("detailLink"):
-        msg += f"\n🔗 [İlana Git]({job['detailLink']})"
+        raw_link = job["detailLink"].replace('\xa0', '-').replace(' ', '-')
+        msg += f"\n🔗 [İlana Git]({raw_link})"
+    if job.get("pdf_link"):
+        raw_pdf = job["pdf_link"].replace('\xa0', '-').replace(' ', '-')
+        msg += f"\n📄 [İlan Metni / PDF]({raw_pdf})"
     return msg
 
 def send_telegram(text):

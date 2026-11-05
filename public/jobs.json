@@ -11,8 +11,8 @@
     "endDate": "",
     "detailLink": "https://www.ilan.gov.tr/ilan/2279285/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-turkiye-seker-fabrikalari-sozlesmeli-muhendis-ve-tekniker-giris-sinav-ilani",
     "city": "Ankara",
-    "isSuitable": false,
-    "aiExplanation": "İlandaki Bilgisayar Mühendisliği pozisyonu için 2026 KPSS P3 puanı şartı aranmaktadır ancak kullanıcının 2026 KPSS puanı bulunmam",
+    "isSuitable": true,
+    "aiExplanation": "Bilgisayar Mühendisliği kadrosu için lisans mezuniyeti ve 2026 KPSS puanı şartlarını sağlamaktasınız.",
     "aiScanned": true,
     "telegram_message_id": 652
   },
@@ -29,7 +29,7 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2279181/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-eleskirt-belediye-baskanligi-itfaiye-eri-alim-ilani",
     "city": "Ağri",
     "isSuitable": false,
-    "aiExplanation": "İlanda lis",
+    "aiExplanation": "İtfaiye Eri kadrosu için en az B sınıfı sürücü belgesine sahip olma şartını taşımaması.",
     "aiScanned": true,
     "telegram_message_id": 653
   },
@@ -46,7 +46,7 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2276025/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-mufettis-yardimciligi-giris-sinavi-duyurusu",
     "city": "Kocaeli̇",
     "isSuitable": false,
-    "aiExplanation": "İlanda Müfettiş Yardımcılığı kadrosu açılmış olup, başvuru şartları arasında yalnızca Hukuk, İktisat, Siyasal Bilgiler, İşletme ve İktisadi ve İdari Bilimler fakültelerinden mezun olma şartı aranmaktadır; Bilgisayar Mühendisliği mezuniyeti kabul edilmemektedir.",
+    "aiExplanation": "Müfettiş Yardımcılığı kadrosu için aranan Hukuk, İktisat, Siyasal Bilgiler, İşletme, İktisadi ve İdari Bilimler fakülteleri mezuniyeti şartına Bilgisayar Mühendisliği bölümü uymamaktadır.",
     "aiScanned": true,
     "telegram_message_id": 648
   },
@@ -63,7 +63,7 @@
     "detailLink": "https://www.ilan.gov.tr/ilan/2277600/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-zafer-kalkinma-ajansi-personel-alim-ilani",
     "city": "Kütahya",
     "isSuitable": false,
-    "aiExplanation": "İlanda aranan YDS/e-YDS İngilizce dilinden en az 70 puan alma şartı sağlanmamaktadır.",
+    "aiExplanation": "YDS veya e-YDS İngilizce dilinden son başvuru tarihi itibarıyla son 5 yıl içerisinde en az 70 puan alma veya buna denk kabul edilen uluslararası geçerliliği bulunan belgeye sahip olma şartını sağlamamaktadır.",
     "aiScanned": true,
     "telegram_message_id": 649
   },
@@ -793,8 +793,8 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4-1.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": true,
-    "aiExplanation": "UYGUN",
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
     "aiScanned": true,
     "telegram_message_id": 650
   },
@@ -811,7 +811,7 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4-2.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": false,
-    "aiExplanation": "İlanda açılan kadro Makine Mühendisliği bölümü için Doktor Öğretim Üyesi unvanındadır ve doktora derecesi istenmektedir.",
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (iptal ilanıdır).",
     "aiScanned": true,
     "telegram_message_id": 654
   },
@@ -828,7 +828,7 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4-3.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": false,
-    "aiExplanation": "İlan metni sadece ihalelere katılmaktan yasaklanan firmalara dair kararları içermekte olup, herhangi bir personel alımı veya mühendislik kadrosu açılmamıştır.",
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
     "aiScanned": true,
     "telegram_message_id": 655
   },
@@ -845,7 +845,7 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4-4.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": false,
-    "aiExplanation": "İlanda herhangi bir personel alımı veya kadro duyurusu bulunmamakta; metin tamamen ihalelere katılmaktan yasaklama kararlar",
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
     "aiScanned": true,
     "telegram_message_id": 656
   },
@@ -861,8 +861,8 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4-5.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": true,
-    "aiExplanation": "UYGUN",
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
     "aiScanned": true,
     "telegram_message_id": 657
   },
@@ -879,7 +879,7 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4-6.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": false,
-    "aiExplanation": "İncelediğiniz belge bir kamu personeli alım ilanı olmayıp, \"Florya Yemek Ticaret Anonim Şirketi\" hakkında Sağlık Bakanlığı Strateji Geliştirme Başkanlığı tarafından verilmiş bir ihalelere katılmaktan yasaklama kararıdır.",
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
     "aiScanned": true,
     "telegram_message_id": 658
   },
@@ -896,7 +896,7 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4-7.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": false,
-    "aiExplanation": "Bu belge bir personel alım ilanı değil, 4734 sayılı Kamu İhale Kanunu uyarınca ihalelere katılmaktan yasaklama kararıdır.",
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
     "aiScanned": true,
     "telegram_message_id": 659
   },
@@ -913,7 +913,7 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4-8.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": false,
-    "aiExplanation": "Bu belge bir personel alımı ilanı olmayıp, YAVUZ SELİM SULAN ARTEN MİMARLIK ve ortağı ARTEN MİMARLIK MÜHENDİSLİK SANAYİ TİCARET LİMİTED ŞİRKETİ hakkında verilen ihalelere katılmatan yasaklama kararını içermektedir.",
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
     "aiScanned": true,
     "telegram_message_id": 660
   },
@@ -930,7 +930,7 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4-9.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": false,
-    "aiExplanation": "İlan metninde herhangi bir personel alım kadrosu yer almamakta, yalnızca ihalelerden yasaklama kararları yayımlanmaktadır.",
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
     "aiScanned": true,
     "telegram_message_id": 661
   },
@@ -947,7 +947,7 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4-10.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": false,
-    "aiExplanation": "İrgelenen belgede herhangi bir personel alımı, unvan, kadro veya KPSS tablosu yer almamakta; yalnızca Elazığ İli, Sivrice İlçesi, Hazar Gölü ve Çevresi 11. Etap Doğal Sit Alanı'nın tescil ilanı duyurusu bulunmaktadır.",
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (tebligat metnidir).",
     "aiScanned": true,
     "telegram_message_id": 662
   },
@@ -964,7 +964,7 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4-11.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": false,
-    "aiExplanation": "İlanda bilgisayar mühendisi kadrosu bulunmamakta; sadece elektrik mühendisi, inşaat mühendisi ve mimar unvanlarıyla ilgili yapı denetim ve idari işlem duyuruları yer almaktadır.",
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
     "aiScanned": true,
     "telegram_message_id": 663
   },
@@ -981,7 +981,7 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4-14.pdf",
     "city": "Samsun",
     "isSuitable": false,
-    "aiExplanation": "İlanda yalnızca Profesör unvanlı kadrolar açılmış olup",
+    "aiExplanation": "Bu ilanda Bilgisayar Mühendisliği alanında başvuruya uygun herhangi bir kadro bulunmamaktadır. İlanda Profesör unvanlı alımlar mevcuttur ve bu unvanlar için belirtilen nitelikler (örn: doçentlik ünvanı, belirli alanlarda deneyim ve yayınlar) yeni mezun bir bilgisayar mühendisinin profiline uygun değildir.",
     "aiScanned": true,
     "telegram_message_id": 664
   },
@@ -998,7 +998,7 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4-15.pdf",
     "city": "İstanbul",
     "isSuitable": false,
-    "aiExplanation": "İlanda yalnızca Sağlık Bilimleri Fakültesi Beslenme ve Diyetetik Bölümü için araştırma görevlisi kadrosu açılmış olup, bilgisayar mühendisliği mezuniyet şartı yer almamaktadır.",
+    "aiExplanation": "İlanda belirtilen kadro, Beslenme ve Diyetetik Bölümü Lisans mezunu olmayı ve aynı alanda Tezli Yüksek Lisans öğrencisi olmayı şart koşmaktadır. Kullanıcının Bilgisayar Mühendisliği mezunu olması ve bu şartları karşılamaması nedeniyle uygun değildir. Ayrıca, ilanda 2026 KPSS puanı belirtilmiş olup, kullanıcının 2024 KPSS puanı olmaması da bir eksikliktir (ancak bu durum, ilanın ilgili alana yönelik olmaması nedeniyle daha temel bir uyumsuzluktur).",
     "aiScanned": true,
     "telegram_message_id": 665
   },
@@ -1015,7 +1015,7 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4-16.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": false,
-    "aiExplanation": "İlandaki araştırma görevlisi kadroları Moleküler Biyoloji ve",
+    "aiExplanation": "Kullanıcı profili (yeni mezun, deneyimsiz, 2026 KPSS puanı var, 2024 KPSS puanı yok, sertifika yok) bu ilan için belirtilen Araştırma Görevlisi kadrosu özel şartları (lisans mezuniyeti, tezli yüksek lisans yapıyor olma, ALES puanı, Yabancı Dil puanı) ve genel şartlar (yaş sınırı, 2024 KPSS puanı aranması gibi) ile örtüşmemektedir. Özellikle, ilanda 2024 KPSS puanı ile ilgili bir zorunluluk bulunmamakla birlikte, ALES ve Yabancı Dil puanı gibi diğer gereklilikler için herhangi bir puanı bulunmamaktadır. Ayrıca, her iki kadro için de tezli yüksek lisans yapıyor olma şartı bulunmaktadır.",
     "aiScanned": true,
     "telegram_message_id": 666
   },
@@ -1032,7 +1032,7 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4-17.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": false,
-    "aiExplanation": "Paylaşılan ilan metninde Kültür ve Turizm Bakanlığının personel alımı yaptığına dair herhangi bir unvan, kadro detayı, nit",
+    "aiExplanation": "Bu metin, personel alımıyla ilgili spesifik kadroları ve kontenjanları içermeyen, sadece Kültür ve Turizm Bakanlığı'ndan gelen çeşitli duyuruları listeleyen bir metindir.",
     "aiScanned": true,
     "telegram_message_id": 667
   }

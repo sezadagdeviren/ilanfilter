@@ -1,5 +1,39 @@
 [
   {
+    "id": "igt_2279285",
+    "igt_id": "2279285",
+    "title": "Türkiye Şeker Fabrikaları Sözleşmeli Mühendis ve Tekniker Giriş Sınav İlanı",
+    "institution": "TÜRKİYE ŞEKER FABRİKALARI A.Ş. GENEL MÜDÜRLÜĞÜ",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-11-04T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2279285/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-turkiye-seker-fabrikalari-sozlesmeli-muhendis-ve-tekniker-giris-sinav-ilani",
+    "city": "Ankara",
+    "isSuitable": false,
+    "aiExplanation": "İlandaki Bilgisayar Mühendisliği pozisyonu için 2026 KPSS P3 puanı şartı aranmaktadır ancak kullanıcının 2026 KPSS puanı bulunmam",
+    "aiScanned": true,
+    "telegram_message_id": 652
+  },
+  {
+    "id": "igt_2279181",
+    "igt_id": "2279181",
+    "title": "Eleşkirt Belediye Başkanlığı İtfaiye Eri Alım İlanı",
+    "institution": "ELEŞKİRT BELEDİYE BAŞKANLIĞI",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-11-04T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2279181/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-eleskirt-belediye-baskanligi-itfaiye-eri-alim-ilani",
+    "city": "Ağri",
+    "isSuitable": false,
+    "aiExplanation": "İlanda lis",
+    "aiScanned": true,
+    "telegram_message_id": 653
+  },
+  {
     "id": "igt_2276025",
     "igt_id": "2276025",
     "title": "Müfettiş Yardımcılığı Giriş Sınavı Duyurusu",
@@ -776,9 +810,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4-2.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlanda açılan kadro Makine Mühendisliği bölümü için Doktor Öğretim Üyesi unvanındadır ve doktora derecesi istenmektedir.",
+    "aiScanned": true,
+    "telegram_message_id": 654
   },
   {
     "id": "064d80598850cbb22658e0f744695c24",
@@ -792,9 +827,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4-3.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlan metni sadece ihalelere katılmaktan yasaklanan firmalara dair kararları içermekte olup, herhangi bir personel alımı veya mühendislik kadrosu açılmamıştır.",
+    "aiScanned": true,
+    "telegram_message_id": 655
   },
   {
     "id": "e597ac4fa82c2d0e140b5fd714577d86",
@@ -808,9 +844,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4-4.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlanda herhangi bir personel alımı veya kadro duyurusu bulunmamakta; metin tamamen ihalelere katılmaktan yasaklama kararlar",
+    "aiScanned": true,
+    "telegram_message_id": 656
   },
   {
     "id": "a2497873c79695a7b5fcd3a166e17b0d",
@@ -824,9 +861,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4-5.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": true,
+    "aiExplanation": "UYGUN",
+    "aiScanned": true,
+    "telegram_message_id": 657
   },
   {
     "id": "43c8fcd6751163e934d884f3c736e627",
@@ -840,9 +878,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4-6.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İncelediğiniz belge bir kamu personeli alım ilanı olmayıp, \"Florya Yemek Ticaret Anonim Şirketi\" hakkında Sağlık Bakanlığı Strateji Geliştirme Başkanlığı tarafından verilmiş bir ihalelere katılmaktan yasaklama kararıdır.",
+    "aiScanned": true,
+    "telegram_message_id": 658
   },
   {
     "id": "1592aec0f58de9ea5f7d1a4a37ec0c31",
@@ -856,9 +895,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4-7.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu belge bir personel alım ilanı değil, 4734 sayılı Kamu İhale Kanunu uyarınca ihalelere katılmaktan yasaklama kararıdır.",
+    "aiScanned": true,
+    "telegram_message_id": 659
   },
   {
     "id": "cff5651aa0d649f88bcd82a4bf947ee6",
@@ -872,9 +912,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4-8.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu belge bir personel alımı ilanı olmayıp, YAVUZ SELİM SULAN ARTEN MİMARLIK ve ortağı ARTEN MİMARLIK MÜHENDİSLİK SANAYİ TİCARET LİMİTED ŞİRKETİ hakkında verilen ihalelere katılmatan yasaklama kararını içermektedir.",
+    "aiScanned": true,
+    "telegram_message_id": 660
   },
   {
     "id": "3a6057f48c2cea307d04fb6495a0fcaf",
@@ -888,9 +929,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4-9.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlan metninde herhangi bir personel alım kadrosu yer almamakta, yalnızca ihalelerden yasaklama kararları yayımlanmaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 661
   },
   {
     "id": "2b05f50b9b26c36692519e108ea48687",
@@ -904,9 +946,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4-10.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İrgelenen belgede herhangi bir personel alımı, unvan, kadro veya KPSS tablosu yer almamakta; yalnızca Elazığ İli, Sivrice İlçesi, Hazar Gölü ve Çevresi 11. Etap Doğal Sit Alanı'nın tescil ilanı duyurusu bulunmaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 662
   },
   {
     "id": "24b25daf659cf5e14e612679900b84d5",
@@ -920,41 +963,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4-11.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
-  },
-  {
-    "id": "0a7a6037d34a51520de4c0d65d691b6a",
-    "title": "Türkiye Şeker Fabrikaları A.Ş. Genel Müdürlüğünden:",
-    "institution": "Türkiye Şeker Fabrikaları A.Ş. Genel Müdürlüğünden:",
-    "department": "Resmi Gazete İlanı",
-    "type": "Kamu Personeli Alımı",
-    "status": "Aktif",
-    "startDate": "2026-11-05T00:00:00",
-    "endDate": "2026-11-20T23:59:00",
-    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4.htm",
-    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4-12.pdf",
-    "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
-  },
-  {
-    "id": "b2a4ed35c4c52b3be4a2cc14d9a1f58f",
-    "title": "Ağrı İli Eleşkirt Belediye Başkanlığından:",
-    "institution": "Ağrı İli Eleşkirt Belediye",
-    "department": "Resmi Gazete İlanı",
-    "type": "Kamu Personeli Alımı",
-    "status": "Aktif",
-    "startDate": "2026-11-05T00:00:00",
-    "endDate": "2026-11-20T23:59:00",
-    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4.htm",
-    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4-13.pdf",
-    "city": "Ağri",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlanda bilgisayar mühendisi kadrosu bulunmamakta; sadece elektrik mühendisi, inşaat mühendisi ve mimar unvanlarıyla ilgili yapı denetim ve idari işlem duyuruları yer almaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 663
   },
   {
     "id": "a98b049dc74ce6df4be3175f8b67b42f",
@@ -968,9 +980,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4-14.pdf",
     "city": "Samsun",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlanda yalnızca Profesör unvanlı kadrolar açılmış olup",
+    "aiScanned": true,
+    "telegram_message_id": 664
   },
   {
     "id": "4b75c7317f14690264e7b8c7a1db09dd",
@@ -984,9 +997,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4-15.pdf",
     "city": "İstanbul",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlanda yalnızca Sağlık Bilimleri Fakültesi Beslenme ve Diyetetik Bölümü için araştırma görevlisi kadrosu açılmış olup, bilgisayar mühendisliği mezuniyet şartı yer almamaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 665
   },
   {
     "id": "e012e641e0de5b7a7b38a8164633d81d",
@@ -1000,9 +1014,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4-16.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlandaki araştırma görevlisi kadroları Moleküler Biyoloji ve",
+    "aiScanned": true,
+    "telegram_message_id": 666
   },
   {
     "id": "d5c138a6d8566f31b65f8bba63f06b3c",
@@ -1016,8 +1031,9 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261105-4-17.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Paylaşılan ilan metninde Kültür ve Turizm Bakanlığının personel alımı yaptığına dair herhangi bir unvan, kadro detayı, nit",
+    "aiScanned": true,
+    "telegram_message_id": 667
   }
 ]

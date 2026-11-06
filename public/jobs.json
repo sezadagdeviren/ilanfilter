@@ -810,9 +810,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261106-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261106-4-4.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (tebligat veya yasal prosedür duyurusu metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 675
   },
   {
     "id": "11e42e3c1618fd730edd04b28cc2a463",
@@ -859,7 +860,7 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261106-4-7.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": null,
-    "aiExplanation": "",
+    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
     "aiScanned": false
   },
   {

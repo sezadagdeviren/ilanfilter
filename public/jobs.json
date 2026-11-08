@@ -708,9 +708,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261108-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261108-4-2.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (yapı denetim firmalarına ve personeline yönelik hukuki işlemleri duyuru metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 691
   },
   {
     "id": "1fa3e9df337ac3ae55da5ce50bf20233",
@@ -724,9 +725,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261108-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261108-4-3.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 692
   },
   {
     "id": "47cf43bffcb38876fc59e610c21e1c6b",
@@ -740,9 +742,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261108-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261108-4-4.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 693
   },
   {
     "id": "f8cabcb2d141c0203a0770107f7d695d",
@@ -756,9 +759,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261108-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261108-4-5.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 694
   },
   {
     "id": "822c7d0d2a8831dfa17e6afbd4aad29d",
@@ -772,9 +776,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261108-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261108-4-6.pdf",
     "city": "Antalya",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": true,
+    "aiExplanation": "Yeni mezun lisans Bilgisayar Mühendisliği mezunu olan kullanıcı adayı, Akseki Belediye Başkanlığı'nın Mühendis kadrosu için başvuru şartlarını sağlamaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 695
   },
   {
     "id": "24ee0fd0f4f84555cdc8686062861963",
@@ -788,9 +793,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261108-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261108-4-7.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Kullanıcının lisans mezuniyeti Egzersiz ve Spor Bilimleri, Spor Yöneticiliği veya Antrenörlük Eğitimi programlarından birinden değildir ve bu ilanda 2026 KPSS puanı değil, 2024 KPSS puanı gerekliliği belirtilmiştir.",
+    "aiScanned": true,
+    "telegram_message_id": 696
   },
   {
     "id": "144c4be729a82c2ac6fb9cf7c47f613c",
@@ -804,9 +810,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261108-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261108-4-8.pdf",
     "city": "Tokat",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlanda herhangi bir önlisans programından mezun olma şartı aranırken, kullanıcının lisans Bilgisayar Mühendisliği mezunu olması nedeniyle eğitim şartını karşılamamaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 697
   },
   {
     "id": "e3fb89101256c9bff27ab94555d00e34",
@@ -820,8 +827,9 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261108-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261108-4-9.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 698
   }
 ]

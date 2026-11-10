@@ -1,5 +1,39 @@
 [
   {
+    "id": "igt_2285089",
+    "igt_id": "2285089",
+    "title": "Samsun İli Asarcık Belediye Başkanlığı (İptal İlanı)",
+    "institution": "ASARCIK BELEDİYE BAŞKANLIĞI",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-11-09T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2285089/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-samsun-ili-asarcik-belediye-baskanligi-iptal-ilani-",
+    "city": "Samsun",
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 723
+  },
+  {
+    "id": "igt_2285010",
+    "igt_id": "2285010",
+    "title": "Sayıştay Başkanlığından Sözleşmeli Çözümleyici ve Programcı Alım İlanı",
+    "institution": "SAYIŞTAY BAŞKANLIĞI",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-11-09T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2285010/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-sayistay-baskanligindan-sozlesmeli-cozumleyici-ve-programci-alim-ilani",
+    "city": "Ankara",
+    "isSuitable": false,
+    "aiExplanation": "Kullanıcı profilinde İngilizce dilinde Yabancı Dil Sınavından (YDS) en az (D) düzeyinde puan veya denklik belgesi bulunduğuna dair bilgi bulunmadığı için Çözümleyici ve Programcı (Lisans) pozisyonlarına başvuru şartları sağlanmamaktadır; Programcı (Ön Lisans) pozisyonu için ise ön lisans mezunu olma şartı aranmakta olup, kullanıcı lisans mezunudur.",
+    "aiScanned": true,
+    "telegram_message_id": 724
+  },
+  {
     "id": "igt_2283208",
     "igt_id": "2283208",
     "title": "Ula Belediye Başkanlığı Zabıta Memuru Alım İlanı",
@@ -476,23 +510,6 @@
     "telegram_message_id": 572
   },
   {
-    "id": "igt_2272749",
-    "igt_id": "2272749",
-    "title": "Asarcık Belediye Başkanlığı Memur Alım İlanı",
-    "institution": "ASARCIK BELEDİYE BAŞKANLIĞI",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-10-29T21:00:01Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2272749/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-asarcik-belediye-baskanligi-memur-alim-ilani",
-    "city": "Samsun",
-    "isSuitable": false,
-    "aiExplanation": "İlanda Mimar kadrosu açılmış ancak Bilgisayar Mühendisliği mezuniyeti istenmemektedir.",
-    "aiScanned": true,
-    "telegram_message_id": 573
-  },
-  {
     "id": "igt_2271489",
     "igt_id": "2271489",
     "title": "Burdur Mehmet Akif Ersoy Üniversitesi Sözleşmeli Bilişim Personeli Alım İlanı",
@@ -748,22 +765,6 @@
     "telegram_message_id": 721
   },
   {
-    "id": "30244be3c2c8964822e9f245e13e74ff",
-    "title": "Sayıştay Başkanlığından:",
-    "institution": "Sayıştay",
-    "department": "Resmi Gazete İlanı",
-    "type": "Kamu Personeli Alımı",
-    "status": "Aktif",
-    "startDate": "2026-11-10T00:00:00",
-    "endDate": "2026-11-25T23:59:00",
-    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261110-4.htm",
-    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261110-4-2.pdf",
-    "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
-  },
-  {
     "id": "1d62ee48ecef8cd7267c653688bd2754",
     "title": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı Yerel Yönetimler Genel Müdürlüğünden:",
     "institution": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı Yerel Yönetimler Genel Müdürlüğünden:",
@@ -775,9 +776,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261110-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261110-4-3.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 725
   },
   {
     "id": "1316009833979bd1cd20db85150314ea",
@@ -791,9 +793,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261110-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261110-4-4.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 726
   },
   {
     "id": "e0fbe97c2bc8a3c1e6e7b239679b13f6",
@@ -807,9 +810,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261110-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261110-4-5.pdf",
     "city": "Karaman",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 727
   },
   {
     "id": "6767fc9a2ce8aaed84056896b98fa75f",
@@ -823,9 +827,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261110-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261110-4-6.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 728
   },
   {
     "id": "36f3c3b85a2f64eef55849916598ff06",
@@ -839,9 +844,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261110-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261110-4-7.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 729
   },
   {
     "id": "8717620d883404f8b792aad30e0fbc63",
@@ -855,9 +861,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261110-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261110-4-8.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlanda Profesör, Doçent ve Doktor Öğretim Üyesi kadroları açılmış olup, tüm bu kadrolar için Lisans, Yüksek Lisans ve Doktora diplomaları zorunludur; kullanıcının yalnızca lisans derecesi bulunmaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 730
   },
   {
     "id": "d3314cdda097733e2ac9187ebfd76d14",
@@ -871,9 +878,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261110-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261110-4-9.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir, ilanın içeriğinde personel alımına dair herhangi bir detay, kadro bilgisi veya başvuru şartı bulunmamaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 731
   },
   {
     "id": "65955cdc40af62843f400998757b7604",
@@ -887,9 +895,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261110-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261110-4-10.pdf",
     "city": "Ankara",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (imar planı değişikliği duyurusu metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 732
   },
   {
     "id": "9db29451d679ea465c025eafec44d2bb",
@@ -903,9 +912,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261110-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261110-4-12.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (iptal ilanıdır).",
+    "aiScanned": true,
+    "telegram_message_id": 733
   },
   {
     "id": "6b61439364165809be353943f93da63d",
@@ -919,9 +929,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261110-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261110-4-15.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlan, yeni mezun ve deneyimsiz lisans mezunu kullanıcı profilinize uygun olmayan bir \"Profesör\" kadrosu alımı içindir; bu pozisyon için istenen doktora derecesi, doçentlik unvanı, bilimsel araştırmalar ve yayınlar gibi akademik şartları sağlamamaktasınız.",
+    "aiScanned": true,
+    "telegram_message_id": 734
   },
   {
     "id": "57cc7bb45419165de78d2aa1d799d06e",
@@ -935,9 +946,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261110-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261110-4-16.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlan, Dr. Öğr. Üyesi unvanında Pazarlama alanında bir akademik pozisyon için açılmıştır ve doktora derecesi ile üst düzey bilimsel yayın şartı aramaktadır. Kullanıcı, Bilgisayar Mühendisliği lisans mezunu ve deneyimsiz olduğu için bu şartları taşımamaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 735
   },
   {
     "id": "7e68cc0076c79877324926c8eed3f12a",
@@ -951,9 +963,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261110-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261110-4-17.pdf",
     "city": "Gümüşhane",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (iptal/düzeltme ilanı metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 736
   },
   {
     "id": "91f71c200c8dff85f511a6b06c682b0c",
@@ -967,9 +980,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261110-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261110-4-18.pdf",
     "city": "İstanbul",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 737
   },
   {
     "id": "cccfa3386fa82c754926c538c3e2c8b2",
@@ -983,9 +997,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261110-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261110-4-19.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlan, Öğretim Görevlisi kadroları için en az tezli yüksek lisans derecesi, Araştırma Görevlisi kadroları için ise tezli yüksek lisans veya doktora öğrencisi olmayı şart koştuğundan ve tüm kadrolar Bilgisayar Mühendisliği dışındaki sağlık bilimleri alanlarında olduğundan uygun değildir.",
+    "aiScanned": true,
+    "telegram_message_id": 738
   },
   {
     "id": "5ff6eeb52d49e451e8559c84df2e29b4",
@@ -999,8 +1014,9 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261110-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261110-4-20.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 739
   }
 ]

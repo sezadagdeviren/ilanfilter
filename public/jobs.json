@@ -1,5 +1,22 @@
 [
   {
+    "id": "igt_2288341",
+    "igt_id": "2288341",
+    "title": "Cumhurbaşkanlığı Savunma Sanayii Başkanlığından Sözleşmeli Personel Alım İlanı",
+    "institution": "T.C.CUMHURBAŞKANLIĞI SAVUNMA SANAYİİ BAŞKANLIĞI",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-11-11T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2288341/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-cumhurbaskanligi-savunma-sanayii-baskanligindan-sozlesmeli-personel-alim-ilani",
+    "city": "Ankara",
+    "isSuitable": false,
+    "aiExplanation": "İlan, özel bilgi ve ihtisas alanlarında en az 5 yıl tecrübe şartı ararken, kullanıcı deneyimsizdir.",
+    "aiScanned": true,
+    "telegram_message_id": 754
+  },
+  {
     "id": "igt_2285089",
     "igt_id": "2285089",
     "title": "Samsun İli Asarcık Belediye Başkanlığı (İptal İlanı)",
@@ -714,23 +731,6 @@
     "telegram_message_id": 468
   },
   {
-    "id": "d66af9d33a56d87824880f3ce9ef534c",
-    "title": "Cumhurbaşkanlığı Savunma Sanayii Başkanlığından:",
-    "institution": "Cumhurbaşkanlığı Savunma Sanayii",
-    "department": "Resmi Gazete İlanı",
-    "type": "Kamu Personeli Alımı",
-    "status": "Aktif",
-    "startDate": "2026-11-12T00:00:00",
-    "endDate": "2026-11-27T23:59:00",
-    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261112-4.htm",
-    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261112-4-1.pdf",
-    "city": "Tüm Türkiye",
-    "isSuitable": false,
-    "aiExplanation": "İlanda belirtilen özel bilgi ve ihtisas alanlarının herhangi birinde en az 5 (beş) yıl tecrübe şartı aranmakta olup, profilinizde tecrübe bulunmamaktadır.",
-    "aiScanned": true,
-    "telegram_message_id": 752
-  },
-  {
     "id": "4bb1c90677261b295592cdea527ca1bd",
     "title": "Çukurova Üniversitesi Rektörlüğünden:",
     "institution": "Çukurova Üniversitesi",
@@ -742,9 +742,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261112-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261112-4-3.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 755
   },
   {
     "id": "e33a15d535162d834ad26601229144f9",
@@ -758,9 +759,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261112-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261112-4-4.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 756
   },
   {
     "id": "06931ec1a11b68fe1b3aa5ca15aae970",
@@ -774,9 +776,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261112-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261112-4-5.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 757
   },
   {
     "id": "e28da27ed63b58a77f95fb3f9966fe35",
@@ -790,9 +793,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261112-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261112-4-6.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 758
   },
   {
     "id": "89bdd64431ff48e6e583705030229e5e",
@@ -806,9 +810,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261112-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261112-4-7.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 759
   },
   {
     "id": "44da095186ed7a80a34eaf0872c5a44d",
@@ -822,9 +827,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261112-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261112-4-8.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 760
   },
   {
     "id": "3df3b4aa92260a9c7f4520841fed1752",
@@ -838,9 +844,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261112-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261112-4-9.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (iptal ilanıdır).",
+    "aiScanned": true,
+    "telegram_message_id": 761
   },
   {
     "id": "6efa3fa1740555bd340519f647e9a4e5",
@@ -854,9 +861,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261112-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261112-4-10.pdf",
     "city": "Aydin",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlanda, yeni mezun, deneyimsiz lisans bilgisayar mühendisleri için uygun herhangi bir kadro bulunmamaktadır. İlanda yer alan Doktor Öğretim Üyesi kadroları için Matematik alanında lisans ve doktora derecesi ile belirli bir konuda çalışma yapma şartı aranmaktadır. Bu durum, kullanıcı profilindeki \"yeni mezun lisans Bilgisayar Mühendisliği mezunu, deneyimsiz\" durumuyla uyuşmamaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 762
   },
   {
     "id": "bd640cb0807680c89cd5d210a2c0894e",
@@ -870,9 +878,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261112-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261112-4-11.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlandaki Öğretim Görevlisi kadroları için en az tezli yüksek lisans derecesi istenmekte olup, kullanıcıda bu şart bulunmamaktadır. Ayrıca, \"İMALAT YÜRÜTME SİSTEMLERİ OPERATÖRLÜĞÜ\" kadrosu için en az 5 yıl mesleki deneyim şartı bulunmaktadır ve kullanıcıda bu şart da mevcut değildir.",
+    "aiScanned": true,
+    "telegram_message_id": 763
   },
   {
     "id": "07ced70c776729f8994f262844a621a6",
@@ -886,8 +895,9 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261112-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261112-4-12.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 764
   }
 ]

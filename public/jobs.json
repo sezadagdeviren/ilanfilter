@@ -895,9 +895,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261113-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261113-4-10.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlan, muhdes birinci sınıf noterlik kadrosuna atama için olup, başvuru şartı olarak en az bir yıllık görev süresi dolmuş birinci sınıf veya bir alt sınıf noter olma koşulu bulunmaktadır. Bilgisayar Mühendisliği mezunu ve deneyimsiz kullanıcı bu şartı sağlamamaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 776
   },
   {
     "id": "35b578c9e2865e2967d38242018ff7da",
@@ -944,7 +945,7 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261113-4-13.pdf",
     "city": "Erzurum",
     "isSuitable": null,
-    "aiExplanation": "",
+    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
     "aiScanned": false
   },
   {

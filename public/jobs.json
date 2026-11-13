@@ -1,5 +1,56 @@
 [
   {
+    "id": "igt_2290015",
+    "igt_id": "2290015",
+    "title": "Yükseköğretim Kalite Kurulu Başkanlığı Uzman Yardımcısı Alım İlanı",
+    "institution": "YÜKSEKÖĞRETİM KALİTE KURULU BAŞKANLIĞI",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-11-12T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2290015/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-yuksekogretim-kalite-kurulu-baskanligi-uzman-yardimcisi-alim-ilani",
+    "city": "Ankara",
+    "isSuitable": false,
+    "aiExplanation": "Bilgisayar Mühendisliği bölümü, ilanda Tablo I'de belirtilen Uzman Yardımcısı kadroları için aranan lisans programları arasında yer almamaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 767
+  },
+  {
+    "id": "igt_2289997",
+    "igt_id": "2289997",
+    "title": "Stajyer Hazine Kontrolörlüğü Giriş Sınavı İlanı",
+    "institution": "HAZİNE KONTROLÖRLERİ KURULU BAŞKANLIĞI",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-11-12T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2289997/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-stajyer-hazine-kontrolorlugu-giris-sinavi-ilani",
+    "city": "Ankara",
+    "isSuitable": false,
+    "aiExplanation": "Bilgisayar Mühendisliği bölümü, ilanda belirtilen Hukuk, İktisat, Siyasal Bilgiler, İşletme veya İktisadi ve İdari Bilimler Fakültesi mezuniyeti şartını karşılamamaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 768
+  },
+  {
+    "id": "igt_2289994",
+    "igt_id": "2289994",
+    "title": "Bursa Teknik Üniversitesi Rektörlüğü Sözleşmeli Personel Alım İlanı",
+    "institution": "BURSA TEKNİK ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-11-12T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2289994/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-bursa-teknik-universitesi-rektorlugu-sozlesmeli-personel-alim-ilani",
+    "city": "Bursa",
+    "isSuitable": false,
+    "aiExplanation": "İlan edilen pozisyon Psikolog olup, kullanıcı profili Bilgisayar Mühendisliği mezunudur.",
+    "aiScanned": true,
+    "telegram_message_id": 769
+  },
+  {
     "id": "igt_2288341",
     "igt_id": "2288341",
     "title": "Cumhurbaşkanlığı Savunma Sanayii Başkanlığından Sözleşmeli Personel Alım İlanı",
@@ -92,7 +143,7 @@
     "department": "Kamu Personel Alımı",
     "type": "Kamu Personel Alımı",
     "status": "Aktif",
-    "startDate": "2026-11-08T21:00:01Z",
+    "startDate": "2026-11-08T21:00:00Z",
     "endDate": "",
     "detailLink": "https://www.ilan.gov.tr/ilan/2279637/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-kamu-denetciligi-uzman-yardimciligi-giris-sinavi-duyurusu",
     "city": "Ankara",
@@ -759,9 +810,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261113-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261113-4-2.pdf",
     "city": "Isparta",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 770
   },
   {
     "id": "316d84493c7091fabfa74e315d756d8c",
@@ -775,9 +827,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261113-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261113-4-3.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 771
   },
   {
     "id": "c6667c96617e3a0ebdc656988507ac9f",
@@ -791,9 +844,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261113-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261113-4-4.pdf",
     "city": "Samsun",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 772
   },
   {
     "id": "8b5a526bced204ba83103fba17dddf7a",
@@ -807,41 +861,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261113-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261113-4-5.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
-  },
-  {
-    "id": "1bd76904eac320f8f2cd9ade56b79503",
-    "title": "Bursa Teknik Üniversitesi Rektörlüğünden:",
-    "institution": "Bursa Teknik Üniversitesi",
-    "department": "Resmi Gazete İlanı",
-    "type": "Kamu Personeli Alımı",
-    "status": "Aktif",
-    "startDate": "2026-11-13T00:00:00",
-    "endDate": "2026-11-28T23:59:00",
-    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261113-4.htm",
-    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261113-4-6.pdf",
-    "city": "Bursa",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
-  },
-  {
-    "id": "29c187c044ba26a88d9863ab9e5103bf",
-    "title": "Hazine ve Maliye Bakanlığı Hazine Kontrolörleri Kurulu Başkanlığından:",
-    "institution": "Hazine ve Maliye Bakanlığı Hazine Kontrolörleri Kurulu",
-    "department": "Resmi Gazete İlanı",
-    "type": "Kamu Personeli Alımı",
-    "status": "Aktif",
-    "startDate": "2026-11-13T00:00:00",
-    "endDate": "2026-11-28T23:59:00",
-    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261113-4.htm",
-    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261113-4-7.pdf",
-    "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Kullanıcının 2024 KPSS puanı bulunmamaktadır ve ilanda 2026 KPSS puanı şartı bulunmaktadır. Ayrıca, ilanda belirtilen kadrolar arasında Bilgisayar Mühendisliği mezunlarına doğrudan uygun bir kadro bulunmamaktadır ve deneyim şartı aranmaktadır (5. madde).",
+    "aiScanned": true,
+    "telegram_message_id": 773
   },
   {
     "id": "f6a80123c7a3e05197d7545c71dd7e48",
@@ -855,25 +878,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261113-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261113-4-8.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
-  },
-  {
-    "id": "bd48f1ab9ed15e6dccbfa056493aa78e",
-    "title": "Yükseköğretim Kalite Kurulu Başkanlığından:",
-    "institution": "Yükseköğretim Kalite Kurulu",
-    "department": "Resmi Gazete İlanı",
-    "type": "Kamu Personeli Alımı",
-    "status": "Aktif",
-    "startDate": "2026-11-13T00:00:00",
-    "endDate": "2026-11-28T23:59:00",
-    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261113-4.htm",
-    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261113-4-9.pdf",
-    "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Araştırma Görevlisi kadroları için ALES'ten en az 70 puan almış olmak ve bu puanın geçerlilik süresinin 5 yıl olması gerekmektedir. Ayrıca, ilan metninde belirtilen dil şartlarını sağlamayan adayların başvuruları dikkate alınmayacaktır. Bu profile uygun herhangi bir kadro bulunmamaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 774
   },
   {
     "id": "3bb9e86d0d46bb8861549fe3c959f6a8",
@@ -888,7 +896,7 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261113-4-10.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": null,
-    "aiExplanation": "",
+    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
     "aiScanned": false
   },
   {
@@ -904,7 +912,7 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261113-4-11.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": null,
-    "aiExplanation": "",
+    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
     "aiScanned": false
   },
   {
@@ -920,7 +928,7 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261113-4-12.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": null,
-    "aiExplanation": "",
+    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
     "aiScanned": false
   },
   {

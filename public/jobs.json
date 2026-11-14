@@ -204,23 +204,6 @@
     "telegram_message_id": 717
   },
   {
-    "id": "igt_2283093",
-    "igt_id": "2283093",
-    "title": "İptal İlanı (Eleşkirt Belediye Başkanlığı)",
-    "institution": "ELEŞKİRT BELEDİYE BAŞKANLIĞI",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-11-06T21:00:01Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2283093/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-iptal-ilani-eleskirt-belediye-baskanligi-",
-    "city": "Ağri",
-    "isSuitable": false,
-    "aiExplanation": "Bu metin bir personel alım ilanı değildir (iptal/düzeltme ilanıdır).",
-    "aiScanned": true,
-    "telegram_message_id": 718
-  },
-  {
     "id": "igt_2283081",
     "igt_id": "2283081",
     "title": "Akseki Belediye Başkanlığı Memur Alım İlanı",
@@ -306,6 +289,23 @@
     "telegram_message_id": 652
   },
   {
+    "id": "igt_2279181",
+    "igt_id": "2279181",
+    "title": "Eleşkirt Belediye Başkanlığı İtfaiye Eri Alım İlanı",
+    "institution": "ELEŞKİRT BELEDİYE BAŞKANLIĞI",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-11-04T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2279181/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-eleskirt-belediye-baskanligi-itfaiye-eri-alim-ilani",
+    "city": "Ağri",
+    "isSuitable": false,
+    "aiExplanation": "İlan Eleşkirt Belediye Başkanlığı İtfaiye Eri alımı için en az B sınıfı sürücü belgesi talep etmekte olup, kullanıcı profilinde sürücü belgesi bilgisi bulunmamaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 793
+  },
+  {
     "id": "igt_2276025",
     "igt_id": "2276025",
     "title": "Müfettiş Yardımcılığı Giriş Sınavı Duyurusu",
@@ -389,40 +389,6 @@
     "aiExplanation": "Posof Belediye Başkanlığı tarafından yayımlanan ilgili memur alımı ilanı tamamen iptal edilmiştir.",
     "aiScanned": true,
     "telegram_message_id": 639
-  },
-  {
-    "id": "igt_2274715",
-    "igt_id": "2274715",
-    "title": "Konya İli Karatay Belediye Başkanlığı Zabıta Memuru Alım İlanı",
-    "institution": "KARATAY BELEDİYE BAŞKANLIĞI",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-10-30T21:00:01Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2274715/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-konya-ili-karatay-belediye-baskanligi-zabita-memuru-alim-ilani",
-    "city": "Konya",
-    "isSuitable": false,
-    "aiExplanation": "İlanda Zabıta Memuru kadrosu açılmış ancak Bilgisayar Mühendisliği lisans mezuniyeti yerine Mahalli İdareler, Mahalli İdareler (Zabıta), Yerel Yönetimler, Pazarlama, Pazarlama ve Satış, Piyasa Araştırmaları ve Pazarlama önlisans programlarından mezuniyet istenmektedir.",
-    "aiScanned": true,
-    "telegram_message_id": 613
-  },
-  {
-    "id": "igt_2274583",
-    "igt_id": "2274583",
-    "title": "İzmir İli Karşıyaka Belediye Başkanlığı Memur Alım İlanı",
-    "institution": "KARŞIYAKA BELEDİYE BAŞKANLIĞI",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-10-30T21:00:01Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2274583/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-izmir-ili-karsiyaka-belediye-baskanligi-memur-alim-ilani",
-    "city": "İzmi̇r",
-    "isSuitable": false,
-    "aiExplanation": "İlandaki Bilgisayar İşletmeni kadroları için Bilgisayar Mühendisliği yerine yalnızca maliye, işletme, iktisat, muhasebe ve finans yönetimi, bankacılık ve finans, çalışma ekonomisi ve endüstri ilişkileri programlarından mezun olma şartı aranmaktadır.",
-    "aiScanned": true,
-    "telegram_message_id": 614
   },
   {
     "id": "igt_2274524",

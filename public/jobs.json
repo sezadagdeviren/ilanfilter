@@ -691,9 +691,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261115-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261115-4-2.pdf",
     "city": "İstanbul",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlan, Beslenme ve Diyetetik alanında lisans ve doktora derecesine sahip, ayrıca yükseköğretim kurumlarında en az 3 yıl ders verme tecrübesi olan bir Doktor Öğretim Üyesi aramakta olup, kullanıcının Bilgisayar Mühendisliği mezunu, lisans düzeyinde ve tecrübesiz olması nedeniyle ilgili şartları karşılamamaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 795
   },
   {
     "id": "7351977768656ae817eb3e2c6d242598",

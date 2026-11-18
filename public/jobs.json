@@ -861,9 +861,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261118-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261118-4-11.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlan, yeni mezun lisans Bilgisayar Mühendisliği mezunu ve deneyimsiz bir aday için değil, doktora ve doçentlik belgesi ile akademik yayınlar ve deneyim gerektiren Profesör kadroları içindir ve açılan kadrolar Bilgisayar Mühendisliği bölümü ile ilgili değildir.",
+    "aiScanned": true,
+    "telegram_message_id": 829
   },
   {
     "id": "635c3e6947f63ba35da6586f2a00cfb7",

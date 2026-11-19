@@ -1,5 +1,73 @@
 [
   {
+    "id": "igt_2296809",
+    "igt_id": "2296809",
+    "title": "Sosyal Güvenlik Kurumu Başkanlığı Müfettiş Yardımcılığı Giriş Sınavı İlanı",
+    "institution": "SOSYAL GÜVENLİK KURUMU BAŞKANLIĞI",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-11-18T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2296809/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-sosyal-guvenlik-kurumu-baskanligi-mufettis-yardimciligi-giris-sinavi-ilani",
+    "city": "Ankara",
+    "isSuitable": true,
+    "aiExplanation": "Sosyal Güvenlik Kurumu Başkanlığı Müfettiş Yardımcısı kadrosu, yeni mezun ve deneyimsiz Bilgisayar Mühendisliği mezunu kullanıcı profilinin 2026 KPSS puanı ile başvurabilmesi için uygundur.",
+    "aiScanned": true,
+    "telegram_message_id": 832
+  },
+  {
+    "id": "igt_2294004",
+    "igt_id": "2294004",
+    "title": "Danışmanlık hizmeti alınacak",
+    "institution": "DEVLET SU İŞLERİ GENEL MÜDÜRLÜĞÜ BARAJLAR VE HES DAİRESİ BAŞKANLIĞI",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-11-18T21:00:00Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2294004/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-danismanlik-hizmeti-alinacak",
+    "city": "Ankara",
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (danışmanlık hizmeti alımı için ilgi beyanı talebi duyurusudur).",
+    "aiScanned": true,
+    "telegram_message_id": 833
+  },
+  {
+    "id": "igt_2293975",
+    "igt_id": "2293975",
+    "title": "İçişleri Bakanlığı Kaymakam Adaylığı Sınav İlanı",
+    "institution": "İÇİŞLERİ BAKANLIĞI",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-11-18T21:00:00Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2293975/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-icisleri-bakanligi-kaymakam-adayligi-sinav-ilani",
+    "city": "Ankara",
+    "isSuitable": false,
+    "aiExplanation": "Bilgisayar Mühendisliği mezuniyetinizin Kaymakam Adaylığı için tek başına yeterli olmaması; mühendislik fakültesi mezunlarının başvuru yapabilmesi için uluslararası ilişkiler, siyaset bilimi, kamu yönetimi, hukuk, maliye ve iktisat alanlarında tezli lisansüstü eğitimi tamamlamış olma şartı bulunmaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 834
+  },
+  {
+    "id": "igt_2296742",
+    "igt_id": "2296742",
+    "title": "Bolu İli Mudurnu Belediye Başkanlığı Sözleşmeli Personel Alım İlanı",
+    "institution": "MUDURNU BELEDİYE BAŞKANLIĞI",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-11-18T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2296742/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-bolu-ili-mudurnu-belediye-baskanligi-sozlesmeli-personel-alim-ilani",
+    "city": "Bolu",
+    "isSuitable": false,
+    "aiExplanation": "İlanda belirtilen Mühendis kadrosu için Harita, Jeodezi ve Fotogrametri veya Geomatik Mühendisliği mezuniyeti şartı bulunmaktadır, Bilgisayar Mühendisliği mezunu olan profiliniz bu kadroya uygun değildir.",
+    "aiScanned": true,
+    "telegram_message_id": 835
+  },
+  {
     "id": "igt_2293735",
     "igt_id": "2293735",
     "title": "Akdeniz Üniversitesi Sürekli İşçi Alım İlanı",
@@ -51,23 +119,6 @@
     "telegram_message_id": 800
   },
   {
-    "id": "igt_2292280",
-    "igt_id": "2292280",
-    "title": "Afet ve Acil Durum Yönetimi Başkanlığı Denetçi Yardımcısı Giriş Sınavı İlanı",
-    "institution": "T.C. İÇİŞLERİ BAKANLIĞI AFET VE ACİL DURUM YÖNETİMİ BAŞKANLIĞI",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-11-15T21:00:01Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2292280/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-afet-ve-acil-durum-yonetimi-baskanligi-denetci-yardimcisi-giris-sinavi-ilani",
-    "city": "Ankara",
-    "isSuitable": true,
-    "aiExplanation": "Afet ve Acil Durum Yönetimi Denetçi Yardımcısı (Bilgisayar Mühendisliği öğrenim dalı için ayrılan Grup 2 kadrosu).",
-    "aiScanned": true,
-    "telegram_message_id": 801
-  },
-  {
     "id": "igt_2290254",
     "igt_id": "2290254",
     "title": "Personel Alımı Duyurusu",
@@ -75,7 +126,7 @@
     "department": "Kamu Personel Alımı",
     "type": "Kamu Personel Alımı",
     "status": "Aktif",
-    "startDate": "2026-11-15T21:00:01Z",
+    "startDate": "2026-11-15T21:00:00Z",
     "endDate": "",
     "detailLink": "https://www.ilan.gov.tr/ilan/2290254/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-personel-alimi-duyurusu",
     "city": "Edi̇rne",
@@ -304,23 +355,6 @@
     "aiExplanation": "İlan, Bilgisayar Mühendisliği mezunu olan kullanıcı profilinize değil, Avukat pozisyonu için Hukuk Fakültesi mezuniyetine sahip adayları aramaktadır.",
     "aiScanned": true,
     "telegram_message_id": 720
-  },
-  {
-    "id": "igt_2280968",
-    "igt_id": "2280968",
-    "title": "Sosyal Güvenlik Kurumu Başkanlığı Sosyal Güvenlik Denetmen Yardımcısı Sınav İlanı",
-    "institution": "SOSYAL GÜVENLİK KURUMU BAŞKANLIĞI",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-11-05T21:00:01Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2280968/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-sosyal-guvenlik-kurumu-baskanligi-sosyal-guvenlik-denetmen-yardimcisi-sinav-ilani",
-    "city": "Ankara",
-    "isSuitable": false,
-    "aiExplanation": "Kullanıcının bölümü olan Bilgisayar Mühendisliği, Sosyal Güvenlik Denetmen Yardımcısı kadrosu için ilanda belirtilen \"Tablo-1'de belirlenen fakülte, yüksekokul veya bölümler\" arasında yer almamaktadır.",
-    "aiScanned": true,
-    "telegram_message_id": 670
   },
   {
     "id": "igt_2280946",
@@ -680,39 +714,6 @@
     "telegram_message_id": 468
   },
   {
-    "id": "6cd859d9088983e9ff76e2789d58e639",
-    "title": "İçişleri Bakanlığından:",
-    "institution": "İçişleri Bakanlığından:",
-    "department": "Resmi Gazete İlanı",
-    "type": "Kamu Personeli Alımı",
-    "status": "Aktif",
-    "startDate": "2026-11-19T00:00:00",
-    "endDate": "2026-12-04T23:59:00",
-    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261119-4.htm",
-    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261119-4-1.pdf",
-    "city": "Tüm Türkiye",
-    "isSuitable": false,
-    "aiExplanation": "Bilgisayar Mühendisliği mezunlarının Kaymakam Adaylığına başvurabilmesi için uluslararası ilişkiler, siyaset bilimi, kamu yönetimi, hukuk, maliye ve iktisat alanlarında tezli lisansüstü eğitimi tamamlamış olması gerekmektedir; kullanıcının böyle bir eğitimi bulunmamaktadır.",
-    "aiScanned": true,
-    "telegram_message_id": 830
-  },
-  {
-    "id": "81f2ad82ae309436f70c58af6842c17b",
-    "title": "Bolu İli Mudurnu Belediye Başkanlığından:",
-    "institution": "Bolu İli Mudurnu Belediye",
-    "department": "Resmi Gazete İlanı",
-    "type": "Kamu Personeli Alımı",
-    "status": "Aktif",
-    "startDate": "2026-11-19T00:00:00",
-    "endDate": "2026-12-04T23:59:00",
-    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261119-4.htm",
-    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261119-4-3.pdf",
-    "city": "Bolu",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
-  },
-  {
     "id": "34b6a9b1f17ae587582a0eb57a509456",
     "title": "İstanbul Medipol Üniversitesi Rektörlüğünden:",
     "institution": "İstanbul Medipol Üniversitesi",
@@ -724,9 +725,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261119-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261119-4-4.pdf",
     "city": "İstanbul",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlan, en az doktora derecesi ve genellikle doçent unvanı gerektiren akademik kadrolar (Profesör ve Doktor Öğretim Üyesi) için olup, yeni mezun lisans düzeyindeki kullanıcı profiline uygun değildir.",
+    "aiScanned": true,
+    "telegram_message_id": 836
   },
   {
     "id": "a130ab27c340a284efb2eb8afd1a3c2f",
@@ -740,9 +742,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261119-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261119-4-5.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 837
   },
   {
     "id": "ef54b35a8f2a1ee7999209ceedcdfd1a",
@@ -756,9 +759,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261119-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261119-4-6.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 838
   },
   {
     "id": "a02f50535eec20ab617d637f82e0819e",
@@ -772,9 +776,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261119-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261119-4-7.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 839
   },
   {
     "id": "28e3854b3c1f651ce80b618b36c4ae4f",
@@ -788,9 +793,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261119-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261119-4-8.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 840
   },
   {
     "id": "b2a1cd49f5497c179bd2f101040d25a8",
@@ -804,9 +810,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261119-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261119-4-9.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 841
   },
   {
     "id": "c23501ba095149ac16b22fa7c6836948",
@@ -820,9 +827,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261119-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261119-4-10.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 842
   },
   {
     "id": "a26d8722364c2cb03edfff6e04281ccb",
@@ -836,9 +844,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261119-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261119-4-11.pdf",
     "city": "Kahramanmaraş",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 843
   },
   {
     "id": "8a7c8b9e6c21b36c4a2b0bf0b07a4b33",
@@ -852,9 +861,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261119-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261119-4-12.pdf",
     "city": "Bayburt",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Açılan Araştırma Görevlisi kadroları İlahiyat ve Türk Dili ve Edebiyatı lisans mezunları için olup, ayrıca ilgili anabilim dallarında tezli yüksek lisans yapıyor olma şartı bulunmaktadır. Bilgisayar Mühendisliği lisans mezunu kullanıcı profiline uygun değildir.",
+    "aiScanned": true,
+    "telegram_message_id": 844
   },
   {
     "id": "0d031b49d678ab54e877db2e2f238db9",
@@ -868,9 +878,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261119-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261119-4-13.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Kullanıcı, ilan metninde belirtilen Araştırma Görevlisi kadrosu için zorunlu olan tezli yüksek lisans, doktora veya sanatta yeterlik eğitimi öğrencisi olma şartını taşımamaktadır ve diğer Öğretim Elemanı kadroları için aranan lisansüstü eğitim veya tecrübe şartlarını sağlamamaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 845
   },
   {
     "id": "e5d389204e96837f3a2959b43219fe50",
@@ -884,9 +895,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261119-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261119-4-14.pdf",
     "city": "İstanbul",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "İlanda yer alan tüm kadrolar (Dr. Öğr. Üyesi, Doç. Dr., Prof. Dr.) Tıp Fakültesi bünyesinde çeşitli uzmanlık alanlarında öğretim üyesi alımı için olup, kullanıcının Bilgisayar Mühendisliği lisans eğitimi ve deneyimsiz profili bu kadroların akademik unvan, uzmanlık alanı ve deneyim şartlarını karşılamamaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 846
   },
   {
     "id": "d520f105f82901325717e13da03238bd",
@@ -900,8 +912,9 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261119-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261119-4-15.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 847
   }
 ]

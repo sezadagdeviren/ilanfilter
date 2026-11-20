@@ -1,5 +1,39 @@
 [
   {
+    "id": "igt_2298310",
+    "igt_id": "2298310",
+    "title": "Adalet Bakanlığı Adli Tıp Kurumu Başkanlığı Sözleşmeli Personel Alım İlanı",
+    "institution": "ADALET BAKANLIĞI ADLİ TIP KURUMU",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-11-19T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2298310/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-adalet-bakanligi-adli-tip-kurumu-baskanligi-sozlesmeli-personel-alim-ilani",
+    "city": "İstanbul",
+    "isSuitable": true,
+    "aiExplanation": "Kullanıcı profili, Adalet Bakanlığı Adli Tıp Kurumu Başkanlığı'nın \"MÜHENDİS (BİLİŞİM)\" pozisyonu için gerekli öğrenim şartı (Bilgisayar Mühendisliği lisans mezuniyeti), 2026 KPSS puanı ve deneyimsizlik şartlarını taşımaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 867
+  },
+  {
+    "id": "igt_2298125",
+    "igt_id": "2298125",
+    "title": "Bartın Üniversitesi Rektörlüğü Sözleşmeli Personel Alım İlanı",
+    "institution": "BARTIN ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-11-19T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2298125/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-bartin-universitesi-rektorlugu-sozlesmeli-personel-alim-ilani",
+    "city": "Bartin",
+    "isSuitable": false,
+    "aiExplanation": "İlanda detayları verilen 2026-11 Büro Personeli kadrosu ön lisans mezuniyeti gerektirmekte olup, Bilgisayar Mühendisliği lisans mezunu olan profiliniz bu kadro için uygun değildir.",
+    "aiScanned": true,
+    "telegram_message_id": 868
+  },
+  {
     "id": "igt_2296809",
     "igt_id": "2296809",
     "title": "Sosyal Güvenlik Kurumu Başkanlığı Müfettiş Yardımcılığı Giriş Sınavı İlanı",
@@ -901,23 +935,6 @@
     "telegram_message_id": 860
   },
   {
-    "id": "adf74678a6046b858d645799ad394333",
-    "title": "Adalet Bakanlığı Adli Tıp Kurumu Başkanlığından:",
-    "institution": "Adalet Bakanlığı Adli Tıp Kurumu",
-    "department": "Resmi Gazete İlanı",
-    "type": "Kamu Personeli Alımı",
-    "status": "Aktif",
-    "startDate": "2026-11-20T00:00:00",
-    "endDate": "2026-12-05T23:59:00",
-    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261120-4.htm",
-    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261120-4-15.pdf",
-    "city": "Tüm Türkiye",
-    "isSuitable": false,
-    "aiExplanation": "İlanda belirtilen pozisyonlar için 2026 KPSS puanı kabul edilmekle birlikte, adayların bilgisayar mühendisliği mezuniyeti ile başvurabilecekleri teknik bir pozisyon belirtilmemiştir. İlanda yer alan \"İnfaz ve Koruma Memuru\" pozisyonu için bilgisayar mühendisliği mezuniyeti genel bir başvuru şartı olmamakla birlikte, bu pozisyonun niteliği ve aranacak özel şartlar (boy-kilo gibi) kullanıcı profili ile örtüşmemektedir.",
-    "aiScanned": true,
-    "telegram_message_id": 861
-  },
-  {
     "id": "96e964e923d18b478ac6f269666ea2ca",
     "title": "Abdullah Gül Üniversitesi Rektörlüğünden:",
     "institution": "Abdullah Gül Üniversitesi",
@@ -933,23 +950,6 @@
     "aiExplanation": "Bu ilan, Doktora Öğretim Üyesi kadroları için SCI/SCIE kapsamında Q1 sınıfı dergilerde yayınlanmış makaleler ve belirlenen minimum yayın puanı gibi akademik tecrübe ve yayın şartları aramaktadır. Adayın sadece lisans mezunu olması ve deneyimsiz olması bu şartları sağlamamaktadır. Ayrıca ilanda 2026 KPSS puanı ile alım olduğuna dair bir bilgi bulunmamaktadır ve ilan genel olarak akademik kadrolara yöneliktir.",
     "aiScanned": true,
     "telegram_message_id": 862
-  },
-  {
-    "id": "5aa0e14cbb4f2513a873acdf62628df9",
-    "title": "Bartın Üniversitesi Rektörlüğünden:",
-    "institution": "Bartın Üniversitesi",
-    "department": "Resmi Gazete İlanı",
-    "type": "Kamu Personeli Alımı",
-    "status": "Aktif",
-    "startDate": "2026-11-20T00:00:00",
-    "endDate": "2026-12-05T23:59:00",
-    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261120-4.htm",
-    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261120-4-17.pdf",
-    "city": "Bartin",
-    "isSuitable": false,
-    "aiExplanation": "İlanda yalnızca Ön Lisans mezunları için 2026 KPSS (B) grubu KPSSP93 puanı esas alınacaktır. Lisans mezunu bilgisayar mühendisliği adayın bu ilandaki pozisyon için yeterliliği bulunmamaktadır.",
-    "aiScanned": true,
-    "telegram_message_id": 863
   },
   {
     "id": "1227d3a77f68bfbd134d4e6d4b6832a9",

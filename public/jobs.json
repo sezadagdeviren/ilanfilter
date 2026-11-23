@@ -1,5 +1,56 @@
 [
   {
+    "id": "igt_2299814",
+    "igt_id": "2299814",
+    "title": "İçişleri Bakanlığı 1170 Sözleşmeli Personel Alım İlanı",
+    "institution": "İÇİŞLERİ BAKANLIĞI",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-11-22T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2299814/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-icisleri-bakanligi-1170-sozlesmeli-personel-alim-ilani",
+    "city": "Ankara",
+    "isSuitable": true,
+    "aiExplanation": "Kullanıcının lisans Bilgisayar Mühendisliği mezunu olması ve 2026 KPSS puanına sahip olması nedeniyle PROGRAMCI kadrosuna başvurusu uygundur.",
+    "aiScanned": true,
+    "telegram_message_id": 884
+  },
+  {
+    "id": "igt_2299686",
+    "igt_id": "2299686",
+    "title": "Ankara Yıldırım Beyazıt Üniversitesi Sözleşmeli Bilişim Personeli Alım İlanı",
+    "institution": "ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-11-22T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2299686/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-ankara-yildirim-beyazit-universitesi-sozlesmeli-bilisim-personeli-alim-ilani",
+    "city": "Ankara",
+    "isSuitable": false,
+    "aiExplanation": "İlanda belirtilen genel şartlarda \"en az 5 yıllık mesleki tecrübeye sahip bulunması\" ve özel şartlarda \"sistem yönetimi alanında en az 5 (beş) yıl tecrübe sahibi olduğunu belgelemek\" maddeleri yer almaktadır, ancak kullanıcı deneyimsizdir (tecrübesi 0).",
+    "aiScanned": true,
+    "telegram_message_id": 885
+  },
+  {
+    "id": "igt_2299654",
+    "igt_id": "2299654",
+    "title": "Türk Akreditasyon Kurumundan Sözleşmeli Koruma ve Güvenlik Görevlisi Alım İlanı",
+    "institution": "(TÜRKAK) TÜRK AKREDİTASYON KURUMU BAŞKANLIĞI",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-11-22T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2299654/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-turk-akreditasyon-kurumundan-sozlesmeli-koruma-ve-guvenlik-gorevlisi-alim-ilani",
+    "city": "Ankara",
+    "isSuitable": false,
+    "aiExplanation": "Kullanıcı lisans Bilgisayar Mühendisliği mezunu olup, ilan Koruma ve Güvenlik Görevlisi kadrosu için ön lisans düzeyinde güvenlik programlarından mezuniyet ile birlikte özel güvenlik görevlisi kimlik kartı şartı aramaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 886
+  },
+  {
     "id": "igt_2299634",
     "igt_id": "2299634",
     "title": "Ondokuz Mayıs Üniversitesi Rektörlüğü Sürekli İşçi Alım İlanı",
@@ -83,23 +134,6 @@
     "aiExplanation": "Bu metin bir personel alım ilanı değildir (danışmanlık hizmeti alımı için ilgi beyanı talebi duyurusudur).",
     "aiScanned": true,
     "telegram_message_id": 833
-  },
-  {
-    "id": "igt_2293975",
-    "igt_id": "2293975",
-    "title": "İçişleri Bakanlığı Kaymakam Adaylığı Sınav İlanı",
-    "institution": "İÇİŞLERİ BAKANLIĞI",
-    "department": "Kamu Personel Alımı",
-    "type": "Kamu Personel Alımı",
-    "status": "Aktif",
-    "startDate": "2026-11-18T21:00:00Z",
-    "endDate": "",
-    "detailLink": "https://www.ilan.gov.tr/ilan/2293975/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-icisleri-bakanligi-kaymakam-adayligi-sinav-ilani",
-    "city": "Ankara",
-    "isSuitable": false,
-    "aiExplanation": "Bilgisayar Mühendisliği mezuniyetinizin Kaymakam Adaylığı için tek başına yeterli olmaması; mühendislik fakültesi mezunlarının başvuru yapabilmesi için uluslararası ilişkiler, siyaset bilimi, kamu yönetimi, hukuk, maliye ve iktisat alanlarında tezli lisansüstü eğitimi tamamlamış olma şartı bulunmaktadır.",
-    "aiScanned": true,
-    "telegram_message_id": 834
   },
   {
     "id": "igt_2296742",
@@ -640,25 +674,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261123-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261123-4-3.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
-  },
-  {
-    "id": "52da7cc33eba345ac198f3b9ce9b0d2b",
-    "title": "Ankara Yıldırım Beyazıt Üniversitesi Rektörlüğünden:",
-    "institution": "Ankara Yıldırım Beyazıt Üniversitesi",
-    "department": "Resmi Gazete İlanı",
-    "type": "Kamu Personeli Alımı",
-    "status": "Aktif",
-    "startDate": "2026-11-23T00:00:00",
-    "endDate": "2026-12-08T23:59:00",
-    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261123-4.htm",
-    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261123-4-4.pdf",
-    "city": "Ankara",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 887
   },
   {
     "id": "0c204deda5b67299e861162ab737e696",
@@ -672,9 +691,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261123-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261123-4-5.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Kullanıcı, ilanda aranan Güvenlik vb. ön lisans programlarından mezun değildir, 2026 yılı Ön Lisans KPSSP93 puan türü şartını sağlamamaktadır ve özel güvenlik görevlisi kimlik kartına sahip değildir.",
+    "aiScanned": true,
+    "telegram_message_id": 888
   },
   {
     "id": "5645e6e849870ed92873c5ab48707b0a",
@@ -689,7 +709,7 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261123-4-6.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": null,
-    "aiExplanation": "",
+    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
     "aiScanned": false
   },
   {
@@ -705,7 +725,7 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261123-4-7.pdf",
     "city": "Yozgat",
     "isSuitable": null,
-    "aiExplanation": "",
+    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
     "aiScanned": false
   },
   {
@@ -721,7 +741,7 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261123-4-8.pdf",
     "city": "Ankara",
     "isSuitable": null,
-    "aiExplanation": "",
+    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
     "aiScanned": false
   },
   {

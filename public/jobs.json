@@ -1,5 +1,22 @@
 [
   {
+    "id": "igt_2302683",
+    "igt_id": "2302683",
+    "title": "Rekabet Kurumu Başkanlığından Uzman Yardımcısı Alım İlanı",
+    "institution": "REKABET KURUMU BAŞKANLIĞI",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-11-24T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2302683/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-rekabet-kurumu-baskanligindan-uzman-yardimcisi-alim-ilani",
+    "city": "Ankara",
+    "isSuitable": false,
+    "aiExplanation": "Kullanıcının 2024 KPSS puanı bulunmamakta olup, ilan 2025-2026 KPSS puanı istemektedir. Ayrıca, bilişim uzman yardımcılığı kadrosu için KPSS P1 veya P2 puan türü şartı bulunmaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 895
+  },
+  {
     "id": "igt_2301151",
     "igt_id": "2301151",
     "title": "Kültür ve Turizm Bakanlığı Kültür ve Turizm Uzman Yardımcılığı Yarışma Sınav İlanı",

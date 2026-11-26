@@ -1,5 +1,56 @@
 [
   {
+    "id": "igt_2304234",
+    "igt_id": "2304234",
+    "title": "Tarım ve Orman Bakanlığı Türkiye Su Enstitüsü Başkanlığı Sözleşmeli Personel Alım İlanı",
+    "institution": "TÜRKİYE SU ENSTİTÜSÜ",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-11-25T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2304234/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-tarim-ve-orman-bakanligi-turkiye-su-enstitusu-baskanligi-sozlesmeli-personel-alim-ilani",
+    "city": "İstanbul",
+    "isSuitable": false,
+    "aiExplanation": "Başvurulacak Mühendis (Bilgisayar Mühendisi) kadrosu için geçerli bir KPSS (P3) puanı ve en az 60 puanlık geçerli bir yabancı dil (İngilizce) sınav sonuç belgesi şartı bulunmaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 901
+  },
+  {
+    "id": "igt_2304217",
+    "igt_id": "2304217",
+    "title": "Özburun Belediye Başkanlığı Sürekli İşçi Alım İlanı",
+    "institution": "ÖZBURUN BELEDİYE BAŞKANLIĞI",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-11-25T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2304217/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-ozburun-belediye-baskanligi-surekli-isci-alim-ilani",
+    "city": "Afyonkarahi̇sar",
+    "isSuitable": false,
+    "aiExplanation": "Kullanıcının lisans mezuniyeti, ilanda belirtilen \"En Fazla Öğrenim Seviyesi: Ortaöğretim (Lise ve Dengi)\" şartını karşılamadığı için Beko Loder (Kazıcı - Yükleyici) Operatörü ve Kara Tankeri Operatörü kadrolarına başvuramaz.",
+    "aiScanned": true,
+    "telegram_message_id": 902
+  },
+  {
+    "id": "igt_2304216",
+    "igt_id": "2304216",
+    "title": "Mersin Üniversitesi Rektörlüğü Sözleşmeli Bilişim Personeli Alım İlanı",
+    "institution": "MERSİN ÜNİVERSİTESİ REKTÖRLÜĞÜ",
+    "department": "Kamu Personel Alımı",
+    "type": "Kamu Personel Alımı",
+    "status": "Aktif",
+    "startDate": "2026-11-25T21:00:01Z",
+    "endDate": "",
+    "detailLink": "https://www.ilan.gov.tr/ilan/2304216/kamu-akademik-personel-kamu-personel-alim-ve-sinavlari-mersin-universitesi-rektorlugu-sozlesmeli-bilisim-personeli-alim-ilani",
+    "city": "Mersi̇n",
+    "isSuitable": false,
+    "aiExplanation": "İlanda belirtilen tek kadro olan Sistem Yöneticisi pozisyonu için en az 5 yıllık mesleki deneyim şartı bulunmaktadır. Kullanıcının deneyimi sıfır olduğu için bu şartı sağlamamaktadır.",
+    "aiScanned": true,
+    "telegram_message_id": 903
+  },
+  {
     "id": "igt_2302683",
     "igt_id": "2302683",
     "title": "Rekabet Kurumu Başkanlığından Uzman Yardımcısı Alım İlanı",
@@ -708,9 +759,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261126-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261126-4-4.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 904
   },
   {
     "id": "31597366686312de2b21cada52ae0748",
@@ -724,9 +776,10 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261126-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261126-4-5.pdf",
     "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
-    "aiScanned": false
+    "isSuitable": false,
+    "aiExplanation": "Bu metin bir personel alım ilanı değildir (ihaleden men, ruhsat duyurusu veya tebligat metnidir).",
+    "aiScanned": true,
+    "telegram_message_id": 905
   },
   {
     "id": "40a08f9e0659883253e4a72d8c1184a2",
@@ -757,7 +810,7 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261126-4-7.pdf",
     "city": "Tüm Türkiye",
     "isSuitable": null,
-    "aiExplanation": "",
+    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
     "aiScanned": false
   },
   {
@@ -773,7 +826,7 @@
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261126-4-8.pdf",
     "city": "Karaman",
     "isSuitable": null,
-    "aiExplanation": "",
+    "aiExplanation": "İlan detayına/PDF'e ulaşılamadı (Bağlantı hatası, tekrar denenecek).",
     "aiScanned": false
   },
   {
@@ -793,38 +846,6 @@
     "aiScanned": false
   },
   {
-    "id": "922f8ac5503ffa6e1689d51916f73064",
-    "title": "Tarım ve Orman Bakanlığı Türkiye Su Enstitüsü Başkanlığından:",
-    "institution": "Tarım ve Orman Bakanlığı Türkiye Su Enstitüsü",
-    "department": "Resmi Gazete İlanı",
-    "type": "Kamu Personeli Alımı",
-    "status": "Aktif",
-    "startDate": "2026-11-26T00:00:00",
-    "endDate": "2026-12-11T23:59:00",
-    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261126-4.htm",
-    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261126-4-10.pdf",
-    "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
-  },
-  {
-    "id": "79821df7dc6c08a9aa998ebe1587d6e4",
-    "title": "Afyonkarahisar İli Özburun Belediye Başkanlığından:",
-    "institution": "Afyonkarahisar İli Özburun Belediye",
-    "department": "Resmi Gazete İlanı",
-    "type": "Kamu Personeli Alımı",
-    "status": "Aktif",
-    "startDate": "2026-11-26T00:00:00",
-    "endDate": "2026-12-11T23:59:00",
-    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261126-4.htm",
-    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261126-4-11.pdf",
-    "city": "Tüm Türkiye",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
-  },
-  {
     "id": "7d28641b58fd7cd9d6b35aed5c4b144c",
     "title": "Kahramanmaraş Sütçü İmam Üniversitesi Rektörlüğünden:",
     "institution": "Kahramanmaraş Sütçü İmam Üniversitesi",
@@ -836,22 +857,6 @@
     "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261126-4.htm",
     "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261126-4-12.pdf",
     "city": "Kahramanmaraş",
-    "isSuitable": null,
-    "aiExplanation": "",
-    "aiScanned": false
-  },
-  {
-    "id": "1cbe90a765866590fd6f163a061d5305",
-    "title": "Mersin Üniversitesi Rektörlüğünden:",
-    "institution": "Mersin Üniversitesi",
-    "department": "Resmi Gazete İlanı",
-    "type": "Kamu Personeli Alımı",
-    "status": "Aktif",
-    "startDate": "2026-11-26T00:00:00",
-    "endDate": "2026-12-11T23:59:00",
-    "detailLink": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261126-4.htm",
-    "pdf_link": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261126-4-13.pdf",
-    "city": "Tüm Türkiye",
     "isSuitable": null,
     "aiExplanation": "",
     "aiScanned": false
